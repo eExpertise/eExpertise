@@ -4,6 +4,8 @@
      height: 50px;
      background-color: rgb(81, 154, 226);
      color: rgb(255, 255, 255);
+     font-family: 'Pacifico', cursive;
+     font-size: 1.8em;
     }
 
 .main {
@@ -15,7 +17,7 @@
      font-size: 2em;
      top: 1.5em;
      line-height: 1.5em;
-     color: rgb(255, 61, 61);
+     color: rgb(245, 118, 0);
     }
     
     
@@ -87,7 +89,7 @@
      margin: auto;
      width: 200.5px;
      position: relative;
-     top:7em;
+     top:4.5em;
      font-size: 2em;
      color: rgb(81, 154, 226);
      font-family: 'Saira Semi Condensed', sans-serif;
@@ -96,8 +98,23 @@
     a {
     color: rgb(81, 154, 226);   
     }
-
-    #logotitle1 {
-     font-family: 'Pacifico', cursive;
-     font-size: 1.7em;
+    
+    @media only screen and (orientation: portrait) and (ma-width: 500px) {
+     .bar {
+     height: 100px;
+     font-size: 3.6em;
+    }    
+    
+    .button {
+     position: relative;
+     top: 5em;
+    }
+    
+    .main {
+     font-size: 3em;   
+    }
+    
+    .sub-main {
+     font-size: 2em;    
+    }
     }
