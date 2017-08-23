@@ -99,7 +99,7 @@
     color: rgb(81, 154, 226);   
     }
     
-    @media only screen and (orientation: portrait) and (ma-width: 500px) {
+    @media only screen and (orientation: portrait) and (max-width: 500px) {
      .bar {
      height: 100px;
      font-size: 3.6em;
