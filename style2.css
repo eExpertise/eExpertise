@@ -73,9 +73,17 @@
      color: rgba(0, 0, 0, 0.75);
     }
     
-       @media only screen and (orientation: portrait) and (ma-width: 500px) {
+       @media only screen and (orientation: portrait) and (max-width: 500px) {
      .bar {
      height: 100px;
      font-size: 3.7em;
     } 
+
+    .thx {
+     font-size: 4em;
+    }
+
+    .bottom-disc {
+     font-size: 1.1em;
+    }
     }
