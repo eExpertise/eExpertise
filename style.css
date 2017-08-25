@@ -41,6 +41,7 @@
     }
     
     .list1 {
+     text-align: center;
      margin: auto;
      width: 70%;
      position: relative;
@@ -54,6 +55,7 @@
     }
     
     .list2 {
+     text-align: center;
      margin: auto;
      width: 70%;
      position: relative;
@@ -67,6 +69,7 @@
     }
     
     .list3 {
+     text-align: center;
      margin: auto;
      width: 70%;
      position: relative;
