@@ -2,6 +2,10 @@
  .bar {
      width: auto;
      height: 50px;
+  
+ .bar {
+     width: auto;
+     height: 50px;
      background-color: rgb(81, 154, 226);
      color: rgb(255, 255, 255);
      font-family: 'Pacifico', cursive;
