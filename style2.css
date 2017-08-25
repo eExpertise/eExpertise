@@ -26,7 +26,11 @@
      line-height: 3em;
     }
     
+<<<<<<< HEAD
     .list-top {
+=======
+    .List-head {
+>>>>>>> d14b53f02271067a894b84f245cfcf9c3db8e00c
      font-family: 'Saira', sans-serif;
      color: rgb(81, 154, 226);
      font-size: 1.2em;
