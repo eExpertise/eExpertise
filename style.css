@@ -2,10 +2,6 @@
  .bar {
      width: auto;
      height: 50px;
-  
- .bar {
-     width: auto;
-     height: 50px;
      background-color: rgb(81, 154, 226);
      color: rgb(255, 255, 255);
      font-family: 'Pacifico', cursive;
@@ -91,7 +87,7 @@
     
     .button {
      margin: auto;
-     width: 200.5px;
+     width: 220px;
      position: relative;
      top:4.5em;
      font-size: 2em;
