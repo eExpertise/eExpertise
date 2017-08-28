@@ -41,7 +41,6 @@
     }
     
     .list1 {
-     text-align: center;
      margin: auto;
      width: 70%;
      position: relative;
@@ -55,7 +54,6 @@
     }
     
     .list2 {
-     text-align: center;
      margin: auto;
      width: 70%;
      position: relative;
@@ -69,7 +67,6 @@
     }
     
     .list3 {
-     text-align: center;
      margin: auto;
      width: 70%;
      position: relative;
@@ -120,4 +117,9 @@
     .sub-main {
      font-size: 2em;    
     }
+    }
+
+    .readplz {
+     display: inline;
+     text-decoration: underline;
     }
