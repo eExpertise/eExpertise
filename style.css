@@ -91,12 +91,14 @@
      position: relative;
      top:4.5em;
      font-size: 2em;
-     color: rgb(81, 154, 226);
+     color: rgb(255, 255, 255);
      font-family: 'Saira Semi Condensed', sans-serif;
+	 background-color: rgb(245, 118, 0);
+	 border-radius: 10px;
     }
     
     a {
-    color: rgb(245, 118, 0);   
+    color: rgb(255, 255, 255);   
     }
     
     @media only screen and (orientation: portrait) and (max-width: 500px) {
