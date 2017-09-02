@@ -138,6 +138,8 @@
     }
 	
 	.list {
+	 margin: auto;
+	 width: auto;
 	 font-size: 0.8em; 	
 	}
     }
