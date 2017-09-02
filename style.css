@@ -120,13 +120,13 @@
     
     @media only screen and (orientation: portrait) and (max-width: 480px) {
      .bar {
-     height: 90px;
-     font-size: 3.7em;
+     height: 60px;
+     font-size: 3.6em;
     }    
     
     .button {
      position: relative;
-     top: 5em;
+     top: 4.8em;
     }
     
     .main {
