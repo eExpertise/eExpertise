@@ -98,10 +98,11 @@
      font-family: 'Roboto', sans-serif;
      position: relative;
      top: 6em;
+	 font-size: 0.9em;
     }
     
     .list {
-     font-size: 0.7em;
+     font-size: 1em;
     }
     
     .button {
