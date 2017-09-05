@@ -48,7 +48,7 @@
     font-family: 'roboto', sans-serif;
     color: rgb(0, 0, 0);
     color: rgba(0, 0, 0, 0.8);
-    font-size: 1.2em;
+    font-size: 1.5em;
     }
     
     .disc {
@@ -81,17 +81,17 @@
     
     .qna1 {
      position: relative;
-     top: 2em;
+     top: 1em;
     }
     
      .qna2 {
      position: relative;
-     top: 7em
+     top: 6em
     }
     
      .qna3 {
      position: relative;
-     top: 11em
+     top: 10em
     }
   
      top: 8em
