@@ -21,7 +21,6 @@
     
     .intro {
      margin: auto;
-<<<<<<< HEAD
      width: 80%;
      position: relative;
      top: 1em;
@@ -29,14 +28,12 @@
      font-size: 2em;
      color: rgb(81, 154, 226);
      font-weight: 600;
-=======
      width: 90%;
      position: relative;
      top: 2em;
      font-family: 'Saira', sans-serif;
      font-size: 2em;
      color: rgb(81, 154, 226);
->>>>>>> bbad7c65c593f5a0bc7778d70be1522e26cda11d
     }
     
     .intro-end {
@@ -45,7 +42,6 @@
      font-size: 0.9em;
     }
     
-<<<<<<< HEAD
     .intro-disc {
     position: relative;
     top: 4em;
@@ -55,8 +51,6 @@
     font-size: 1.2em;
     }
     
-=======
->>>>>>> bbad7c65c593f5a0bc7778d70be1522e26cda11d
     .disc {
      font-size: 0.8em;    
     }
@@ -70,11 +64,8 @@
      position: relative;
      top: 1em;
      font-family: 'dosis', sans-serif;
-<<<<<<< HEAD
      font-size: 1.6em;
-=======
      font-size: 1.4em;
->>>>>>> bbad7c65c593f5a0bc7778d70be1522e26cda11d
      color: rgb(81, 154, 226);
     }
     
@@ -83,12 +74,9 @@
      width: 60%;
      font-family: 'roboto', sans-serif;
      color: rgb(0, 0, 0);
-<<<<<<< HEAD
      color: rgba(0, 0, 0, 0.6);
      font-size: 1.1em;
-=======
      color: rgba(0, 0, 0, 0.7);
->>>>>>> bbad7c65c593f5a0bc7778d70be1522e26cda11d
     }
     
     .qna1 {
@@ -98,7 +86,6 @@
     
      .qna2 {
      position: relative;
-<<<<<<< HEAD
      top: 7em
     }
     
@@ -106,8 +93,7 @@
      position: relative;
      top: 11em
     }
-    
-=======
+  
      top: 8em
     }
     
@@ -116,7 +102,6 @@
      top: 11em
     }
     
->>>>>>> bbad7c65c593f5a0bc7778d70be1522e26cda11d
     .cta {
      margin: auto;
      width: 60%;
