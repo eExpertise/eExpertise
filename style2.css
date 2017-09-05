@@ -2,88 +2,96 @@
 
  .bar {
      width: auto;
-     height: 50px;
+     height: 55px;
      background-color: rgb(81, 154, 226);
      color: rgb(255, 255, 255);
-     font-family: 'Pacifico', cursive;
-     font-size: 1.8em;
+     font-family: 'Lobster', cursive;
+     font-size: 2.4em;
     }
     
-    .thx {
-     font-size: 3em;
-     position: relative;
-     top: 0.5em;
-     text-transform: uppercase;
-     font-family: 'Mukta Mahee', sans-serif;
+    .main {
+     font-family: 'Saira', sans-serif;
      color: rgb(245, 118, 0);
+     font-size: 1.1em;
     }
     
-    .info {
-     font-family: 'Saira', sans-serif;
+    .intro-head {
+     font-size: 1.1em;   
+    }
+    
+    .intro {
      margin: auto;
-     width: 650px;
+     width: 80%;
      position: relative;
-     top: 1.9em;
-     line-height: 3em;
-    }
-
-    .list-head {
-     font-family: 'Saira', sans-serif;
-     color: rgb(81, 154, 226);
-     font-size: 1.2em;
-    }
-    
-    .list {
-     margin: auto;
-     width: 90%;
-     font-family: 'Saira', sans-serif;
-     background-color: rgb(81, 154, 226);
-     color: rgb(255, 255, 255);
-     border-radius: 10px;
-     font-size: 1.2em;
-    }
-    
-    .bold {
-     display: inline;
-     font-family: 'Saira', sans-serif;
-     text-decoration: underline;
-    }
-    
-    .bottom-container {
-     position: relative;
-     top: 5em;
-    }
-    
-    .bottom {
-     margin: auto;
-     width: 90%;
-     position: relative;
-     top: 2em;
+     top: 1em;
      font-family: 'Saira', sans-serif;
      font-size: 2em;
      color: rgb(81, 154, 226);
+     font-weight: 600;
     }
     
-    .bottom-disc {
+    .intro-end {
      position: relative;
-     top: 4em;
+     top: 1em;
      font-size: 0.9em;
-     font-family: 'Roboto', sans-serif;    
-     color: rgb(0, 0, 0);
-     color: rgba(0, 0, 0, 0.75);
     }
     
-       @media only screen and (orientation: portrait) and (max-width: 500px) {
-     .bar {
-     height: 75px;
-     font-size: 3.3em;
-    } 
-
-    .thx {
-     font-size: 3.5em;
+    .intro-disc {
+    position: relative;
+    top: 4em;
+    font-family: 'roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.2em;
     }
-
-    .bottom-disc {
+    
+    .disc {
+     font-size: 0.8em;    
+    }
+    
+    .qna {
+     position: relative;
+     top: 10em;
+    }
+    
+   .q {
+     position: relative;
+     top: 1em;
+     font-family: 'dosis', sans-serif;
+     font-size: 1.6em;
+     color: rgb(81, 154, 226);
+    }
+    
+    .a {    
+     margin: auto;
+     width: 60%;
+     font-family: 'roboto', sans-serif;
+     color: rgb(0, 0, 0);
+     color: rgba(0, 0, 0, 0.6);
      font-size: 1.1em;
     }
+    
+    .qna1 {
+     position: relative;
+     top: 2em;
+    }
+    
+     .qna2 {
+     position: relative;
+     top: 7em
+    }
+    
+     .qna3 {
+     position: relative;
+     top: 11em
+    }
+    
+    .cta {
+     margin: auto;
+     width: 60%;
+     position: relative;   
+     top: 17em;
+     font-size: 1.3em;
+     font-family: 'roboto', sans-serif;
+     color: rgb(81, 154, 226);
     }
