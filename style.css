@@ -1,5 +1,9 @@
 
- .bar {
+    body {
+     margin: 0px 0px 0px 0px;
+    }
+
+    .bar {
      width: auto;
      height: 55px;
      background-color: rgb(81, 154, 226);
@@ -8,7 +12,7 @@
      font-size: 2.4em;
     }
 
-.main {
+    .main {
      text-transform: uppercase;
      margin: auto;
      width: 100%;
