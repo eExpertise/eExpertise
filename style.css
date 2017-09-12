@@ -155,6 +155,7 @@
     }
 	
 	.fb-like {
+	 position: relative;
 	 top: 10em;
 	 margin: auto;
 	 width: 100%;
