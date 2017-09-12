@@ -153,6 +153,11 @@
     a {
     color: rgb(245, 118, 0);   
     }
+	
+	.fb-like {
+	 position: relative;
+	 top: 10em;
+	}
     
     @media only screen and (orientation: portrait) and (max-width: 480px) {
      .bar {
