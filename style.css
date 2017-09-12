@@ -42,7 +42,7 @@
 	 width: 50%;
     }
 
-.main {
+    .main {
      text-transform: uppercase;
      margin: auto;
      width: 100%;
@@ -85,6 +85,11 @@
      border-radius: 10px;
      line-height: 2.5em;
     }
+	
+	.list1-text {
+     font-size: 100%;
+	 font-size: 1.3vw;
+	}
     
     .list2 {
      margin: auto;
@@ -98,6 +103,11 @@
      border-radius: 10px;
      line-height: 2.5em;
     }
+	
+		.list2-text {
+     font-size: 100%;
+	 font-size: 1.3vw;
+	}
     
     
     .list3 {
@@ -113,6 +123,11 @@
      line-height: 2.5em;
     }
     
+		.list3-text {
+     font-size: 100%;
+	 font-size: 1.3vw;
+	}
+	
     .list-disc {
      font-family: 'Roboto', sans-serif;
      position: relative;
