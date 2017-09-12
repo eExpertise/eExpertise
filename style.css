@@ -37,8 +37,9 @@
     
     .super-main-right {
      position: relative;
-     right: 30px;
      float: right;    
+	 margin: auto;
+	 width: 50%;
     }
 
 .main {
