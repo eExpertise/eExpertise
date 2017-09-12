@@ -106,7 +106,7 @@
      line-height: 2.5em;
     }
 	
-		.list2-text {
+	.list2-text {
      font-size: 100%;
 	 font-size: 1.3vw;
 	}
@@ -125,7 +125,7 @@
      line-height: 2.5em;
     }
     
-		.list3-text {
+	.list3-text {
      font-size: 100%;
 	 font-size: 1.3vw;
 	}
@@ -156,7 +156,7 @@
 	
 	.fb-like {
 	 position: relative;
-	 top: 10em;
+	 top: 50em;
 	}
     
     @media only screen and (orientation: portrait) and (max-width: 480px) {
