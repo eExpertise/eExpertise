@@ -3,6 +3,11 @@
     }
 	
 	/* Sorry about the mess... */
+	
+	.ultra-main {
+	 position: relative;
+	 top: 5em;
+	}
  
     .bar {
      width: auto;
