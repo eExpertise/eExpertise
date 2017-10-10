@@ -7,8 +7,14 @@
 	.ultra-main {
 
 	}
+	
+	.fix {
+	 position: relative;
+	}
  
     .bar {
+	 position: absolute;
+	 top: 0;
      width: auto;
      height: 55px;
      background-color: rgb(81, 154, 226);
