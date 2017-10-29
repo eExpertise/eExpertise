@@ -30,8 +30,8 @@ $(document).ready(function(){
 	// not animations
 	
     $('#option1').click(function() {
-    // 'this' is now the element that was clicked
-    $(this).data('clicked', !($(this).data('clicked'))) // set the data attribute to the opposite of its current value.  The "!" means "not"
+
+    $(this).data('clicked', !($(this).data('clicked')))
 
     if ($('#option1').data('clicked') || $('#option2').data('clicked') || $('#option3').data('clicked') || $('#option4').data('clicked')) {
     $('.next').fadeIn(200);
