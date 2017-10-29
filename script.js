@@ -16,13 +16,13 @@ $(document).ready(function(){
 	
 	// The most important buttons:
 	
-	$("button").hover(function() {
+	$("#option1, #option2, #option3, #option4").hover(function() {
 	$(this).css({"text-decoration":"underline"})
 	}, function(){
 	$(this).css({"text-decoration":"none"})
 	});
 	
-	$("button").clickToggle(
+	$("#option1, #option2, #option3, #option4").clickToggle(
     function(){$(this).css({"color": "rgb(145, 191, 238)", "text-shadow":"none"});},
     function(){$(this).css({"color":"white", "text-shadow":"2px 2px #2280dd"});
 	});

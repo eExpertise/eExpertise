@@ -140,6 +140,13 @@
 	.option {
 	 display: inline;
 	 font-size: 1.5em;
+	 font-family: 'Saira', sans-serif;
+	 text-shadow: 2px 2px #2280dd;
+	 background-color: rgb(81, 154, 226);
+	 color: white;
+	 border: none;
+	 text-transform: uppercase;
+	 cursor: pointer;
 	}
 	
 	.cta1 {
@@ -315,7 +322,7 @@
 	.test1 {
 	 position: relative;
 	 margin: auto;
-	 height: 23px;
+	 height: 36px;
 	 width: 60%;
      width: 60%;
 	 border-left: 1px black solid;
@@ -328,7 +335,7 @@
 	.test2 {
 	 position: relative;
 	 margin: auto;
-	 height: 23px;
+	 height: 36px;
 	 width: 60%;
      width: 60%;
 	 border-left: 1px black solid;
@@ -341,7 +348,7 @@
 	.test3 {
 	 position: relative;
 	 margin: auto;
-	 height: 23px;
+	 height: 36px;
 	 width: 60%;
      width: 60%;
 	 border-left: 1px black solid;
@@ -354,7 +361,7 @@
 	.test4 {
 	 position: relative;
 	 margin: auto;
-	 height: 23px;
+	 height: 36px;
 	 width: 60%;
      width: 60%;
 	 border-left: 1px black solid;
@@ -398,15 +405,4 @@
 	
 	a {
 	 color: rgb(245, 118, 0);
-	}
-	
-	button {
-	 font-family: 'Saira', sans-serif;
-	 font-size: 1em;
-	 text-shadow: 2px 2px #2280dd;
-	 background-color: rgb(81, 154, 226);
-	 color: white;
-	 border: none;
-	 text-transform: uppercase;
-	 cursor: pointer;
 	}
