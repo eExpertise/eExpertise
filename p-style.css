@@ -55,7 +55,6 @@
 	}
 	
 	.option {
-	 text-transform: uppercase;
 	 width: 100%;
 	 cursor: pointer;
 	 text-shadow: 2px 2px #2280dd;
@@ -95,13 +94,14 @@
 	 display: inline-block;
 	 width: 18%;
 	 border: 1px black solid;
+	 background-color: rgb(81, 154, 226)
 	}
 	
 	.border1 {
 	 display: inline-block;
 	 background-color: rgb(81, 154, 226);
 	 width: 100%;
-	 height: 85px;
+	 height: 98px;
 	 line-height: 25px;
 	 padding-top: 10px;
 	 padding-bottom: 4px;
@@ -111,7 +111,7 @@
 	 display: inline-block;
 	 background-color: rgb(81, 154, 226);
 	 width: 100%;
-	 height: 85px;
+	 height: 98px;
 	 line-height: 25px;
 	 padding-top: 10px;
 	 padding-bottom: 4px;
@@ -121,7 +121,7 @@
 	 display: inline-block;
 	 background-color: rgb(81, 154, 226);
 	 width: 100%;
-	 height: 85px;
+	 height: 98px;
 	 line-height: 25px;
 	 padding-top: 10px;
 	 padding-bottom: 4px;
@@ -131,7 +131,7 @@
 	 display: inline-block;
 	 background-color: rgb(81, 154, 226);
 	 width: 100%;
-	 height: 85px;
+	 height: 98px;
 	 line-height: 25px;
 	 padding-top: 10px;
 	 padding-bottom: 4px;
@@ -278,7 +278,7 @@
 	 position: relative;
 	 top: 3em;
 	 margin: auto;
-	 width: 95%;
+	 width: 80%;
 	 font-family: 'Roboto', sans-serif;
 	 color: rgb(0, 0, 0);
 	 color: rgba(0, 0, 0, 0.8);
@@ -289,7 +289,7 @@
 	 position: relative;
 	 top: 3em;
 	 margin: auto;
-	 width: 95%;
+	 width: 80%;
 	 font-family: 'Roboto', sans-serif;
 	 color: white;
 	 font-size: 1.1em;
@@ -393,4 +393,20 @@
 	 left: 0;
 	 right: 0;
 	 margin: auto;
+	 top: 150px;
+	}
+	
+	a {
+	 color: rgb(245, 118, 0);
+	}
+	
+	button {
+	 font-family: 'Saira', sans-serif;
+	 font-size: 1em;
+	 text-shadow: 2px 2px #2280dd;
+	 background-color: rgb(81, 154, 226);
+	 color: white;
+	 border: none;
+	 text-transform: uppercase;
+	 cursor: pointer;
 	}

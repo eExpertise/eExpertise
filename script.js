@@ -16,20 +16,63 @@ $(document).ready(function(){
 	
 	// The most important buttons:
 	
-	$("#option1, #option2, #option3, #option4").hover(function() {
+	$("button").hover(function() {
 	$(this).css({"text-decoration":"underline"})
 	}, function(){
 	$(this).css({"text-decoration":"none"})
 	});
 	
-	$("#option1, #option2, #option3, #option4").click(function() {
-	$(".next").fadeIn(200);
-	});
-	
-	$("#option1, #option2, #option3, #option4").clickToggle(
+	$("button").clickToggle(
     function(){$(this).css({"color": "rgb(145, 191, 238)", "text-shadow":"none"});},
     function(){$(this).css({"color":"white", "text-shadow":"2px 2px #2280dd"});
 	});
+	
+	// not animations
+	
+    $('#option1').click(function() {
+    // 'this' is now the element that was clicked
+    $(this).data('clicked', !($(this).data('clicked'))) // set the data attribute to the opposite of its current value.  The "!" means "not"
+
+    if ($('#option1').data('clicked') || $('#option2').data('clicked') || $('#option3').data('clicked') || $('#option4').data('clicked')) {
+    $('.next').fadeIn(200);
+    } else {
+    $('.next').fadeOut(200);
+    }
+    });
+	
+	$('#option2').click(function() {
+    
+    $(this).data('clicked', !($(this).data('clicked')))
+
+    if ($('#option1').data('clicked') || $('#option2').data('clicked') || $('#option3').data('clicked') || $('#option4').data('clicked')) {
+    $('.next').fadeIn(200);
+    } else {
+    $('.next').fadeOut(200);
+    }
+    });
+	
+	$('#option3').click(function() {
+    
+    $(this).data('clicked', !($(this).data('clicked')))
+
+    if ($('#option1').data('clicked') || $('#option2').data('clicked') || $('#option3').data('clicked') || $('#option4').data('clicked')) {
+    $('.next').fadeIn(200);
+    } else {
+    $('.next').fadeOut(200);
+    }
+    });
+	
+	$('#option4').click(function() {
+    $(this).data('clicked', !($(this).data('clicked')))
+
+    if ($('#option1').data('clicked') || $('#option2').data('clicked') || $('#option3').data('clicked') || $('#option4').data('clicked')) {
+    $('.next').fadeIn(200);
+    } else {
+    $('.next').fadeOut(200);
+    }
+    });
+	
+	// not animations
 	
 	// In the middle
 	
@@ -38,6 +81,8 @@ $(document).ready(function(){
 	}, function(){
 	$(this).css({"text-decoration":"none"})
 	});
+	
+	
 	
 	// less important buttons:
 
