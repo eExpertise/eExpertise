@@ -82,7 +82,41 @@ $(document).ready(function(){
 	$(this).css({"text-decoration":"none"})
 	});
 	
-	
+	$(".next").click(function() {
+	if ($('#option1').data('clicked') && !($('#option2').data('clicked')) && !($('#option3').data('clicked')) && !($('#option4').data('clicked'))) {
+	Cookies.set('options', '1000');
+	} else if ($('#option1').data('clicked') && $('#option2').data('clicked') && !($('#option3').data('clicked')) && !($('#option4').data('clicked'))) {
+	Cookies.set('options', '1100');
+	} else if ($('#option1').data('clicked') && !($('#option2').data('clicked')) && $('#option3').data('clicked') && !($('#option4').data('clicked'))) {
+	Cookies.set('options', '1010');
+	} else if ($('#option1').data('clicked') && !($('#option2').data('clicked')) && !($('#option3').data('clicked')) && $('#option4').data('clicked')) {
+	Cookies.set('options', '1001');
+	} else if ($('#option1').data('clicked') && $('#option2').data('clicked') && $('#option3').data('clicked') && !($('#option4').data('clicked'))) {
+	Cookies.set('options', '1110');
+	} else if ($('#option1').data('clicked') && $('#option2').data('clicked') && !($('#option3').data('clicked')) && $('#option4').data('clicked')) {
+	Cookies.set('options', '1101');
+	} else if ($('#option1').data('clicked') && !($('#option2').data('clicked')) && $('#option3').data('clicked') && $('#option4').data('clicked')) {
+	Cookies.set('options', '1011');
+	} else if (!($('#option1').data('clicked')) && $('#option2').data('clicked') && !($('#option3').data('clicked')) && !($('#option4').data('clicked'))) {
+	Cookies.set('options', '0100');
+	} else if (!($('#option1').data('clicked')) && $('#option2').data('clicked') && $('#option3').data('clicked') && !($('#option4').data('clicked'))) {
+	Cookies.set('options', '0110');
+	} else if (!($('#option1').data('clicked')) && $('#option2').data('clicked') && !($('#option3').data('clicked')) && $('#option4').data('clicked')) {
+	Cookies.set('options', '0101');
+	} else if (!($('#option1').data('clicked')) && $('#option2').data('clicked') && $('#option3').data('clicked') && $('#option4').data('clicked')) {
+	Cookies.set('options', '0111');
+	} else if (!($('#option1').data('clicked')) && !($('#option2').data('clicked')) && $('#option3').data('clicked') && !($('#option4').data('clicked'))) {
+	Cookies.set('options', '0010');
+	} else if (!($('#option1').data('clicked')) && !($('#option2').data('clicked')) && $('#option3').data('clicked') && $('#option4').data('clicked')) {
+	Cookies.set('options', '0011');
+	} else if (!($('#option1').data('clicked')) && !($('#option2').data('clicked')) && !($('#option3').data('clicked')) && $('#option4').data('clicked')) {
+	Cookies.set('options', '0001');
+	} else if ($('#option1').data('clicked') && $('#option2').data('clicked') && $('#option3').data('clicked') && $('#option4').data('clicked')) {
+	Cookies.set('options', '1111');
+	} else {
+	alert('ERROR: option does not exit');
+	}
+	});
 	
 	// less important buttons:
 
