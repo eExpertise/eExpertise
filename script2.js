@@ -41,7 +41,7 @@ $(document).ready(function(){
     });
 	
 	$('#option2').click(function() {
-    
+   
     $(this).data('clicked', !($(this).data('clicked')))
 
     if ($('#option1').data('clicked') || $('#option2').data('clicked') || $('#option3').data('clicked') || $('#option4').data('clicked')) {
