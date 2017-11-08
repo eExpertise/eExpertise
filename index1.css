@@ -36,7 +36,7 @@
 	
 	.header {
 	 position: relative;
-	 height: 19em;
+	 height: 18.5em;
 	 width: 100%;
 	 background-image: url("https://i.pinimg.com/originals/e4/a8/1d/e4a81daa4a98623b5c3dd60dc9e769af.jpg");
 	 background-repeat: no-repeat;
@@ -54,7 +54,7 @@
 	 margin: auto;
      width: 50%;
 	 height: 10%;
-	 top: 7em;
+	 top: 6.5em;
 	 display: none;
 	}
 	
