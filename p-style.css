@@ -216,10 +216,10 @@
 	 top: 0;
 	 height: 400px;
 	 width: 100%;
-	 background-image: url("https://i.pinimg.com/originals/84/46/c9/8446c9be5b67b2546b744ce3590ec89a.jpg");
+	 background-image: url("https://i.pinimg.com/originals/b9/62/62/b9626235381094d5fc39ae9ccb48283b.jpg");
 	 background-size: cover;
 	 background-repeat: no-repeat;
-	 background-position: top center;
+	 background-position: 50% 75%;
 	 border-bottom: 1px black solid;
 	}
 	
@@ -228,10 +228,10 @@
 	 top: 0;
 	 height: 400px;
 	 width: 100%;
-	 background-image: url("https://i.pinimg.com/originals/eb/a5/36/eba5364452ca9585ba8d36c85df9c076.jpg");
+	 background-image: url("https://i.pinimg.com/originals/84/46/c9/8446c9be5b67b2546b744ce3590ec89a.jpg");
 	 background-size: cover;
 	 background-repeat: no-repeat;
-	 background-position: right bottom;
+	 background-position: center;
 	 border-bottom: 1px black solid;
 	}
 	
