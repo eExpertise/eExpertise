@@ -54,7 +54,7 @@ $(document).scroll(function() {
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 1300) {
+  if (y > 1500) {
     $('#p3').fadeIn(300);
   } else {
 
