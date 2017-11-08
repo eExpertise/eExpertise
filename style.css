@@ -106,7 +106,6 @@
 	
 	.fb-like {
 	 position: relative;
-	 top: 20em;
 	 margin: auto;
 	 width: 100%;
      text-align: center;
@@ -123,4 +122,11 @@
 	 top: 5em;
 	 font-size: 1.5em;
 	 text-transform: uppercase;
+	}
+	
+	#fb-margin {
+	 position: relative;
+	 width: 100%;
+	 margin: auto;
+	 top: 18em;
 	}
