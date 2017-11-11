@@ -110,6 +110,7 @@
 	 margin: auto;
 	 width: 100%;
      text-align: center;
+	 border: 1px black solid;
 	}
 	
 	#what {
