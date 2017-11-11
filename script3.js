@@ -33,8 +33,12 @@ if (Cookies.get('options') === '1000') {
 
 }
 
-$('#logo').hover(function() {
-$('#logo').css({'text-decoration':'underline'});
-}, function() { $('#logo').css({'text-decoration':'none'});
 });
+
+$(document).ready(function(){
+	$(".next").hover(function() {
+	$(this).css({"text-decoration":"underline"})
+	}, function(){
+	$(this).css({"text-decoration":"none"})
+	});
 });

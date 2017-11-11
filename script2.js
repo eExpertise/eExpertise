@@ -12,6 +12,7 @@ $.fn.clickToggle = function(a, b) {
     });
 };
 
+
 $(document).ready(function(){
 	
 	// The most important buttons:
@@ -76,10 +77,11 @@ $(document).ready(function(){
 	
 	// In the middle
 	
-$('#logo').hover(function() {
-$('#logo').css({'text-decoration':'underline'});
-}, function() { $('#logo').css({'text-decoration':'none'});
-});
+	
+    $('#logo').hover(function() {
+    $('#logo').css({'text-decoration':'underline'});
+    }, function() { $('#logo').css({'text-decoration':'none'});
+    });
 	
 	$(".next").hover(function() {
 	$(this).css({"text-decoration":"underline"})
