@@ -108,7 +108,7 @@
 	.fb-like {
      position: absolute;
      top: 50%;
-     left: 65%;
+     left: 60%;
      margin-right: -50%;
      transform: translate(-50%, -50%);
 	}
