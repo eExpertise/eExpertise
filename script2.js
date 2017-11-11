@@ -76,6 +76,11 @@ $(document).ready(function(){
 	
 	// In the middle
 	
+$('#logo').hover(function() {
+$('#logo').css({'text-decoration':'underline'});
+}, function() { $('#logo').css({'text-decoration':'none'});
+});
+	
 	$(".next").hover(function() {
 	$(this).css({"text-decoration":"underline"})
 	}, function(){
@@ -130,27 +135,27 @@ $(document).ready(function(){
     $(".animation2, .animation3, .animation4").fadeOut(100);
 	
     $(".cta1").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
-    $(".animation1").delay(100).fadeToggle(100);
+    $(".animation1").delay(75).fadeToggle(100);
     });
 	
 	$(".cta2").click(function(){
 	$(".animation1, .animation3, .animation4").fadeOut(100);
 	
     $(".cta2").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
-    $(".animation2").delay(100).fadeToggle(100);
+    $(".animation2").delay(75).fadeToggle(100);
     });
 	
 	$(".cta3").click(function(){
     $(".animation1, .animation2, .animation4").fadeOut(100);
 	
     $(".cta3").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
-    $(".animation3").delay(100).fadeToggle(100);
+    $(".animation3").delay(75).fadeToggle(100);
     });
 	
 	$(".cta4").click(function(){
 	$(".animation1, .animation2, .animation3").fadeOut(100);
 	
     $(".cta4").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
-    $(".animation4").delay(100).fadeToggle(100);
+    $(".animation4").delay(75).fadeToggle(100);
     });
 });
