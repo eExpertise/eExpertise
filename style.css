@@ -106,11 +106,11 @@
     }
 	
 	.fb-like {
-	 position: relative;
-	 margin: auto;
-	 width: 100%;
-     text-align: center;
-	 border: 1px black solid;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%);
 	}
 	
 	#what {
@@ -127,9 +127,7 @@
 	}
 	
 	#fb-margin {
-	 position: relative;
-	 width: 100%;
-	 margin: auto;
-	 top: 18em;
-	 border: 1px black solid;
+     position: relative;
+     padding: 0;
+     padding-top: 55px;
 	}
