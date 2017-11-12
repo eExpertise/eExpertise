@@ -42,7 +42,7 @@
 	 color: rgb(81, 154, 226);
 	 font-family: 'Saira', sans-serif;
 	 font-size: 2.2em;
-	 top: 3.5em;
+	 top: 2.5em;
 	}
 	
 	.options {
@@ -55,12 +55,6 @@
 	 padding-top: 10px;
 	 padding-bottom: 10px;
 	 background-color: rgb(255, 255, 255);
-	}
-	
-	.option {
-	 width: 100%;
-	 cursor: pointer;
-	 text-shadow: 2px 2px #2280dd;
 	}
 	
 	.opt1 {
@@ -291,7 +285,6 @@
 	 font-family: 'Roboto', sans-serif;
 	 color: white;
 	 font-size: 1.1em;
-	 font-weight: bold;
 	 text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
 	}
 	
@@ -420,3 +413,15 @@
 	 text-align: center;
 	 top: 1.5em;
 	}
+	
+	.alt-option {
+	 background-color: rgb(81, 154, 226);
+	 font-family: 'saira', sans-serif;
+	 text-shadow: 2px 2px #2280dd;
+	 text-transform: uppercase;
+	 width: 42%;
+	 margin: auto;
+	 font-size: 1.4em;
+	 border: 1px black solid;
+	}
+	

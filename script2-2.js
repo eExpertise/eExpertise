@@ -12,72 +12,92 @@ $.fn.clickToggle = function(a, b) {
     });
 };
 
+
 $(document).ready(function(){
-$('#logo').hover(function() {
-$('#logo').css({'text-decoration':'underline'});
-}, function() { $('#logo').css({'text-decoration':'none'});
-});
+	
 	// The most important buttons:
 	
-	$("#option1, #option2, #option3, #option4").hover(function() {
+	$(".option1, .option2, .option3, .option4").hover(function() {
 	$(this).css({"text-decoration":"underline"})
 	}, function(){
 	$(this).css({"text-decoration":"none"})
 	});
 	
-	$("#option1, #option2, #option3, #option4").clickToggle(
-    function(){$(this).css({"color": "rgb(145, 191, 238)", "text-shadow":"none"});},
-    function(){$(this).css({"color":"white", "text-shadow":"2px 2px #2280dd"});
-	});
-	
-	// not animations
-	
-    $('#option1').click(function() {
+    $('.option1').click(function() {
 
-    $(this).data('clicked', !($(this).data('clicked')))
+    $('.option1').data('clicked', !($(this).data('clicked')))
 
-    if ($('#option1').data('clicked') || $('#option2').data('clicked') || $('#option3').data('clicked') || $('#option4').data('clicked')) {
+	if ($('.option1').data('clicked')) {
+	$(".option1").css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(".option1").css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
+	
+    if ($('.option1').data('clicked') || $('.option2').data('clicked') || $('.option3').data('clicked') || $('.option4').data('clicked')) {
     $('.next').fadeIn(200);
     } else {
     $('.next').fadeOut(200);
     }
     });
 	
-	$('#option2').click(function() {
+	$('.option2').click(function() {
    
-    $(this).data('clicked', !($(this).data('clicked')))
+    $('.option2').data('clicked', !($(this).data('clicked')))
+	
+	if ($('.option2').data('clicked')) {
+	$(".option2").css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(".option2").css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
 
-    if ($('#option1').data('clicked') || $('#option2').data('clicked') || $('#option3').data('clicked') || $('#option4').data('clicked')) {
+    if ($('.option1').data('clicked') || $('.option2').data('clicked') || $('.option3').data('clicked') || $('.option4').data('clicked')) {
     $('.next').fadeIn(200);
     } else {
     $('.next').fadeOut(200);
     }
     });
 	
-	$('#option3').click(function() {
-    
-    $(this).data('clicked', !($(this).data('clicked')))
+	$('.option3').click(function() {
+   
+    $('.option3').data('clicked', !($(this).data('clicked')))
+	
+	if ($('.option3').data('clicked')) {
+	$(".option3").css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(".option3").css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
 
-    if ($('#option1').data('clicked') || $('#option2').data('clicked') || $('#option3').data('clicked') || $('#option4').data('clicked')) {
+    if ($('.option1').data('clicked') || $('.option2').data('clicked') || $('.option3').data('clicked') || $('.option4').data('clicked')) {
     $('.next').fadeIn(200);
     } else {
     $('.next').fadeOut(200);
     }
     });
 	
-	$('#option4').click(function() {
-    $(this).data('clicked', !($(this).data('clicked')))
+	$('.option4').click(function() {
+   
+    $('.option4').data('clicked', !($(this).data('clicked')))
+	
+	if ($('.option4').data('clicked')) {
+	$(".option4").css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(".option4").css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
 
-    if ($('#option1').data('clicked') || $('#option2').data('clicked') || $('#option3').data('clicked') || $('#option4').data('clicked')) {
+    if ($('.option1').data('clicked') || $('.option2').data('clicked') || $('.option3').data('clicked') || $('.option4').data('clicked')) {
     $('.next').fadeIn(200);
     } else {
     $('.next').fadeOut(200);
     }
     });
 	
-	// not animations
+	// In-the-middle buttons
 	
-	// In the middle
+	
+    $('#logo').hover(function() {
+    $('#logo').css({'text-decoration':'underline'});
+    }, function() { $('#logo').css({'text-decoration':'none'});
+    });
 	
 	$(".next").hover(function() {
 	$(this).css({"text-decoration":"underline"})
@@ -86,40 +106,42 @@ $('#logo').css({'text-decoration':'underline'});
 	});
 	
 	$(".next").click(function() {
-	if ($('#option1').data('clicked') && !($('#option2').data('clicked')) && !($('#option3').data('clicked')) && !($('#option4').data('clicked'))) {
+	if ($('.option1').data('clicked') && !($('.option2').data('clicked')) && !($('.option3').data('clicked')) && !($('.option4').data('clicked'))) {
 	Cookies.set('options', '1000');
-	} else if ($('#option1').data('clicked') && $('#option2').data('clicked') && !($('#option3').data('clicked')) && !($('#option4').data('clicked'))) {
+	} else if ($('.option1').data('clicked') && $('.option2').data('clicked') && !($('.option3').data('clicked')) && !($('.option4').data('clicked'))) {
 	Cookies.set('options', '1100');
-	} else if ($('#option1').data('clicked') && !($('#option2').data('clicked')) && $('#option3').data('clicked') && !($('#option4').data('clicked'))) {
+	} else if ($('.option1').data('clicked') && !($('.option2').data('clicked')) && $('.option3').data('clicked') && !($('.option4').data('clicked'))) {
 	Cookies.set('options', '1010');
-	} else if ($('#option1').data('clicked') && !($('#option2').data('clicked')) && !($('#option3').data('clicked')) && $('#option4').data('clicked')) {
+	} else if ($('.option1').data('clicked') && !($('.option2').data('clicked')) && !($('.option3').data('clicked')) && $('.option4').data('clicked')) {
 	Cookies.set('options', '1001');
-	} else if ($('#option1').data('clicked') && $('#option2').data('clicked') && $('#option3').data('clicked') && !($('#option4').data('clicked'))) {
+	} else if ($('.option1').data('clicked') && $('.option2').data('clicked') && $('.option3').data('clicked') && !($('.option4').data('clicked'))) {
 	Cookies.set('options', '1110');
-	} else if ($('#option1').data('clicked') && $('#option2').data('clicked') && !($('#option3').data('clicked')) && $('#option4').data('clicked')) {
+	} else if ($('.option1').data('clicked') && $('.option2').data('clicked') && !($('.option3').data('clicked')) && $('.option4').data('clicked')) {
 	Cookies.set('options', '1101');
-	} else if ($('#option1').data('clicked') && !($('#option2').data('clicked')) && $('#option3').data('clicked') && $('#option4').data('clicked')) {
+	} else if ($('.option1').data('clicked') && !($('.option2').data('clicked')) && $('.option3').data('clicked') && $('.option4').data('clicked')) {
 	Cookies.set('options', '1011');
-	} else if (!($('#option1').data('clicked')) && $('#option2').data('clicked') && !($('#option3').data('clicked')) && !($('#option4').data('clicked'))) {
+	} else if (!($('.option1').data('clicked')) && $('.option2').data('clicked') && !($('.option3').data('clicked')) && !($('.option4').data('clicked'))) {
 	Cookies.set('options', '0100');
-	} else if (!($('#option1').data('clicked')) && $('#option2').data('clicked') && $('#option3').data('clicked') && !($('#option4').data('clicked'))) {
+	} else if (!($('.option1').data('clicked')) && $('.option2').data('clicked') && $('.option3').data('clicked') && !($('.option4').data('clicked'))) {
 	Cookies.set('options', '0110');
-	} else if (!($('#option1').data('clicked')) && $('#option2').data('clicked') && !($('#option3').data('clicked')) && $('#option4').data('clicked')) {
+	} else if (!($('.option1').data('clicked')) && $('.option2').data('clicked') && !($('.option3').data('clicked')) && $('.option4').data('clicked')) {
 	Cookies.set('options', '0101');
-	} else if (!($('#option1').data('clicked')) && $('#option2').data('clicked') && $('#option3').data('clicked') && $('#option4').data('clicked')) {
+	} else if (!($('.option1').data('clicked')) && $('.option2').data('clicked') && $('.option3').data('clicked') && $('.option4').data('clicked')) {
 	Cookies.set('options', '0111');
-	} else if (!($('#option1').data('clicked')) && !($('#option2').data('clicked')) && $('#option3').data('clicked') && !($('#option4').data('clicked'))) {
+	} else if (!($('.option1').data('clicked')) && !($('.option2').data('clicked')) && $('.option3').data('clicked') && !($('.option4').data('clicked'))) {
 	Cookies.set('options', '0010');
-	} else if (!($('#option1').data('clicked')) && !($('#option2').data('clicked')) && $('#option3').data('clicked') && $('#option4').data('clicked')) {
+	} else if (!($('.option1').data('clicked')) && !($('.option2').data('clicked')) && $('.option3').data('clicked') && $('.option4').data('clicked')) {
 	Cookies.set('options', '0011');
-	} else if (!($('#option1').data('clicked')) && !($('#option2').data('clicked')) && !($('#option3').data('clicked')) && $('#option4').data('clicked')) {
+	} else if (!($('.option1').data('clicked')) && !($('.option2').data('clicked')) && !($('.option3').data('clicked')) && $('.option4').data('clicked')) {
 	Cookies.set('options', '0001');
-	} else if ($('#option1').data('clicked') && $('#option2').data('clicked') && $('#option3').data('clicked') && $('#option4').data('clicked')) {
+	} else if ($('.option1').data('clicked') && $('.option2').data('clicked') && $('.option3').data('clicked') && $('.option4').data('clicked')) {
 	Cookies.set('options', '1111');
 	} else {
 	alert('ERROR: option does not exit');
 	}
 	});
+	
+	
 	
 	// less important buttons:
 
@@ -130,30 +152,30 @@ $('#logo').css({'text-decoration':'underline'});
 	});	
 		
     $(".cta1").click(function(){
-    $(".animation2, .animation3, .animation4").fadeOut(100);
+    $(".animation2, .animation3, .animation4").fadeOut(120);
 	
     $(".cta1").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
-    $(".animation1").delay(75).fadeToggle(100);
+    $(".animation1").delay(100).fadeToggle(120);
     });
 	
 	$(".cta2").click(function(){
-	$(".animation1, .animation3, .animation4").fadeOut(100);
+	$(".animation1, .animation3, .animation4").fadeOut(120);
 	
     $(".cta2").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
-    $(".animation2").delay(75).fadeToggle(100);
+    $(".animation2").delay(100).fadeToggle(120);
     });
 	
 	$(".cta3").click(function(){
-    $(".animation1, .animation2, .animation4").fadeOut(100);
+    $(".animation1, .animation2, .animation4").fadeOut(120);
 	
     $(".cta3").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
-    $(".animation3").delay(75).fadeToggle(100);
+    $(".animation3").delay(100).fadeToggle(120);
     });
 	
 	$(".cta4").click(function(){
-	$(".animation1, .animation2, .animation3").fadeOut(100);
+	$(".animation1, .animation2, .animation3").fadeOut(120);
 	
     $(".cta4").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
-    $(".animation4").delay(75).fadeToggle(100);
+    $(".animation4").delay(100).fadeToggle(120);
     });
 });
