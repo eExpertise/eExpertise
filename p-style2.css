@@ -23,6 +23,7 @@
 	 position: relative;
      height: 60%;
 	 text-align: center;
+	 bottom: 100px;
 	}
 	
 	.disc {
@@ -185,7 +186,6 @@
 	.info {
 	 position: relative;
 	 height: 70%;
-	 top: 9.5em;
 	}
 	
 	.info-content {

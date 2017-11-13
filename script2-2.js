@@ -25,10 +25,47 @@ $(document).ready(function(){
 	
     $('.option1').click(function() {
 		
-    $('.option2, .option3 ,option4').data('clicked', !($('.option2, .option3 ,option4').data('clicked')))
-		
     $('.option1').data('clicked', !($(this).data('clicked')))
+	
+	if ($('.option2').data('clicked')) {
+	$('.option2').data('clicked', !($('.option2').data('clicked')));
+	} else {
 
+	}
+	
+	if ($('.option2').data('clicked')) {
+	$(".option2").css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(".option2").css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
+	
+	
+	if ($('.option3').data('clicked')) {
+	$('.option3').data('clicked', !($('.option3').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.option3').data('clicked')) {
+	$(".option3").css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(".option3").css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
+	
+	
+	if ($('.option4').data('clicked')) {
+	$('.option4').data('clicked', !($('.option4').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.option4').data('clicked')) {
+	$(".option4").css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(".option4").css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
+	
+	
 	if ($('.option1').data('clicked')) {
 	$(".option1").css({"text-shadow":"none", "color":"#7cb3e9"});
 	} else {
@@ -45,6 +82,45 @@ $(document).ready(function(){
 	$('.option2').click(function() {
    
     $('.option2').data('clicked', !($(this).data('clicked')))
+	
+	
+		if ($('.option1').data('clicked')) {
+	$('.option1').data('clicked', !($('.option1').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.option1').data('clicked')) {
+	$(".option1").css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(".option1").css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
+	
+	
+	if ($('.option3').data('clicked')) {
+	$('.option3').data('clicked', !($('.option3').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.option3').data('clicked')) {
+	$(".option3").css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(".option3").css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
+	
+	
+	if ($('.option4').data('clicked')) {
+	$('.option4').data('clicked', !($('.option4').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.option4').data('clicked')) {
+	$(".option4").css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(".option4").css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
 	
 	if ($('.option2').data('clicked')) {
 	$(".option2").css({"text-shadow":"none", "color":"#7cb3e9"});
@@ -63,6 +139,45 @@ $(document).ready(function(){
    
     $('.option3').data('clicked', !($(this).data('clicked')))
 	
+	
+	if ($('.option2').data('clicked')) {
+	$('.option2').data('clicked', !($('.option2').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.option2').data('clicked')) {
+	$(".option2").css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(".option2").css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
+	
+	
+	if ($('.option1').data('clicked')) {
+	$('.option1').data('clicked', !($('.option1').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.option1').data('clicked')) {
+	$(".option1").css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(".option1").css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
+	
+	
+	if ($('.option4').data('clicked')) {
+	$('.option4').data('clicked', !($('.option4').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.option4').data('clicked')) {
+	$(".option4").css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(".option4").css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
+	
 	if ($('.option3').data('clicked')) {
 	$(".option3").css({"text-shadow":"none", "color":"#7cb3e9"});
 	} else {
@@ -79,6 +194,45 @@ $(document).ready(function(){
 	$('.option4').click(function() {
    
     $('.option4').data('clicked', !($(this).data('clicked')))
+	
+	
+	if ($('.option2').data('clicked')) {
+	$('.option2').data('clicked', !($('.option2').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.option2').data('clicked')) {
+	$(".option2").css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(".option2").css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
+	
+	
+	if ($('.option3').data('clicked')) {
+	$('.option3').data('clicked', !($('.option3').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.option3').data('clicked')) {
+	$(".option3").css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(".option3").css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
+	
+	
+	if ($('.option1').data('clicked')) {
+	$('.option1').data('clicked', !($('.option1').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.option1').data('clicked')) {
+	$(".option1").css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(".option1").css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
 	
 	if ($('.option4').data('clicked')) {
 	$(".option4").css({"text-shadow":"none", "color":"#7cb3e9"});
@@ -108,42 +262,19 @@ $(document).ready(function(){
 	});
 	
 	$(".next").click(function() {
-	if ($('.option1').data('clicked') && !($('.option2').data('clicked')) && !($('.option3').data('clicked')) && !($('.option4').data('clicked'))) {
-	Cookies.set('options', '1000');
-	} else if ($('.option1').data('clicked') && $('.option2').data('clicked') && !($('.option3').data('clicked')) && !($('.option4').data('clicked'))) {
-	Cookies.set('options', '1100');
-	} else if ($('.option1').data('clicked') && !($('.option2').data('clicked')) && $('.option3').data('clicked') && !($('.option4').data('clicked'))) {
-	Cookies.set('options', '1010');
-	} else if ($('.option1').data('clicked') && !($('.option2').data('clicked')) && !($('.option3').data('clicked')) && $('.option4').data('clicked')) {
-	Cookies.set('options', '1001');
-	} else if ($('.option1').data('clicked') && $('.option2').data('clicked') && $('.option3').data('clicked') && !($('.option4').data('clicked'))) {
-	Cookies.set('options', '1110');
-	} else if ($('.option1').data('clicked') && $('.option2').data('clicked') && !($('.option3').data('clicked')) && $('.option4').data('clicked')) {
-	Cookies.set('options', '1101');
-	} else if ($('.option1').data('clicked') && !($('.option2').data('clicked')) && $('.option3').data('clicked') && $('.option4').data('clicked')) {
-	Cookies.set('options', '1011');
-	} else if (!($('.option1').data('clicked')) && $('.option2').data('clicked') && !($('.option3').data('clicked')) && !($('.option4').data('clicked'))) {
-	Cookies.set('options', '0100');
-	} else if (!($('.option1').data('clicked')) && $('.option2').data('clicked') && $('.option3').data('clicked') && !($('.option4').data('clicked'))) {
-	Cookies.set('options', '0110');
-	} else if (!($('.option1').data('clicked')) && $('.option2').data('clicked') && !($('.option3').data('clicked')) && $('.option4').data('clicked')) {
-	Cookies.set('options', '0101');
-	} else if (!($('.option1').data('clicked')) && $('.option2').data('clicked') && $('.option3').data('clicked') && $('.option4').data('clicked')) {
-	Cookies.set('options', '0111');
-	} else if (!($('.option1').data('clicked')) && !($('.option2').data('clicked')) && $('.option3').data('clicked') && !($('.option4').data('clicked'))) {
-	Cookies.set('options', '0010');
-	} else if (!($('.option1').data('clicked')) && !($('.option2').data('clicked')) && $('.option3').data('clicked') && $('.option4').data('clicked')) {
-	Cookies.set('options', '0011');
-	} else if (!($('.option1').data('clicked')) && !($('.option2').data('clicked')) && !($('.option3').data('clicked')) && $('.option4').data('clicked')) {
-	Cookies.set('options', '0001');
-	} else if ($('.option1').data('clicked') && $('.option2').data('clicked') && $('.option3').data('clicked') && $('.option4').data('clicked')) {
-	Cookies.set('options', '1111');
+	if ($('.option1').data('clicked')) {
+	Cookies.set('options2', '1000');
+	} else if ($('.option2').data('clicked')) {
+	Cookies.set('options2', '0100');
+	} else if ($('.option3').data('clicked')) {
+	Cookies.set('options2', '0010');
+	} else if ($('.option4').data('clicked')) {
+	Cookies.set('options2', '0001');
 	} else {
-	alert('ERROR: option does not exit');
+	alert('ERROR: no option selected');
 	}
+	
 	});
-	
-	
 	
 	// less important buttons:
 

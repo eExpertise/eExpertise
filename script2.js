@@ -137,7 +137,7 @@ $(document).ready(function(){
 	} else if ($('.option1').data('clicked') && $('.option2').data('clicked') && $('.option3').data('clicked') && $('.option4').data('clicked')) {
 	Cookies.set('options', '1111');
 	} else {
-	alert('ERROR: option does not exit');
+	alert('ERROR: no option selected');
 	}
 	});
 	
