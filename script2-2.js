@@ -24,7 +24,9 @@ $(document).ready(function(){
 	});
 	
     $('.option1').click(function() {
-
+		
+    $('.option2, .option3 ,option4').data('clicked', !($('.option2, .option3 ,option4').data('clicked')))
+		
     $('.option1').data('clicked', !($(this).data('clicked')))
 
 	if ($('.option1').data('clicked')) {
