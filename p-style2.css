@@ -1,7 +1,6 @@
 
 	html,body {
      margin:0;
-	 padding:0;
 	 height: 100%;
 	 overflow: hidden;
     }
@@ -14,21 +13,16 @@
      font-family: 'dosis', cursive;
      font-size: 2.4em;
 	 text-align: center;
-	 z-index: 2;
 	 line-height: 70px;
+	 text-decoration: none;
 	 text-transform: uppercase;
     }
-	
-	#pre-main {
-	position: relative;
-	bottom: 64px;
-	}
 	
 	.main {
 	 position: relative;
      height: 60%;
 	 text-align: center;
-	 bottom: 100px;
+	 bottom: 80px;
 	}
 	
 	.disc {
@@ -37,7 +31,7 @@
 	position: relative;
 	width: 100%;
 	text-align: center;
-	top: 4.15em;
+	top: 0.15em;
 	font-size: 1.1em;
 	}
 	
@@ -405,8 +399,8 @@
 	}
 	
 	a {
-	 color: inherit;
 	 text-decoration: none;
+	 color: inherit;
 	}
 	
 	#progress {
@@ -417,7 +411,6 @@
 	 width: 50%;
 	 margin: auto;
 	 text-align: center;
-	 top: 2.5em;
 	}
 	
 	.alt-option {

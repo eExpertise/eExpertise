@@ -94,10 +94,7 @@ $(document).ready(function(){
 	// In-the-middle buttons
 	
 	
-    $('#logo').hover(function() {
-    $('#logo').css({'text-decoration':'underline'});
-    }, function() { $('#logo').css({'text-decoration':'none'});
-    });
+
 	
 	$(".next").hover(function() {
 	$(this).css({"text-decoration":"underline"})
@@ -141,7 +138,7 @@ $(document).ready(function(){
 	}
 	});
 	
-	
+
 	
 	// less important buttons:
 
@@ -177,5 +174,10 @@ $(document).ready(function(){
 	
     $(".cta4").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
     $(".animation4").delay(100).fadeToggle(120);
+    });
+	
+	$('#logo').hover(function() {
+    $('#logo').css({'text-decoration':'underline'});
+    }, function() { $('#logo').css({'text-decoration':'none'});
     });
 });

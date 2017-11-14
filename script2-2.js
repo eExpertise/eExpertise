@@ -84,7 +84,7 @@ $(document).ready(function(){
     $('.option2').data('clicked', !($(this).data('clicked')))
 	
 	
-		if ($('.option1').data('clicked')) {
+	if ($('.option1').data('clicked')) {
 	$('.option1').data('clicked', !($('.option1').data('clicked')));
 	} else {
 
