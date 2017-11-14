@@ -19,10 +19,16 @@
 	 text-transform: uppercase;
     }
 	
+	#pre-main {
+	position: relative;
+	bottom: 64px;
+	}
+	
 	.main {
 	 position: relative;
      height: 60%;
 	 text-align: center;
+	 bottom: 100px;
 	}
 	
 	.disc {
@@ -31,7 +37,7 @@
 	position: relative;
 	width: 100%;
 	text-align: center;
-	top: 5em;
+	top: 4.12em;
 	font-size: 1.1em;
 	}
 	
@@ -42,7 +48,7 @@
 	 color: rgb(81, 154, 226);
 	 font-family: 'Saira', sans-serif;
 	 font-size: 2.2em;
-	 top: 2.5em;
+	 top: 3em;
 	}
 	
 	.options {
@@ -306,7 +312,7 @@
 	.test1 {
 	 position: relative;
 	 margin: auto;
-	 height: 36px;
+	 height: 35px;
 	 width: 60%;
      width: 60%;
 	 border-left: 1px black solid;
@@ -319,7 +325,7 @@
 	.test2 {
 	 position: relative;
 	 margin: auto;
-	 height: 36px;
+	 height: 35px;
 	 width: 60%;
      width: 60%;
 	 border-left: 1px black solid;
@@ -332,7 +338,7 @@
 	.test3 {
 	 position: relative;
 	 margin: auto;
-	 height: 36px;
+	 height: 35px;
 	 width: 60%;
      width: 60%;
 	 border-left: 1px black solid;
@@ -345,7 +351,7 @@
 	.test4 {
 	 position: relative;
 	 margin: auto;
-	 height: 36px;
+	 height: 35px;
 	 width: 60%;
      width: 60%;
 	 border-left: 1px black solid;
@@ -411,7 +417,7 @@
 	 width: 50%;
 	 margin: auto;
 	 text-align: center;
-	 top: 1.5em;
+	 top: 2.5em;
 	}
 	
 	.alt-option {
@@ -423,5 +429,6 @@
 	 margin: auto;
 	 font-size: 1.4em;
 	 border: 1px black solid;
+	 bottom: 16px;
 	}
 	
