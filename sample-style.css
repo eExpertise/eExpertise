@@ -26,10 +26,6 @@
     padding: 0;
 	}
 	
-	li {
-	display: inline;
-	}
-	
 	.sample {
 	position: relative;
 	display: inline-block;
@@ -37,7 +33,7 @@
 	font-family: 'Saira', sans-serif;
 	text-shadow: 2px 2px #2280dd;
 	background-color: rgb(81, 154, 226);
-	width: 45%;
+	width: 95%;
 	margin-right: 2%;
 	margin-left: 2%;
 	margin-top: 1%;
@@ -61,7 +57,7 @@
 	background: white;
 	border: 1px black solid;
 	height: 83%;
-	width: 95%;
+	width: 97%;
 	font-size: 0.6em;
 	font-family: 'roboto', sans-serif;
 	color: rgb(81, 154, 226);
