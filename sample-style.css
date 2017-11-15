@@ -27,22 +27,22 @@
 	}
 	
 	.sample {
+	margin: auto;
 	position: relative;
 	display: inline-block;
 	font-size: 2em;
 	font-family: 'Saira', sans-serif;
 	text-shadow: 2px 2px #2280dd;
 	background-color: rgb(81, 154, 226);
-	width: 95%;
-	margin-right: 2%;
-	margin-left: 2%;
+	width: 100%;
 	margin-top: 1%;
-	margin-bottom: 1em;
+	margin-bottom: 5em;
 	color: white;
 	text-align: center;
 	text-transform: uppercase;
-	height: 350px;
-	left: 1%;
+	height: 500px;
+	left: 0;
+	right: 0;
 	top: 1em;
 	}
 	
@@ -53,10 +53,10 @@
 	
 	.text {
 	position: absolute;
-	top: 45px;
+	top: 47px;
 	background: white;
 	border: 1px black solid;
-	height: 83%;
+	height: 81%;
 	width: 97%;
 	font-size: 0.6em;
 	font-family: 'roboto', sans-serif;
@@ -71,7 +71,7 @@
 	.sample-enter {
 	margin: auto;
 	position: absolute;
-	top: 75%;
+	top: 76%;
 	background-color: rgb(245, 118, 0);
 	font-weight: bold;
 	border-radius: 5px;
@@ -85,6 +85,7 @@
 	
 	.sample-enter:hover {
      box-shadow: 3px 3px #cc6300;
+	 text-decoration: underline;
 	}
 	
 	.sample-enter:active {
@@ -95,3 +96,4 @@
 	text-transform: none;
 	color: inherit;
 	}
+	
