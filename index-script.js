@@ -36,7 +36,7 @@ $('#link6').css({'text-decoration':'underline'});
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 350) {
+  if (y > 400) {
     $('#p1').fadeIn(300);
   } else {
     
@@ -45,7 +45,7 @@ $(document).scroll(function() {
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 1000) {
+  if (y > 1040) {
     $('#p2').fadeIn(300);
   } else {
 
@@ -54,7 +54,7 @@ $(document).scroll(function() {
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 1650) {
+  if (y > 1600) {
     $('#p3').fadeIn(300);
   } else {
 
