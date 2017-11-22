@@ -84,7 +84,7 @@ $(document).ready(function(){
     $('.option2').data('clicked', !($(this).data('clicked')))
 	
 	
-		if ($('.option1').data('clicked')) {
+	if ($('.option1').data('clicked')) {
 	$('.option1').data('clicked', !($('.option1').data('clicked')));
 	} else {
 
@@ -278,37 +278,223 @@ $(document).ready(function(){
 	
 	// less important buttons:
 
-	$(".cta1, .cta2, .cta3, .cta4").hover(function() {
+    $(".cta1, .cta2, .cta3, .cta4").hover(function() {
 	$(this).css({"text-decoration":"underline"})
 	}, function(){
 	$(this).css({"text-decoration":"none"})
 	});	
 		
     $(".cta1").click(function(){
-    $(".animation2, .animation3, .animation4").fadeOut(120);
+    $(".cta1").data('clicked', !($(this).data('clicked')))
 	
-    $(".cta1").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
-    $(".animation1").delay(100).fadeToggle(120);
+	if ($('.cta1').data('clicked')) {
+	$(this).css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	} else {
+	$(this).css({"background-color":"white", "color":"black"});
+	}
+	
+	
+	if ($('.cta2').data('clicked')) {
+	$('.cta2').data('clicked', !($('.cta2').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.cta2').data('clicked')) {
+	$(".cta2").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	} else {
+	$(".cta2").css({"background-color":"white", "color":"black"});
+	}
+	
+	
+	if ($('.cta3').data('clicked')) {
+	$('.cta3').data('clicked', !($('.cta3').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.cta3').data('clicked')) {
+	$(".cta3").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	} else {
+	$(".cta3").css({"background-color":"white", "color":"black"});
+	}
+	
+	
+	if ($('.cta4').data('clicked')) {
+	$('.cta3').data('clicked', !($('.cta3').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.cta4').data('clicked')) {
+	$(".cta4").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	} else {
+	$(".cta4").css({"background-color":"white", "color":"black"});
+	}
+	
+    $(".animation2, .animation3, .animation4").fadeOut(200);
+	
+    $(".animation1").delay(150).fadeToggle(200);
     });
 	
-	$(".cta2").click(function(){
-	$(".animation1, .animation3, .animation4").fadeOut(120);
 	
-    $(".cta2").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
-    $(".animation2").delay(100).fadeToggle(120);
+    $(".cta2").click(function(){
+    $(".cta2").data('clicked', !($(this).data('clicked')))
+	
+	if ($('.cta2').data('clicked')) {
+	$(this).css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	} else {
+	$(this).css({"background-color":"white", "color":"black"});
+	}
+	
+	
+	if ($('.cta1').data('clicked')) {
+	$('.cta1').data('clicked', !($('.cta1').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.cta1').data('clicked')) {
+	$(".cta1").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	} else {
+	$(".cta1").css({"background-color":"white", "color":"black"});
+	}
+	
+	
+	if ($('.cta3').data('clicked')) {
+	$('.cta3').data('clicked', !($('.cta3').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.cta3').data('clicked')) {
+	$(".cta3").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	} else {
+	$(".cta3").css({"background-color":"white", "color":"black"});
+	}
+	
+	
+	if ($('.cta4').data('clicked')) {
+	$('.cta4').data('clicked', !($('.cta4').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.cta4').data('clicked')) {
+	$(".cta4").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	} else {
+	$(".cta4").css({"background-color":"white", "color":"black"});
+	}
+	
+    $(".animation1, .animation3, .animation4").fadeOut(200);
+	
+    $(".animation2").delay(150).fadeToggle(200);
     });
 	
-	$(".cta3").click(function(){
-    $(".animation1, .animation2, .animation4").fadeOut(120);
 	
-    $(".cta3").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
-    $(".animation3").delay(100).fadeToggle(120);
+    $(".cta3").click(function(){
+    $(".cta3").data('clicked', !($(this).data('clicked')))
+	
+	if ($('.cta3').data('clicked')) {
+	$(this).css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	} else {
+	$(this).css({"background-color":"white", "color":"black"});
+	}
+	
+	
+	if ($('.cta1').data('clicked')) {
+	$('.cta1').data('clicked', !($('.cta1').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.cta1').data('clicked')) {
+	$(".cta1").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	} else {
+	$(".cta1").css({"background-color":"white", "color":"black"});
+	}
+	
+	
+	if ($('.cta2').data('clicked')) {
+	$('.cta2').data('clicked', !($('.cta2').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.cta2').data('clicked')) {
+	$(".cta2").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	} else {
+	$(".cta2").css({"background-color":"white", "color":"black"});
+	}
+	
+	
+	if ($('.cta4').data('clicked')) {
+	$('.cta4').data('clicked', !($('.cta4').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.cta4').data('clicked')) {
+	$(".cta4").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	} else {
+	$(".cta4").css({"background-color":"white", "color":"black"});
+	}
+	
+    $(".animation1, .animation2, .animation4").fadeOut(200);
+	
+    $(".animation3").delay(150).fadeToggle(200);
     });
 	
-	$(".cta4").click(function(){
-	$(".animation1, .animation2, .animation3").fadeOut(120);
 	
-    $(".cta4").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
-    $(".animation4").delay(100).fadeToggle(120);
+    $(".cta4").click(function(){
+    $(".cta4").data('clicked', !($(this).data('clicked')))
+	
+	if ($('.cta4').data('clicked')) {
+	$(this).css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	} else {
+	$(this).css({"background-color":"white", "color":"black"});
+	}
+	
+	if ($('.cta1').data('clicked')) {
+	$('.cta1').data('clicked', !($('.cta1').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.cta1').data('clicked')) {
+	$(".cta1").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	} else {
+	$(".cta1").css({"background-color":"white", "color":"black"});
+	}
+	
+	
+	if ($('.cta2').data('clicked')) {
+	$('.cta2').data('clicked', !($('.cta2').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.cta2').data('clicked')) {
+	$(".cta2").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	} else {
+	$(".cta2").css({"background-color":"white", "color":"black"});
+	}
+	
+	
+	if ($('.cta3').data('clicked')) {
+	$('.cta3').data('clicked', !($('.cta3').data('clicked')));
+	} else {
+
+	}
+	
+	if ($('.cta3').data('clicked')) {
+	$(".cta3").css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	} else {
+	$(".cta3").css({"background-color":"white", "color":"black"});
+	}
+	
+    $(".animation1, .animation3, .animation2").fadeOut(200);
+	
+    $(".animation4").delay(150).fadeToggle(200);
     });
 });

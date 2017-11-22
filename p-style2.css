@@ -1,34 +1,28 @@
 
 	html,body {
-     margin:0;
-	 padding:0;
-	 height: 100%;
-	 overflow: hidden;
+    margin:0;
+	height: 100%;
+	overflow: hidden;
     }
 	
     .bar {
-     width: auto;
-     height: 70px;
-     background-color: rgb(81, 154, 226);
-     color: rgb(255, 255, 255);
-     font-family: 'dosis', cursive;
-     font-size: 2.4em;
-	 text-align: center;
-	 z-index: 2;
-	 line-height: 70px;
-	 text-transform: uppercase;
+    width: auto;
+    height: 70px;
+    background-color: rgb(81, 154, 226);
+    color: rgb(255, 255, 255);
+    font-family: 'dosis', cursive;
+    font-size: 2.4em;
+	text-align: center;
+	line-height: 70px;
+	text-decoration: none;
+	text-transform: uppercase;
     }
 	
-	#pre-main {
-	position: relative;
-	bottom: 64px;
-	}
-	
 	.main {
-	 position: relative;
-     height: 60%;
-	 text-align: center;
-	 bottom: 100px;
+	position: relative;
+    height: 60%;
+	text-align: center;
+	bottom: 80px;
 	}
 	
 	.disc {
@@ -37,399 +31,379 @@
 	position: relative;
 	width: 100%;
 	text-align: center;
-	top: 4.15em;
+	top: 0.1em;
 	font-size: 1.1em;
 	}
 	
 	.question {
-	 position: relative;
-	 margin: auto;
-	 width: 95%;
-	 color: rgb(81, 154, 226);
-	 font-family: 'Saira', sans-serif;
-	 font-size: 2.2em;
-	 top: 3em;
+	position: relative;
+	margin: auto;
+	width: 95%;
+	color: rgb(81, 154, 226);
+	font-family: 'Saira', sans-serif;
+	font-size: 2.2em;
+	top: 3em;
 	}
 	
 	.options {
-     position: relative;
-	 top: 9.5em;
-	 margin: auto;
-	 width: 100%;
-	 font-family: 'Saira', sans-serif;
-	 color: rgb(255, 255, 255);
-	 padding-top: 10px;
-	 padding-bottom: 10px;
-	 background-color: rgb(255, 255, 255);
+    position: relative;
+	top: 9.5em;
+	margin: auto;
+	width: 100%;
+	font-family: 'Saira', sans-serif;
+	color: rgb(255, 255, 255);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgb(255, 255, 255);
 	}
 	
 	.opt1 {
-	 margin-left: 4px;
-	 margin-right: 2px;
-	 position: relative;
-	 display: inline-block;
-	 width: 18%;
+	margin-left: 4px;
+	margin-right: 2px;
+	position: relative;
+	display: inline-block;
+	width: 18%;
 	}
 	
 	.opt2 {
-	 margin-left: 4px;
-	 margin-right: 3px;
-	 position: relative;
-	 display: inline-block;
-	 width: 18%;
+	margin-left: 4px;
+	margin-right: 3px;
+	position: relative;
+	display: inline-block;
+	width: 18%;
 	}
 	
     .opt3 {
-	 margin-left: 3px;
-	 margin-right: 4px;
-	 position: relative;
-	 display: inline-block;
-	 width: 18%;
+	margin-left: 3px;
+	margin-right: 4px;
+	position: relative;
+	display: inline-block;
+	width: 18%;
 	}
 	
     .opt4 {
-	 margin-left: 2px;
-	 margin-right: 4px;
-	 position: relative;
-	 display: inline-block;
-	 width: 18%;
-	 background-color: rgb(81, 154, 226)
+	margin-left: 2px;
+	margin-right: 4px;
+	position: relative;
+	display: inline-block;
+	width: 18%;
+	background-color: rgb(81, 154, 226)
 	}
 	
 	.border1 {
-	 display: inline-block;
-	 background-color: rgb(81, 154, 226);
-	 width: 100%;
-	 height: 98px;
-	 line-height: 25px;
-	 padding-top: 10px;
-	 padding-bottom: 4px;
+	display: inline-block;
+	background-color: rgb(81, 154, 226);
+	width: 100%;
+	height: 98px;
+	line-height: 25px;
+	padding-top: 10px;
+	padding-bottom: 4px;
 	}
 	
 	.border2 {
-	 display: inline-block;
-	 background-color: rgb(81, 154, 226);
-	 width: 100%;
-	 height: 98px;
-	 line-height: 25px;
-	 padding-top: 10px;
-	 padding-bottom: 4px;
+	display: inline-block;
+	background-color: rgb(81, 154, 226);
+	width: 100%;
+	height: 98px;
+	line-height: 25px;
+	padding-top: 10px;
+	padding-bottom: 4px;
 	}
 	
 	.border3 {
-	 display: inline-block;
-	 background-color: rgb(81, 154, 226);
-	 width: 100%;
-	 height: 98px;
-	 line-height: 25px;
-	 padding-top: 10px;
-	 padding-bottom: 4px;
+	display: inline-block;
+	background-color: rgb(81, 154, 226);
+	width: 100%;
+	height: 98px;
+	line-height: 25px;
+    padding-top: 10px;
+	padding-bottom: 4px;
 	}
 	
 	.border4 {
-	 display: inline-block;
-	 background-color: rgb(81, 154, 226);
-	 width: 100%;
-	 height: 98px;
-	 line-height: 25px;
-	 padding-top: 10px;
-	 padding-bottom: 4px;
+	display: inline-block;
+	background-color: rgb(81, 154, 226);
+	width: 100%;
+	height: 98px;
+	line-height: 25px;
+	padding-top: 10px;
+	padding-bottom: 4px;
 	}
 	
 	.option {
-	 display: inline;
-	 font-size: 1.5em;
-	 font-family: 'Saira', sans-serif;
-	 text-shadow: 2px 2px #2280dd;
-	 background-color: rgb(81, 154, 226);
-	 color: white;
-	 border: none;
-	 text-transform: uppercase;
-	 cursor: pointer;
+	display: inline;
+	font-size: 1.5em;
+	font-family: 'Saira', sans-serif;
+	text-shadow: 2px 2px #2280dd;
+	background-color: rgb(81, 154, 226);
+	color: white;
+	border: none;
+	text-transform: uppercase;
+	cursor: pointer;
 	}
 	
 	.cta1 {
-	 display: inline-block;
-	 color: black;
-	 width: 60%;
-	 background-color: white;
-	 border: 1px black solid;
-	 cursor: pointer;
-	 font-family: 'Saira', sans-serif;
+	display: inline-block;
+	color: black;
+	width: 60%;
+	background-color: white;
+	border: 1px black solid;
+	cursor: pointer;
+	font-family: 'Saira', sans-serif;
 	}
 	
 	.cta2 {
-	 display: inline-block;
-	 color: black;
-	 width: 60%;
-	 background-color: white;
-	 border: 1px black solid;
-	 cursor: pointer;
-	 font-family: 'Saira', sans-serif;
+	display: inline-block;
+	color: black;
+	width: 60%;
+	background-color: white;
+	border: 1px black solid;
+	cursor: pointer;
+	font-family: 'Saira', sans-serif;
 	}
 	
 	.cta3 {
-	 display: inline-block;
-	 color: black;
-	 width: 60%;
-	 background-color: white;
-	 border: 1px black solid;
-	 cursor: pointer;
-	 font-family: 'Saira', sans-serif;
+	display: inline-block;
+	color: black;
+	width: 60%;
+	background-color: white;
+	border: 1px black solid;
+	cursor: pointer;
+	font-family: 'Saira', sans-serif;
 	}
 	
 	.cta4 {
-	 display: inline-block;
-	 color: black;
-	 width: 60%;
-	 background-color: white;
-	 border: 1px black solid;
-	 cursor: pointer;
-	 font-family: 'Saira', sans-serif;
+	display: inline-block;
+	color: black;
+	width: 60%;
+	background-color: white;
+    border: 1px black solid;
+	cursor: pointer;
+	font-family: 'Saira', sans-serif;
 	}
 	
 	.info {
-	 position: relative;
-	 height: 70%;
-     top: 9.5em;
+	position: relative;
+	height: 70%;
+    top: 9.5em;
 	}
 	
 	.info-content {
-	 position: relative;
-	 top: 25px;
-	 height: 60%;
+	position: relative;
+	top: 25px;
+	height: 60%;
 	}
 	
 	.info-right1 {
-     position: absolute;
-	 top: 0;
-	 height: 400px;
-	 width: 100%;
-	 background-image: url("https://i.pinimg.com/originals/2c/98/f8/2c98f88663844be7340d88f82b083cf4.jpg");
-	 background-size: cover;
-	 background-repeat: no-repeat;
-	 background-position: center;
-	 border-bottom: 1px black solid;
+    position: absolute;
+	top: 0;
+	height: 400px;
+	width: 100%;
+	background-image: url("https://i.pinimg.com/originals/2c/98/f8/2c98f88663844be7340d88f82b083cf4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-bottom: 1px black solid;
 	}
 	
 	.info-right2 {
-     position: absolute;
-	 top: 0;
-	 height: 400px;
-	 width: 100%;
-	 background-image: url("https://i.pinimg.com/originals/b9/62/62/b9626235381094d5fc39ae9ccb48283b.jpg");
-	 background-size: cover;
-	 background-repeat: no-repeat;
-	 background-position: 50% 75%;
-	 border-bottom: 1px black solid;
+    position: absolute;
+	top: 0;
+	height: 400px;
+	width: 100%;
+	background-image: url("https://i.pinimg.com/originals/f1/cd/f7/f1cdf7dddfd83441c6e2add40dbd704c.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: 50% 75%;
+	border-bottom: 1px black solid;
 	}
 	
 	.info-right3 {
-     position: absolute;
-	 top: 0;
-	 height: 400px;
-	 width: 100%;
-	 background-image: url("https://i.pinimg.com/originals/84/46/c9/8446c9be5b67b2546b744ce3590ec89a.jpg");
-	 background-size: cover;
-	 background-repeat: no-repeat;
-	 background-position: center;
-	 border-bottom: 1px black solid;
+    position: absolute;
+	top: 0;
+	height: 400px;
+	width: 100%;
+	background-image: url("https://i.pinimg.com/originals/ae/f0/97/aef09796d7e8df4dde8d951e99a7333f.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	border-bottom: 1px black solid;
 	}
 	
 	.info-right4 {
-     position: absolute;
-	 top: 0;
-	 height: 400px;
-	 width: 100%;
-	 background-image: url("https://i.pinimg.com/originals/f7/32/78/f73278b30ea65b7f7563b779f9470821.jpg");
-	 background-size: cover;
-	 background-repeat: no-repeat;
-	 background-position: center;
-	 border-bottom: 1px black solid;
+    position: absolute;
+	top: 0;
+	height: 400px;
+	width: 100%;
+	background-image: url("https://i.pinimg.com/originals/34/00/ae/3400aeb3d5ab5067315b6720c40c414c.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center;
+	border-bottom: 1px black solid;
 	}
 	
 	.info-header1 {
-	 position: absolute;
-	 top: 0;
-	 margin: auto;
-	 width: 100%;
-	 color: white;
-	 font-family: 'Saira', sans-serif;
-	 font-size: 1.8em;
-     right: 0;
-	 left: 0;
-	}
-	
-	.info-header2 {
-	 position: absolute;
-	 top: 0;
-	 margin: auto;
-	 width: 100%;
-	 color: rgb(81, 154, 226);
-	 font-family: 'Saira', sans-serif;
-	 font-size: 1.8em;
-     right: 0;
-	 left: 0;
-	}
-	
-	.info-p1 {
-	 position: relative;
-	 top: 3em;
-	 margin: auto;
-	 width: 80%;
-	 font-family: 'Roboto', sans-serif;
-	 color: rgb(0, 0, 0);
-	 color: rgba(0, 0, 0, 0.8);
-	 font-size: 1.1em;
+	position: absolute;
+	top: 0;
+	margin: auto;
+	width: 100%;
+	color: white;
+	font-family: 'Saira', sans-serif;
+	font-size: 1.8em;
+    right: 0;
+	left: 0;
+	text-shadow: 0px 0px 1px #000, -1px -1px #000, 1px 1px #000;
 	}
 	
 	.info-p2 {
-	 position: relative;
-	 top: 3em;
-	 margin: auto;
-	 width: 80%;
-	 font-family: 'Roboto', sans-serif;
-	 color: white;
-	 font-size: 1.1em;
-	 text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+	position: relative;
+	top: 3em;
+	margin: auto;
+	width: 80%;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 1.1em;
+	text-shadow: 0px 0px 1px #000, -1px -1px #000, 1px 1px #000;
 	}
 	
 	.button {
-	 background-color: white;
-	 border: none;
+	background-color: white;
+	border: none;
 	}
 	
 	.info-bar {
-	 position: absolute;
-	 background-color: rgb(81, 154, 226);
-	 top: 0;
-	 height: 25px;
-	 width: 99.81%;
-	 z-index: 2;
-	 border: 1px black solid;
+	position: absolute;
+	background-color: rgb(81, 154, 226);
+	top: 0;
+	height: 25px;
+	width: 99.81%;
+	z-index: 2;
+	border: 1px black solid;
 	}
 	
 	.test1 {
-	 position: relative;
-	 margin: auto;
-	 height: 36px;
-	 width: 60%;
-     width: 60%;
-	 border-left: 1px black solid;
-	 border-right: 1px black solid;
-	 background-color: rgb(81, 154, 226);
-	 z-index: 5;
-	 bottom: 1px;
+	position: relative;
+	margin: auto;
+	height: 35px;
+	width: 60%;
+    width: 60%;
+	border-left: 1px black solid;
+	border-right: 1px black solid;
+	background-color: rgb(81, 154, 226);
+	z-index: 5;
+	bottom: 1px;
 	}
 	
 	.test2 {
-	 position: relative;
-	 margin: auto;
-	 height: 36px;
-	 width: 60%;
-     width: 60%;
-	 border-left: 1px black solid;
-	 border-right: 1px black solid;
-	 background-color: rgb(81, 154, 226);
-	 z-index: 5;
-	 bottom: 1px;
+	position: relative;
+	margin: auto;
+	height: 35px;
+	width: 60%;
+    width: 60%;
+	border-left: 1px black solid;
+	border-right: 1px black solid;
+	background-color: rgb(81, 154, 226);
+	z-index: 5;
+	bottom: 1px;
 	}
 	
 	.test3 {
-	 position: relative;
-	 margin: auto;
-	 height: 36px;
-	 width: 60%;
-     width: 60%;
-	 border-left: 1px black solid;
-	 border-right: 1px black solid;
-	 background-color: rgb(81, 154, 226);
-	 z-index: 5;
-	 bottom: 1px;
+	position: relative;
+	margin: auto;
+	height: 35px;
+	width: 60%;
+    width: 60%;
+	border-left: 1px black solid;
+	border-right: 1px black solid;
+	background-color: rgb(81, 154, 226);
+	z-index: 5;
+	bottom: 1px;
 	}
 	
 	.test4 {
-	 position: relative;
-	 margin: auto;
-	 height: 36px;
-	 width: 60%;
-     width: 60%;
-	 border-left: 1px black solid;
-	 border-right: 1px black solid;
-	 background-color: rgb(81, 154, 226);
-	 z-index: 5;
-	 bottom: 1px;
+	position: relative;
+	margin: auto;
+	height: 35px;
+	width: 60%;
+    width: 60%;
+	border-left: 1px black solid;
+	border-right: 1px black solid;
+	background-color: rgb(81, 154, 226);
+	z-index: 5;
+	bottom: 1px;
 	}
 	
     .animation1 {
-     display: none;
-	 }
+    display: none;
+	}
 	 
     .animation2 {
-     display: none;
-	 }
+    display: none;
+	}
 	 
     .animation3 {
-     display: none;
-	 }
+    display: none;
+	}
 	 
     .animation4 {
-     display: none;
-	 }
+    display: none;
+	}
 	 
 	.next {
-	 display: none;
-	 position: absolute;
-	 font-family: 'Saira', sans-serif;
-	 text-align: center;
-	 text-transform: uppercase;
-	 font-weight: bold;
-	 background-color: rgb(245, 118, 0); 
-	 border-radius: 5px;
-	 box-shadow: 4px 4px #cc6300;
-	 font-size: 1.9em;
-	 width: 8%;
-	 left: 0;
-	 right: 0;
-	 margin: auto;
-	 top: 160px;
-	 color: white;
+	display: none;
+	position: absolute;
+	font-family: 'Saira', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: rgb(245, 118, 0); 
+	border-radius: 5px;
+	box-shadow: 4px 4px #cc6300;
+	font-size: 1.9em;
+	width: 8%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 160px;
+	color: white;
 	}
 	
 	.next:hover {
-     box-shadow: 3px 3px #cc6300;
+    box-shadow: 3px 3px #cc6300;
 	}
 	
 	.next:active {
-	 box-shadow: 1px 1px #cc6300;
+	box-shadow: 1px 1px #cc6300;
 	}
 	
 	a {
-	 color: inherit;
-	 text-decoration: none;
+    text-decoration: none;
+	color: inherit;
 	}
 	
 	#progress {
-	 position: relative;
-	 font-family: 'saira', sans-serif;
-	 font-size: 1.8em;
-	 color: rgb(81, 154, 226);
-	 width: 50%;
-	 margin: auto;
-	 text-align: center;
-	 top: 2.5em;
+	position: relative;
+	font-family: 'saira', sans-serif;
+	font-size: 1.7em;
+	color: rgb(81, 154, 226);
+	width: 50%;
+	margin: auto;
+	text-align: center;
+
 	}
 	
 	.alt-option {
-	 position: relative;
-	 background-color: rgb(81, 154, 226);
-	 font-family: 'saira', sans-serif;
-	 text-shadow: 2px 2px #2280dd;
-	 text-transform: uppercase;
-	 width: 42%;
-	 margin: auto;
-	 font-size: 1.4em;
-	 border: 1px black solid;
-	 bottom: 16px;
+	position: absolute;
+	background-color: rgb(81, 154, 226);
+	font-family: 'saira', sans-serif;
+	text-shadow: 2px 2px #2280dd;
+	text-transform: uppercase;
+	width: 42%;
+	margin: auto;
+    font-size: 1.4em;
+	border: 1px black solid;
+	top: 200px;
+	right: 0;
+	left: 0;
 	}
 	
