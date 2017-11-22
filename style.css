@@ -131,3 +131,15 @@
     padding-top: 55px;
 	top: 10em;
 	}
+	
+	h1 {
+	display: inline;
+	font-size: inherit;
+	font-weight: inherit;
+	}
+	
+	h2 {
+	display: inline;
+	font-size: inherit;
+	font-weight: inherit;
+	}

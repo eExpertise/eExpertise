@@ -185,7 +185,8 @@
 	font-weight: inherit;
 	}
 	
-	p {
+	h2 {
+	display: inline;
 	font-size: inherit;
 	font-weight: inherit;
 	}
