@@ -144,20 +144,22 @@
 	display: block;
     background: #999999;
     color: white;
-	margin-left: 40%;
+	width: 15px;
+	margin: auto;
     }
     .fa-twitter {
 	display: block;
     background: #999999;
     color: white;
-	margin-right: 2%;
-	margin-left: 2%;
+	width: 15px;
+	margin: auto;
     }
 	.fa-instagram {
 	display: block;
     background: #999999;
     color: white;
-
+	width: 15px;
+	margin: auto;
     }
 	
 	#cta {
@@ -190,3 +192,11 @@
 	font-size: inherit;
 	font-weight: inherit;
 	}
+
+    #footer {
+    border: 1px black solid;
+    width: 13%;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    }
