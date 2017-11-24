@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 	
-$('.header-head').delay(500).fadeIn(500);
+$('.header-head').delay(700).fadeIn(500);
 
 $('#link1').hover(function() {
 $('#link1').css({'text-decoration':'underline'});

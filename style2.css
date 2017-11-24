@@ -157,21 +157,20 @@
     background: #999999;
     color: white;
 	width: 15px;
-	margin: auto;
     }
     .fa-twitter {
 	display: block;
     background: #999999;
 	width: 15px;
     color: white;
-	margin: auto;
+    margin-left: 25px;
+	margin-right: 25px;
     }
 	.fa-instagram {
 	display: block;
 	width: 15px;
     background: #999999;
     color: white;
-	margin: auto;
     }
 	
 	#cta {
@@ -202,9 +201,8 @@
 	}
 
     #footer {
-    border: 1px black solid;
-    width: 13%;
+    width: 17.7%;
     list-style-type: none;
-		margin: auto;
-		padding: 0;
+	margin: auto;
+	padding: 0;
     }

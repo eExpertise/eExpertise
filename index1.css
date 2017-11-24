@@ -145,21 +145,20 @@
     background: #999999;
     color: white;
 	width: 15px;
-	margin: auto;
     }
     .fa-twitter {
 	display: block;
     background: #999999;
     color: white;
 	width: 15px;
-	margin: auto;
+	margin-right: 25px;
+	margin-left: 25px;
     }
 	.fa-instagram {
 	display: block;
     background: #999999;
     color: white;
 	width: 15px;
-	margin: auto;
     }
 	
 	#cta {
@@ -194,9 +193,35 @@
 	}
 
     #footer {
-    border: 1px black solid;
-    width: 13%;
+    width: 17.7%;
     list-style-type: none;
     margin: auto;
     padding: 0;
+    }
+	
+	#logo {
+	}
+	
+	#menu {
+	display: none;
+	}
+	
+    .icon {
+	display: inline-block;
+	float: right;	
+	margin-right: 10%;
+	}
+	
+	@media (max-width:600px) {
+    .nav-option {
+    display: none;
+        }
+		
+	#menu {
+		display: inline;
+	    }
+		
+	.header-head {
+	width: 70%;
+	    }
     }
