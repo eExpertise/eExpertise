@@ -66,5 +66,9 @@ $('#logo').css({'text-decoration':'underline'});
 }, function() { $('#logo').css({'text-decoration':'none'});
 });
 
+function openNav() {
+    document.getElementById("side-bar").style.width = "250px";
+}
+
 
 });
