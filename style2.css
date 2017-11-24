@@ -164,7 +164,8 @@
     background: #999999;
 	width: 15px;
     color: white;
-	margin: auto;
+	margin-right: 35px;
+	margin-left: 35px;
     }
 	.fa-instagram {
 	display: block;
@@ -203,8 +204,8 @@
 
     #footer {
     border: 1px black solid;
-    width: 13%;
+    width: 15%;
     list-style-type: none;
-		margin: auto;
-		padding: 0;
+	margin: auto;
+	padding: 0;
     }
