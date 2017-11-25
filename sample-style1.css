@@ -88,10 +88,11 @@
 	}
 	
 	.container {
-	margin-bottom: 200px;
+	height: 1042px;
 	}
 	
 	.content {
+	display: none;
 	position: relative;
 	overflow:hidden;
     height:1%;
@@ -128,27 +129,27 @@
 	}
 	
 	.content-img-r {
-	border: 1px black solid;
-	display: inline-block;
-	height: 100%;
+	position: relative;
+	height: 80.85%;
 	width: 50%;
 	float: right;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-image: url("https://i.pinimg.com/originals/aa/c9/1a/aac91a3ebababff2805f8a4c828c22bb.jpg");
+	z-index: 1;
 	}
 	
 	.content-img-l {
-	border: 1px black solid;
-	display: inline-block;
-	height: 100%;
+	position: relative;
+	height: 80.85%;
 	width: 50%;
 	float: left;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-image: url("https://i.pinimg.com/originals/aa/c9/1a/aac91a3ebababff2805f8a4c828c22bb.jpg");
+	z-index: 1;
 	}
 	
 	.fa {
