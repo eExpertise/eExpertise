@@ -64,6 +64,7 @@
 	text-align: center;
 	font-size: 36px;
 	text-transform: uppercase;
+	z-index: 2;
 	}
 	
 	#sub-header {
@@ -83,23 +84,25 @@
 	}
 	
 	.header-container {
+	padding: 1px 1px 1px 1px;
 	position: relative;
 	line-height: 200px;
+	height: 20px;
 	}
 	
 	.container {
 	height: 1042px;
 	}
 	
-	.content {
-	display: none;
+	#content {
 	position: relative;
-	overflow:hidden;
-    height:1%;
+    height: 800px;
 	font-family: 'roboto', sans-serif;
 	font-size: 1.3em;
 	text-align: center;
 	top: 100px;
+	width: 80%;
+	margin: auto;
 	}
 	
 	.content-background {
@@ -110,25 +113,51 @@
 	}
 	
 	.content-text-r {
-	width: 49%;
+	padding: 1px 1px 1px 1px;
+	font-size: 1.2em;
+	text-align: center;
+	top: 100px;
+	position: relative;
+    height: 75%;
+	width: 45%;
 	float: right;
 	margin: auto;
 	right: 30px;
+	font-family: 'roboto', arial;
+	}
+	
+	.text-container {
+	overflow: hidden;
+	height: 1%;
 	}
 	
 	.content-text-l {
-	width: 49%;
+	padding: 1px 1px 1px 1px;
+	font-size: 1.2em;
+	text-align: center;
+	top: 100px;
+	position: relative;
+    height:75%;
+	width: 45%;
 	float: left;
 	margin: auto;
 	left: 30px;
+	font-family: 'roboto', arial;
 	}
 	
 	.content-text-center {
-	width: 87%;
+	border: 1px black solid;
+	width: 90%;
 	margin: auto;
+	height: 50%;;
+	}
+	
+	#opt-in {
+	color: rgb(245, 118, 0);
 	}
 	
 	.content-img-r {
+	display: inline-block;
 	position: relative;
 	height: 80.85%;
 	width: 50%;
@@ -141,6 +170,7 @@
 	}
 	
 	.content-img-l {
+	display: inline-block;
 	position: relative;
 	height: 80.85%;
 	width: 50%;
