@@ -36,8 +36,10 @@ $('#link6').css({'text-decoration':'underline'});
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 400) {
-    $('#p1').fadeIn(300);
+  if (y > 450) {
+    $("#p1").animate({
+    opacity: "1"
+    });
   } else {
     
   }
@@ -45,8 +47,10 @@ $(document).scroll(function() {
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 1040) {
-    $('#p2').fadeIn(300);
+  if (y > 1020) {
+    $("#p2").animate({
+    opacity: "1"
+    });
   } else {
 
   }
@@ -54,8 +58,10 @@ $(document).scroll(function() {
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 1600) {
-    $('#p3').fadeIn(300);
+  if (y > 1400) {
+    $("#p3").animate({
+    opacity: "1"
+    });
   } else {
 
   }
