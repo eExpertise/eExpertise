@@ -50,7 +50,7 @@ $(document).scroll(function() {
   if (y > 1020) {
     $("#p2").animate({
     opacity: "1"
-    });
+    })
   } else {
 
   }
@@ -58,7 +58,7 @@ $(document).scroll(function() {
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 1400) {
+  if (y > 1000) {
     $("#p3").animate({
     opacity: "1"
     });
