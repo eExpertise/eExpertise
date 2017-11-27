@@ -201,12 +201,14 @@
 	display: block;
     background: #999999;
     color: white;
+	height: 15px;
 	width: 15px;
     }
     .fa-twitter {
 	display: block;
     background: #999999;
     color: white;
+	height: 15px;
 	width: 15px;
 	margin-right: 25px;
 	margin-left: 25px;
@@ -215,6 +217,7 @@
 	display: block;
     background: #999999;
     color: white;
+	height: 15px;
 	width: 15px;
     }
 	
@@ -246,7 +249,7 @@
 	}
 	
     #footer {
-    width: 17.7%;
+    width: 225px;
     list-style-type: none;
     margin: auto;
     padding: 0;

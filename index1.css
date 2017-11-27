@@ -145,15 +145,15 @@
 	display: block;
     background: #999999;
     color: white;
-	height: 5%;
-	width: 7%;
+	height: 15px;
+	width: 15px;
     }
     .fa-twitter {
 	display: block;
     background: #999999;
     color: white;
-	height: 5%;
-	width: 7%;
+	height: 15px;
+	width: 15px;
 	margin-right: 25px;
 	margin-left: 25px;
     }
@@ -161,8 +161,8 @@
 	display: block;
     background: #999999;
     color: white;
-	height: 5%;
-	width: 7%;
+	height: 15px;
+	width: 15px;
     }
 	
 	#cta {
@@ -197,7 +197,7 @@
 	}
 
     #footer {
-    width: 18%;
+    width: 225px;
     list-style-type: none;
     margin: auto;
     padding: 0;
@@ -263,5 +263,13 @@
 	@media (max-width:700px) {
 	.header-opt {
 	width: 80%;	
+	    }
+		
+	.header-head {
+	top: 2em;
+	    }
+		
+	.header {
+	height: 12em;
 	    }
 	}
