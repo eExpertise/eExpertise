@@ -31,7 +31,7 @@
     position: relative;
  	width: 100%;
 	text-align: center;
-	top: 0.12em;
+	top: 0.2em;
 	font-size: 1.1em;
 	}
 	
@@ -42,8 +42,8 @@
 	width: 95%;
 	color: rgb(81, 154, 226);
 	font-family: 'Saira', sans-serif;
-	font-size: 2.2em;
-	top: 3em;
+	font-size: 2.5em;
+	top: 2em;
 	}
 	
 	.options {
@@ -64,7 +64,7 @@
 	margin-right: 2px;
 	position: relative;
 	display: inline-block;
-	width: 18%;
+	width: 24%;
 	}
 	
 	.opt2 {
@@ -72,7 +72,7 @@
 	margin-right: 3px;
 	position: relative;
 	display: inline-block;
-	width: 18%;
+	width: 24%;
 	}
 	
     .opt3 {
@@ -80,7 +80,7 @@
 	margin-right: 4px;
 	position: relative;
 	display: inline-block;
-	width: 18%;
+	width: 24%;
 	}
 	
     .opt4 {
@@ -88,7 +88,7 @@
 	margin-right: 4px;
 	position: relative;
 	display: inline-block;
-	width: 18%;
+	width: 24%;
 	background-color: rgb(81, 154, 226)
 	}
 	
@@ -356,7 +356,7 @@
 	border-radius: 5px;
 	box-shadow: 4px 4px #cc6300;
     font-size: 2em;
-	width: 8%;
+	width: 270px;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -453,9 +453,11 @@
 	}
 	
 	footer {
+	position: absolute;
 	background-color: rgb(230, 230, 230);
 	height: 130px;
 	width: 100%;
+	bottom: 0;
 	}
 	
 	ul {
