@@ -47,23 +47,23 @@ $(document).scroll(function() {
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 1020) {
+  if (y > 1050) {
     $("#p2").animate({
     opacity: "1"
-    })
+    });
   } else {
-
+    
   }
 });
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 1000) {
+  if (y > 850) {
     $("#p3").animate({
     opacity: "1"
     });
   } else {
-
+    
   }
 });
 
