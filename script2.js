@@ -153,8 +153,10 @@ $(document).ready(function(){
 	
 	if ($('.cta1').data('clicked')) {
 	$(this).css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	$("footer").delay(100).hide();
 	} else {
 	$(this).css({"background-color":"white", "color":"black"});
+	$("footer").delay(100).show();
 	}
 	
 	
@@ -196,9 +198,9 @@ $(document).ready(function(){
 	$(".cta4").css({"background-color":"white", "color":"black"});
 	}
 	
-    $(".animation2, .animation3, .animation4").fadeOut(200);
+    $(".animation2, .animation3, .animation4").fadeOut(250);
 	
-    $(".animation1").delay(150).fadeToggle(200);
+    $(".animation1").delay(150).fadeToggle(250);
     });
 	
 	
@@ -207,8 +209,10 @@ $(document).ready(function(){
 	
 	if ($('.cta2').data('clicked')) {
 	$(this).css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	$("footer").delay(120).hide();
 	} else {
 	$(this).css({"background-color":"white", "color":"black"});
+	$("footer").delay(120).show();
 	}
 	
 	
@@ -250,9 +254,9 @@ $(document).ready(function(){
 	$(".cta4").css({"background-color":"white", "color":"black"});
 	}
 	
-    $(".animation1, .animation3, .animation4").fadeOut(200);
+    $(".animation1, .animation3, .animation4").fadeOut(250);
 	
-    $(".animation2").delay(150).fadeToggle(200);
+    $(".animation2").delay(150).fadeToggle(250);
     });
 	
 	
@@ -261,8 +265,10 @@ $(document).ready(function(){
 	
 	if ($('.cta3').data('clicked')) {
 	$(this).css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	$("footer").delay(120).hide();
 	} else {
 	$(this).css({"background-color":"white", "color":"black"});
+	$("footer").delay(120).show();
 	}
 	
 	
@@ -304,9 +310,9 @@ $(document).ready(function(){
 	$(".cta4").css({"background-color":"white", "color":"black"});
 	}
 	
-    $(".animation1, .animation2, .animation4").fadeOut(200);
+    $(".animation1, .animation2, .animation4").fadeOut(250);
 	
-    $(".animation3").delay(150).fadeToggle(200);
+    $(".animation3").delay(150).fadeToggle(250);
     });
 	
 	
@@ -315,8 +321,10 @@ $(document).ready(function(){
 	
 	if ($('.cta4').data('clicked')) {
 	$(this).css({"background-color":"rgb(81, 154, 226)", "color":"white"});
+	$("footer").delay(120).hide();
 	} else {
 	$(this).css({"background-color":"white", "color":"black"});
+	$("footer").delay(120).show();
 	}
 	
 	if ($('.cta1').data('clicked')) {
@@ -357,9 +365,9 @@ $(document).ready(function(){
 	$(".cta3").css({"background-color":"white", "color":"black"});
 	}
 	
-    $(".animation1, .animation3, .animation2").fadeOut(200);
+    $(".animation1, .animation3, .animation2").fadeOut(250);
 	
-    $(".animation4").delay(150).fadeToggle(200);
+    $(".animation4").delay(150).fadeToggle(250);
     });
 	
 	
