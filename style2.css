@@ -19,7 +19,7 @@
 	.nav-option {
 	line-height: 70px;
 	font-size: 0.5em;
-	font-family: 'roboto', sans-serif;
+	font-family: 'roboto', arial;
 	text-transform: uppercase;
 	margin-right: 35px;
 	margin-left: 35px;
@@ -45,7 +45,7 @@
 	background-position: bottom center;
 	margin: auto;
 	text-align: center;
-	font-family: 'saira', sans-serif;
+	font-family: 'saira', arial;
 	color: white;
 	font-size: 2.5em;
 	}
@@ -63,7 +63,7 @@
 	position: relative;
 	margin: auto;
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', arial;
 	color: white;
 	height: 1.5em;
 	font-size: 0.6em;
@@ -73,7 +73,7 @@
 	
 	.content-header {
 	position: relative;
-	font-family: 'Saira', sans-serif;
+	font-family: 'Saira', arial;
 	font-size: 2.5em;
 	color: rgb(81, 154, 226);
 	text-align: center;
@@ -94,7 +94,7 @@
 	
 	.content-p {
 	position: relative;
-	font-family: 'roboto', sans-serif;
+	font-family: 'roboto', arial;
 	opacity: 0;
 	color: rgb(0, 0, 0);
 	color: rgba(0, 0, 0, 0.85);
@@ -163,7 +163,7 @@
 	#cta {
     position: relative;
 	font-size: 1.5em;
-	font-family: 'saira', sans-serif;
+	font-family: 'saira', arial;
 	color: rgb(81, 154, 226);
 	top: 5px;
 	width: 50%;

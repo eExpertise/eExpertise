@@ -96,7 +96,7 @@
 	#content {
 	position: relative;
     height: 800px;
-	font-family: 'roboto', sans-serif;
+	font-family: 'roboto', arial;
 	font-size: 1.3em;
 	text-align: center;
 	top: 100px;
@@ -223,7 +223,7 @@
 	#cta {
     position: relative;
 	font-size: 1.5em;
-	font-family: 'saira', sans-serif;
+	font-family: 'saira', arial;
 	color: rgb(81, 154, 226);
 	top: 5px;
 	width: 50%;

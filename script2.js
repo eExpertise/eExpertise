@@ -43,9 +43,11 @@ $(document).ready(function(){
     $('.option1').data('clicked', !($(this).data('clicked')))
 	
     if ($('.option1').data('clicked') || $('.option2').data('clicked') || $('.option3').data('clicked') || $('.option4').data('clicked')) {
-    $('#next').fadeIn(200);
+    $("#next-disc").fadeOut(100);
+	$('#next').css({"color":"white","text-shadow":"4px 4px #cc6300;","cursor":"pointer"});
     } else {
-    $('#next').fadeOut(200);
+	$("#next-disc").fadeIn(100);
+    $('#next').css({"color":"#ffa34d","text-shadow":"1px 1px #cc6300;"});
     }
     });
 	

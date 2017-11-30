@@ -25,7 +25,7 @@
 	}
 	
 	.disc {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', arial;
 	margin: auto;
 	position: relative;
 	width: 100%;
@@ -39,7 +39,7 @@
 	margin: auto;
 	width: 95%;
 	color: rgb(81, 154, 226);
-	font-family: 'Saira', sans-serif;
+	font-family: 'Saira', arial;
 	font-size: 2.5em;
 	top: 2em;
 	}
@@ -49,7 +49,7 @@
 	top: 9.5em;
 	margin: auto;
 	width: 100%;
-	font-family: 'Saira', sans-serif;
+	font-family: 'Saira', arial;
 	color: rgb(255, 255, 255);
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -132,7 +132,7 @@
 	.option {
 	display: inline;
 	font-size: 1.5em;
-	font-family: 'Saira', sans-serif;
+	font-family: 'Saira', arial;
 	text-shadow: 2px 2px #2280dd;
 	background-color: rgb(81, 154, 226);
 	color: white;
@@ -148,7 +148,7 @@
 	background-color: white;
 	border: 1px black solid;
 	cursor: pointer;
-	font-family: 'Saira', sans-serif;
+	font-family: 'Saira', arial;
 	}
 	
 	.cta2 {
@@ -158,7 +158,7 @@
 	background-color: white;
 	border: 1px black solid;
 	cursor: pointer;
-	font-family: 'Saira', sans-serif;
+	font-family: 'Saira', arial;
 	}
 	
 	.cta3 {
@@ -168,7 +168,7 @@
 	background-color: white;
 	border: 1px black solid;
 	cursor: pointer;
-	font-family: 'Saira', sans-serif;
+	font-family: 'Saira', arial;
 	}
 	
 	.cta4 {
@@ -178,7 +178,7 @@
 	background-color: white;
     border: 1px black solid;
 	cursor: pointer;
-	font-family: 'Saira', sans-serif;
+	font-family: 'Saira', arial;
 	}
 	
 	.info {
@@ -247,7 +247,7 @@
 	margin: auto;
 	width: 100%;
 	color: white;
-	font-family: 'Saira', sans-serif;
+	font-family: 'Saira', arial;
 	font-size: 1.8em;
     right: 0;
 	left: 0;
@@ -259,7 +259,7 @@
 	top: 3em;
 	margin: auto;
 	width: 100%;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', arial;
 	color: white;
 	font-size: 1.1em;
 	text-shadow: 0px 0px 1px #000, -1px -1px #000, 1px 1px #000;
@@ -351,7 +351,7 @@
 	.next {
 	display: none;
 	position: absolute;
-	font-family: 'Saira', sans-serif;
+	font-family: 'Saira', arial;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -382,7 +382,7 @@
 	
 	#progress {
 	position: relative;
-	font-family: 'saira', sans-serif;
+	font-family: 'saira', arial;
 	font-size: 1.7em;
 	color: rgb(81, 154, 226);
 	width: 50%;
@@ -394,7 +394,7 @@
 	.alt-option {
 	position: absolute;
 	background-color: rgb(81, 154, 226);
-	font-family: 'saira', sans-serif;
+	font-family: 'saira', arial;
 	text-shadow: 2px 2px #2280dd;
 	text-transform: uppercase;
 	width: 42%;
@@ -460,7 +460,7 @@
 	#cta {
     position: relative;
 	font-size: 1.5em;
-	font-family: 'saira', sans-serif;
+	font-family: 'saira', arial;
 	color: rgb(81, 154, 226);
 	top: 5px;
 	width: 50%;

@@ -105,7 +105,7 @@
 	position: relative;
 	margin: auto;
 	font-size: 0.9em;
-    font-family: 'Saira', sans-serif;
+    font-family: 'Saira', arial;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -114,6 +114,19 @@
 	box-shadow: 1px 1px #cc6300;
 	width: 280px;
 	color: #ffa34d;
+	}
+	
+	#link {
+	cursor: default;
+	}
+	
+	#next-disc {
+	font-family: 'roboto', arial;
+	font-size: 0.5em;
+	position: relative;
+	width: 90%;
+	margin: auto;
+	top: 50px;
 	}
 	
 	a {
@@ -163,7 +176,7 @@
 	#cta {
     position: relative;
 	font-size: 1.5em;
-	font-family: 'saira', sans-serif;
+	font-family: 'saira', arial;
 	color: rgb(81, 154, 226);
 	top: 5px;
 	width: 50%;
