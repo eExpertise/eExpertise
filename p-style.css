@@ -1,6 +1,6 @@
 
-	html,body {
-    margin:0;
+	body {
+    margin:0px;
     }
 	
     #bar {
@@ -15,25 +15,105 @@
 	text-decoration: none;
     }
 	
+	#logo:hover {
+	text-decoration: underline;
+	}
+	
+	#pre-expl {
+	font-size: 0.75em;
+	color: rgb(81, 154, 226);
+	}
+	
+	#expl {
+	position: relative;
+	color: rgb(245, 118, 0);
+	font-size: 2.3em;
+	font-family: 'saira', arial;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	top: 5px;
+	}
+	
+	#sub-expl {
+	color: black;
+	color: rgba(0, 0, 0, 0.9);
+	font-family: 'roboto', arial;
+	font-size: 0.55em;
+	}
+	
+	
 	.header {
 	display: inline-block;
 	position: relative;
 	background-color: rgb(81, 154, 226);
-	font-size: 2em;
+	font-size: 2.3em;
 	height: 100px;
 	color: white;
 	font-family: 'saira', arial;
 	text-shadow: 2px 2px #2280dd;
-	width: 100%;
+	width: 250px;
 	text-align: center;
 	text-transform: uppercase;
-	margin-right: 5px;
-	margin-left: 5px;
+	margin: auto;
+	top: 60px;
+    -webkit-box-shadow: 0px 12px 60px -17px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 12px 60px -17px rgba(0,0,0,0.75);
+    box-shadow: 0px 12px 60px -17px rgba(0,0,0,0.75);
+	z-index: 1;
+	line-height: 100px;
 	}
 	
-	#header-container {
-	width: 90%;
+	.header:hover {
+	text-decoration: underline;
+	} 
+	
+	#container {
+	text-align: center;
+	width: 100%;
+	}
+	
+	.option-container {
+	display: inline-block;
+	width: 250px;
+	margin: 22px 22px 100px 22px;
+	}
+	
+	.info-container {
+	position: absolute;
+	width: 100%;
+	right: 0;
+	left: 0;
+	height: 20%;
+	}
+	
+	.option-info {
+	display: none;
+	position: relative;
+	width: 80%;
+	font-family: 'roboto', arial;
+	font-size: 1.3em;
+	text-align:  center;
+	color: black;
+	color: rgba(0, 0, 0, 0.9);
 	margin: auto;
+	top: 90px;
+	}
+	
+	#next {
+	top: 30px;
+	position: relative;
+	margin: auto;
+	font-size: 0.9em;
+    font-family: 'Saira', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: rgb(245, 118, 0); 
+	border-radius: 5px;
+	box-shadow: 1px 1px #cc6300;
+	width: 280px;
+	color: #ffa34d;
 	}
 	
 	a {
