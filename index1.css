@@ -241,6 +241,13 @@
 	
 	#logo {
 	}
+
+    #link1 {
+    font-size: 18px;
+    color: rgb(245, 118, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    }
 	
 	#menu {
 	display: none;
