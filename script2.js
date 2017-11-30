@@ -18,21 +18,29 @@ $(document).ready(function(){
 	// The most important buttons:
 	
 	$(".option1").mouseenter(function() {
-	$("#info2, #info3, #info").fadeOut(200);
+	$(".option2, .option3, .option4").css({"text-decoration":"none"});
+	$(this).css({"text-decoration":"underline"});
+	$("#info2, #info3, #info4").fadeOut(200);
 	$("#info1").delay(50).fadeIn(200);
 	});
 	
 	$(".option2").mouseenter(function() {
+	$(".option1, .option3, .option4").css({"text-decoration":"none"});
+	$(this).css({"text-decoration":"underline"});
 	$("#info1, #info3, #info4").fadeOut(200);
 	$("#info2").delay(50).fadeIn(200);
 	});
 	
 	$(".option3").mouseenter(function() {
+	$(".option1, .option2, .option4").css({"text-decoration":"none"});
+	$(this).css({"text-decoration":"underline"});
 	$("#info1, #info2, #info4").fadeOut(200);
 	$("#info3").delay(50).fadeIn(200);
 	});
 	
 	$(".option4").mouseenter(function() {
+	$(".option1, .option2, .option3").css({"text-decoration":"none"});
+	$(this).css({"text-decoration":"underline"});
 	$("#info1, #info2, #info3").fadeOut(200);
 	$("#info4").delay(50).fadeIn(200);
 	});
@@ -44,10 +52,10 @@ $(document).ready(function(){
 	
     if ($('.option1').data('clicked') || $('.option2').data('clicked') || $('.option3').data('clicked') || $('.option4').data('clicked')) {
     $("#next-disc").fadeOut(100);
-	$('#next').css({"color":"white","text-shadow":"4px 4px #cc6300;","cursor":"pointer"});
+	$('#next').css({"color":"white","box-shadow":"4px 4px #cc6300;","cursor":"pointer"});
     } else {
 	$("#next-disc").fadeIn(100);
-    $('#next').css({"color":"#ffa34d","text-shadow":"1px 1px #cc6300;"});
+    $('#next').css({"color":"#ffa34d","box-shadow":"1px 1px #cc6300;"});
     }
     });
 	
