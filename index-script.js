@@ -44,12 +44,12 @@ $('#logo').css({'text-decoration':'underline'});
 
 $("#menu").click(function(){
 $("#slide-bar").animate({width:"100%"});
-$("#menu2").delay(100).fadeIn(100);
+$("#menu2").delay(280).fadeIn(150);
 });
 
 $("#closebtn").click(function() {
 $("#slide-bar").animate({width:"0"});
-$("#menu2").fadeOut(100);
+$("#menu2").fadeOut(150);
 });
 
 });
