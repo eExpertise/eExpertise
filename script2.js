@@ -50,11 +50,17 @@ $(document).ready(function(){
 
     $('.option1').data('clicked', !($(this).data('clicked')))
 	
+	if ($(".option1").data('clicked')) {
+	$(this).css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(this).css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
+	
     if ($('.option1').data('clicked') || $('.option2').data('clicked') || $('.option3').data('clicked') || $('.option4').data('clicked')) {
-    $("#next-disc").fadeOut(100);
+    $("#next-disc").css({"opacity":"0"});
 	$('#next').css({"color":"white","box-shadow":"4px 4px #cc6300;","cursor":"pointer"});
     } else {
-	$("#next-disc").fadeIn(100);
+	$("#next-disc").css({"opacity":"1"});
     $('#next').css({"color":"#ffa34d","box-shadow":"1px 1px #cc6300;"});
     }
     });
@@ -62,33 +68,57 @@ $(document).ready(function(){
 	$('.option2').click(function() {
    
     $('.option2').data('clicked', !($(this).data('clicked')))
+	
+	if ($(".option2").data('clicked')) {
+	$(this).css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(this).css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
 
     if ($('.option1').data('clicked') || $('.option2').data('clicked') || $('.option3').data('clicked') || $('.option4').data('clicked')) {
-    $('#next').fadeIn(200);
+    $("#next-disc").css({"opacity":"0"});
+	$('#next').css({"color":"white","box-shadow":"4px 4px #cc6300;","cursor":"pointer"});
     } else {
-    $('#next').fadeOut(200);
+	$("#next-disc").css({"opacity":"1"});
+    $('#next').css({"color":"#ffa34d","box-shadow":"1px 1px #cc6300;"});
     }
     });
 	
 	$('.option3').click(function() {
    
     $('.option3').data('clicked', !($(this).data('clicked')))
+	
+	if ($(".option3").data('clicked')) {
+	$(this).css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(this).css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
 
     if ($('.option1').data('clicked') || $('.option2').data('clicked') || $('.option3').data('clicked') || $('.option4').data('clicked')) {
-    $('#next').fadeIn(200);
+    $("#next-disc").css({"opacity":"0"});
+	$('#next').css({"color":"white","box-shadow":"4px 4px #cc6300;","cursor":"pointer"});
     } else {
-    $('#next').fadeOut(200);
+	$("#next-disc").css({"opacity":"1"});
+    $('#next').css({"color":"#ffa34d","box-shadow":"1px 1px #cc6300;"});
     }
     });
 	
 	$('.option4').click(function() {
    
     $('.option4').data('clicked', !($(this).data('clicked')))
+	
+	if ($(".option4").data('clicked')) {
+	$(this).css({"text-shadow":"none", "color":"#7cb3e9"});
+	} else {
+	$(this).css({"text-shadow":"2px 2px #2280dd", "color":"white"});
+	}
 
     if ($('.option1').data('clicked') || $('.option2').data('clicked') || $('.option3').data('clicked') || $('.option4').data('clicked')) {
-    $('#next').fadeIn(200);
+    $("#next-disc").css({"opacity":"0"});
+	$('#next').css({"color":"white","box-shadow":"4px 4px #cc6300;","cursor":"pointer"});
     } else {
-    $('#next').fadeOut(200);
+	$("#next-disc").css({"opacity":"1"});
+    $('#next').css({"color":"#ffa34d","box-shadow":"1px 1px #cc6300;"});
     }
     });
 	

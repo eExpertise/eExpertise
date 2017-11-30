@@ -47,7 +47,7 @@
 	display: inline-block;
 	position: relative;
 	background-color: rgb(81, 154, 226);
-	font-size: 2.3em;
+	font-size: 2.5em;
 	height: 100px;
 	color: white;
 	font-family: 'saira', arial;
@@ -62,6 +62,7 @@
     box-shadow: 0px 12px 60px -17px rgba(0,0,0,0.75);
 	z-index: 1;
 	line-height: 100px;
+	cursor: pointer;
 	}
 	
 	.header:hover {
@@ -98,6 +99,10 @@
 	color: rgba(0, 0, 0, 0.9);
 	margin: auto;
 	top: 90px;
+	}
+	
+	.highlight {
+	color: rgb(81, 154, 226);
 	}
 	
 	#next {
@@ -215,3 +220,4 @@
 	font-size: inherit;
 	font-weight: inherit;
 	}
+	
