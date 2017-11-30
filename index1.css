@@ -88,7 +88,7 @@
 	margin: auto;
     width: 50%;
 	height: 10%;
-	top: 6.5em;
+	top: 4.5em;
 	display: none;
 	}
 	
@@ -105,7 +105,7 @@
     width: 40%;
 	line-height: 1.5em;
 	border: 1px white solid;
-	top: 4em;
+	top: 1em;
 	}
 	
 	.content-header {
@@ -123,10 +123,8 @@
 	.container {
 	position: relative;
 	width: 100%;
-	overflow:hidden;
-    height:1%;
 	top: 2em;
-	margin-top: 100px;
+	margin-top: 10%;
 	}
 	
 	.content-p {
