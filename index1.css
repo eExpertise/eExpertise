@@ -132,17 +132,13 @@
 	font-family: 'roboto', sans-serif;
 	opacity: 0;
 	color: rgb(0, 0, 0);
-	color: rgba(0, 0, 0, 0.85);
+	color: rgba(0, 0, 0, 0.9);
 	text-align: center;
 	top: 0.5em;
 	width: 70%;
 	text-align: center;
 	margin: auto;
 	font-size: 1.3em;
-	}
-	
-	.end {
-	height: 400px;
 	}
 	
 	.link:hover {
@@ -213,10 +209,6 @@
     #menu2 {
     display: none;
     }
-
-	#height {
-	height: 400px;
-	}
 	
 	h1 {
 	display: inline;
@@ -252,10 +244,6 @@
 	float: left;	
 	margin-left: 10%;
     cursor: pointer;
-	}
-	
-    .icon {
-
 	}
 	
 	@media (max-width:600px) {
