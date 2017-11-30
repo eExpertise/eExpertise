@@ -9,12 +9,36 @@
     height: 70px;
     background-color: rgb(81, 154, 226);
     color: rgb(255, 255, 255);
-    font-family: 'saira', cursive;
+    font-family: 'saira', arial;
     font-size: 2.4em;
 	text-align: center;
-	z-index: 2;
 	line-height: 60px;
+	z-index: 9;
     }
+	
+	#slide-bar {
+	position: fixed;
+    width: 0;
+    height: 100%;
+    background-color: rgb(81, 154, 226);
+	z-index: 9;
+	line-height: 70px;
+	font-size: 1.5em;
+	font-family: 'roboto', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	line-height: 100px;
+	}
+	
+	#closebtn {
+	font-size: 2em;
+	margin-left: 10px;
+	}
+	
+	.menu-opt {
+	margin-left: 10px;
+    text-align: center;
+	}
 	
 	.nav-option {
 	line-height: 70px;
@@ -23,6 +47,10 @@
 	text-transform: uppercase;
 	margin-right: 35px;
 	margin-left: 35px;
+	}
+	
+	.options {
+	margin-left: 10px;
 	}
 	
 	ul {
@@ -35,19 +63,24 @@
 	display: inline;
 	}
 	
+	.menu-opt {
+    display: block;
+    width: 60px;
+	}
+	
 	.header {
-	position: relative;
-	height: 18.5em;
-	width: 100%;
-	background-image: url("https://i.pinimg.com/originals/75/d1/16/75d1160ce7439cdbb7b06de15df41eb5.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: bottom center;
-	margin: auto;
-	text-align: center;
-	font-family: 'saira', sans-serif;
-	color: white;
-	font-size: 2.5em;
+    position: relative;
+    height: 18.5em;
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/75/d1/16/75d1160ce7439cdbb7b06de15df41eb5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    margin: auto;
+    text-align: center;
+    font-family: 'saira', sans-serif;
+    color: white;
+    font-size: 2.5em;
 	}
 	
 	.header-head {
@@ -114,6 +147,10 @@
 	height: 400px;
 	}
 	
+	.link:hover {
+	text-decoration: underline;	
+	}
+	
 	footer {
 	background-color: rgb(230, 230, 230);
 	height: 130px;
@@ -175,12 +212,12 @@
 	text-align: center;
 	}
 
+    #menu2 {
+    display: none;
+    }
+
 	#height {
 	height: 400px;
-	}
-	
-	#link1 {
-    color: rgb(245, 118, 0);
 	}
 	
 	h1 {
@@ -207,31 +244,14 @@
 	
 	#menu {
 	display: none;
-	}
-	
-	#slide-bar {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    left: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-	}
-	
-	.option {
-	font-size: 1em;
-	font-family: 'saira', sans-serif;
-	color: white;
-	
-	}
-	
-    .icon {
 	display: inline-block;
 	float: left;	
 	margin-left: 10%;
+    cursor: pointer;
+	}
+	
+    .icon {
+
 	}
 	
 	@media (max-width:600px) {
