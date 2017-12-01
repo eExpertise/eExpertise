@@ -17,7 +17,7 @@ $(document).scroll(function() {
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 1050) {
+  if (y > 980) {
     $("#p2").animate({
     opacity: "1"
     });

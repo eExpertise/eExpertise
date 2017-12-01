@@ -1,27 +1,18 @@
-$.fn.clickToggle = function(a, b) {
-    return this.each(function() {
-        var clicked = false;
-        $(this).click(function() {
-            if (clicked) {
-                clicked = false;
-                return b.apply(this, arguments);
-            }
-            clicked = true;
-            return a.apply(this, arguments);
-        });
-    });
-};
-
 
 $(document).ready(function(){
-	
-	// The most important buttons:
-	
+	$(document).width();
+
 	$(".option1").mouseenter(function() {
 	$(".option2, .option3, .option4").css({"text-decoration":"none"});
 	$(this).css({"text-decoration":"underline"});
 	$("#info2, #info3, #info4").fadeOut(20);
 	$("#info1").delay(50).fadeIn(200);
+	
+	if ($(document).width() <= 1200) {
+	$("#option-container2, #option-container3, #option-container4").animate({marginBottom:"22px"}, "slow");
+	$("#option-container1").animate({marginBottom:"400px", "slow"});	
+	} else {	
+	}
 	});
 	
 	$(".option2").mouseenter(function() {
@@ -29,6 +20,12 @@ $(document).ready(function(){
 	$(this).css({"text-decoration":"underline"});
 	$("#info1, #info3, #info4").fadeOut(20);
 	$("#info2").delay(50).fadeIn(200);
+	
+	if ($(document).width() <= 1200) {
+	$("#option-container1, #option-container4, #option-container3").animate({marginBottom:"22px"}, "slow");
+	$("#option-container2").animate({marginBottom:"400px", "slow"});	
+	} else {	
+	}
 	});
 	
 	$(".option3").mouseenter(function() {
@@ -36,6 +33,12 @@ $(document).ready(function(){
 	$(this).css({"text-decoration":"underline"});
 	$("#info1, #info2, #info4").fadeOut(20);
 	$("#info3").delay(50).fadeIn(200);
+	
+	if ($(document).width() <= 1200) {
+	$("#option-container1, #option-container2, #option-container4").animate({marginBottom:"22px"}, "slow");
+	$("#option-container3").animate({marginBottom:"400px", "slow"});	
+	} else {	
+	}
 	});
 	
 	$(".option4").mouseenter(function() {
@@ -43,6 +46,12 @@ $(document).ready(function(){
 	$(this).css({"text-decoration":"underline"});
 	$("#info1, #info2, #info3").fadeOut(200);
 	$("#info4").delay(50).fadeIn(200);
+	
+	if ($(document).width() <= 1200) {
+	$("#option-container1, #option-container2, #option-container3").animate({marginBottom:"22px"}, "slow");
+	$("#option-container4").animate({marginBottom:"400px", "slow"});	
+	} else {	
+	}
 	});
 	
 	
