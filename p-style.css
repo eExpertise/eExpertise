@@ -36,10 +36,10 @@
 	}
 	
 	#sub-expl {
-	color: black;
-	color: rgba(0, 0, 0, 0.9);
-	font-family: 'roboto', arial;
-	font-size: 0.55em;
+	color: rgb(81, 154, 226);
+	font-family: 'saira', arial;
+	font-size: 0.75em;
+	bottom: 10px;
 	}
 	
 	
@@ -57,9 +57,8 @@
 	text-transform: uppercase;
 	margin: auto;
 	top: 60px;
-    -webkit-box-shadow: 0px 12px 60px -17px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 12px 60px -17px rgba(0,0,0,0.75);
-    box-shadow: 0px 12px 60px -17px rgba(0,0,0,0.75);
+	box-shadow: 4px 4px hsl(210, 71%, 47%);
+    border-radius: 5px;
 	z-index: 1;
 	line-height: 100px;
 	cursor: pointer;
@@ -77,7 +76,27 @@
 	.option-container {
 	display: inline-block;
 	width: 250px;
-	margin: 22px 22px 100px 22px;
+	margin: 22px 22px 0px 22px;
+	}
+	
+	#info-disc1 {
+	display: none;
+	color: rgb(81, 154, 226);
+	}
+	
+	#info-disc2 {
+	display: none;
+	color: rgb(81, 154, 226);
+	}
+	
+	#info-disc3 {
+	display: none;
+	color: rgb(81, 154, 226);
+	}
+	
+	#info-disc4 {
+	display: none;
+	color: rgb(81, 154, 226);
 	}
 	
 	.info-container {
@@ -99,6 +118,7 @@
 	color: rgba(0, 0, 0, 0.9);
 	margin: auto;
 	top: 90px;
+	z-index: 1;
 	}
 	
 	.highlight {
@@ -139,81 +159,6 @@
 	color: inherit;
 	text-decoration: inherit;
 	}
-	
-    .fa {
-	position: relative;
-	top: 10px;
-    padding: 20px;
-    font-size: 40px;
-    width: 20px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    }
-	
-    .fa:hover {
-    opacity: 0.7;
-    }
-
-    .fa-facebook {
-	display: block;
-    background: #999999;
-    color: white;
-	height: 15px;
-	width: 15px;
-    }
-    .fa-twitter {
-	display: block;
-    background: #999999;
-    color: white;
-	height: 15px;
-	width: 15px;
-	margin-right: 25px;
-	margin-left: 25px;
-    }
-	.fa-instagram {
-	display: block;
-    background: #999999;
-    color: white;
-	height: 15px;
-	width: 15px;
-    }
-	
-	#cta {
-    position: relative;
-	font-size: 1.5em;
-	font-family: 'saira', arial;
-	color: rgb(81, 154, 226);
-	top: 5px;
-	width: 50%;
-	margin: auto;
-	text-align: center;
-	}
-	
-	footer {
-	position: absolute;
-	background-color: rgb(230, 230, 230);
-	height: 130px;
-	width: 100%;
-	bottom: 0;
-	}
-	
-	ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-	}
-	
-	li {
-	display: inline;
-	}
-	
-    #footer {
-    width: 225px;
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    }
 	
 	h1, h2 {
 	display: inline;
