@@ -10,7 +10,7 @@ $(document).ready(function(){
 	
 	if ($(document).width() <= 420) {
 	$("#option-container3, #option-container2, #option-container4").animate({marginBottom:"22px"}, "4000");
-	$("#option-container1").animate({marginBottom:"680px"}, "2000");	
+	$("#option-container1").animate({marginBottom:"700px"}, "2000");	
 	} else if ($(document).width() <= 620) {	
 	$("#option-container3, #option-container2, #option-container4").animate({marginBottom:"22px"}, "4000");
 	$("#option-container1").animate({marginBottom:"520px"}, "2000");
@@ -32,7 +32,7 @@ $(document).ready(function(){
 	
 	if ($(document).width() <= 420) {
 	$("#option-container3, #option-container4, #option-container1").animate({marginBottom:"22px"}, "4000");
-	$("#option-container2").animate({marginBottom:"550px"}, "2000");	
+	$("#option-container2").animate({marginBottom:"600px"}, "2000");	
 	} else if ($(document).width() <= 620) {	
 	$("#option-container3, #option-container4, #option-container1").animate({marginBottom:"22px"}, "4000");
 	$("#option-container2").animate({marginBottom:"420px"}, "2000");
@@ -54,7 +54,7 @@ $(document).ready(function(){
 	
 	if ($(document).width() <= 420) {
 	$("#option-container4, #option-container2, #option-container1").animate({marginBottom:"22px"}, "4000");
-	$("#option-container3").animate({marginBottom:"680px"}, "2000");	
+	$("#option-container3").animate({marginBottom:"720px"}, "2000");	
 	} else if ($(document).width() <= 620) {	
 	$("#option-container4, #option-container2, #option-container1").animate({marginBottom:"22px"}, "4000");
 	$("#option-container3").animate({marginBottom:"500px"}, "2000");
@@ -76,7 +76,7 @@ $(document).ready(function(){
 	
 	if ($(document).width() <= 420) {
 	$("#option-container3, #option-container2, #option-container1").animate({marginBottom:"22px"}, "4000");
-	$("#option-container4").animate({marginBottom:"580px"}, "2000");	
+	$("#option-container4").animate({marginBottom:"720px"}, "2000");	
 	} else if ($(document).width() <= 620) {	
 	$("#option-container3, #option-container2, #option-container1").animate({marginBottom:"22px"}, "4000");
 	$("#option-container4").animate({marginBottom:"520px"}, "2000");
