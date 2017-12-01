@@ -10,7 +10,7 @@ $(document).ready(function(){
 	
 	if ($(document).width() <= 620) {
 	$("#option-container4, #option-container3, #option-container3").animate({marginBottom:"22px"}, "4000");
-	$("#option-container1").animate({marginBottom:"480px"}, "2000");	
+	$("#option-container1").animate({marginBottom:"490px"}, "2000");	
 	} else if ($(document).width() <= 1200) {	
 	$("#option-container3, #option-container4").animate({marginBottom:"22px"}, "4000");
 	$("#option-container1").animate({marginBottom:"400px"}, "2000");	
@@ -26,7 +26,7 @@ $(document).ready(function(){
 	
 	if ($(document).width() <= 620) {
 	$("#option-container4, #option-container3, #option-container1").animate({marginBottom:"22px"}, "4000");
-	$("#option-container2").animate({marginBottom:"410px"}, "2000");	
+	$("#option-container2").animate({marginBottom:"420px"}, "2000");	
 	} else if ($(document).width() <= 1200) {
     $("#option-container4, #option-container3").animate({marginBottom:"22px"}, "4000");
 	$("#option-container2").animate({marginBottom:"400px"}, "2000");
@@ -42,7 +42,7 @@ $(document).ready(function(){
 	
 	if ($(document).width() <= 620) {
 	$("#option-container4, #option-container1, #option-container2").animate({marginBottom:"22px"}, "4000");
-	$("#option-container3").animate({marginBottom:"480px"}, "2000");	
+	$("#option-container3").animate({marginBottom:"490px"}, "2000");	
 	} else if ($(document).width() <= 1200) {	
 	$("#option-container1, #option-container2").animate({marginBottom:"22px"}, "4000");
 	$("#option-container3").animate({marginBottom:"400px"}, "2000");
@@ -58,7 +58,7 @@ $(document).ready(function(){
 	
 	if ($(document).width() <= 620) {
 	$("#option-container3, #option-container2, #option-container1").animate({marginBottom:"22px"}, "4000");
-	$("#option-container4").animate({marginBottom:"410px"}, "2000");	
+	$("#option-container4").animate({marginBottom:"420px"}, "2000");	
 	} else if ($(document).width() <= 1200) {	
 	$("#option-container1, #option-container2").animate({marginBottom:"22px"}, "4000");
 	$("#option-container4").animate({marginBottom:"400px"}, "2000");
