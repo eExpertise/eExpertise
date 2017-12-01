@@ -8,10 +8,13 @@ $(document).ready(function(){
 	$("#info2, #info3, #info4").fadeOut(20);
 	$("#info1").delay(50).fadeIn(200);
 	
-	if ($(document).width() <= 1200) {
-	$("#option-container2, #option-container3, #option-container4").animate({marginBottom:"22px"}, "slow");
-	$("#option-container1").animate({marginBottom:"400px", "slow"});	
-	} else {	
+	if ($(document).width() <= 620) {
+	$("#option-container4, #option-container3, #option-container3").animate({marginBottom:"22px"}, "4000");
+	$("#option-container1").animate({marginBottom:"480px"}, "2000");	
+	} else if ($(document).width() <= 1200) {	
+	$("#option-container3, #option-container4").animate({marginBottom:"22px"}, "4000");
+	$("#option-container1").animate({marginBottom:"400px"}, "2000");	
+	} else {
 	}
 	});
 	
@@ -21,10 +24,13 @@ $(document).ready(function(){
 	$("#info1, #info3, #info4").fadeOut(20);
 	$("#info2").delay(50).fadeIn(200);
 	
-	if ($(document).width() <= 1200) {
-	$("#option-container1, #option-container4, #option-container3").animate({marginBottom:"22px"}, "slow");
-	$("#option-container2").animate({marginBottom:"400px", "slow"});	
-	} else {	
+	if ($(document).width() <= 620) {
+	$("#option-container4, #option-container3, #option-container1").animate({marginBottom:"22px"}, "4000");
+	$("#option-container2").animate({marginBottom:"410px"}, "2000");	
+	} else if ($(document).width() <= 1200) {
+    $("#option-container4, #option-container3").animate({marginBottom:"22px"}, "4000");
+	$("#option-container2").animate({marginBottom:"400px"}, "2000");
+	} else {
 	}
 	});
 	
@@ -34,10 +40,13 @@ $(document).ready(function(){
 	$("#info1, #info2, #info4").fadeOut(20);
 	$("#info3").delay(50).fadeIn(200);
 	
-	if ($(document).width() <= 1200) {
-	$("#option-container1, #option-container2, #option-container4").animate({marginBottom:"22px"}, "slow");
-	$("#option-container3").animate({marginBottom:"400px", "slow"});	
-	} else {	
+	if ($(document).width() <= 620) {
+	$("#option-container4, #option-container1, #option-container2").animate({marginBottom:"22px"}, "4000");
+	$("#option-container3").animate({marginBottom:"480px"}, "2000");	
+	} else if ($(document).width() <= 1200) {	
+	$("#option-container1, #option-container2").animate({marginBottom:"22px"}, "4000");
+	$("#option-container3").animate({marginBottom:"400px"}, "2000");
+	} else {
 	}
 	});
 	
@@ -47,10 +56,13 @@ $(document).ready(function(){
 	$("#info1, #info2, #info3").fadeOut(200);
 	$("#info4").delay(50).fadeIn(200);
 	
-	if ($(document).width() <= 1200) {
-	$("#option-container1, #option-container2, #option-container3").animate({marginBottom:"22px"}, "slow");
-	$("#option-container4").animate({marginBottom:"400px", "slow"});	
-	} else {	
+	if ($(document).width() <= 620) {
+	$("#option-container3, #option-container2, #option-container1").animate({marginBottom:"22px"}, "4000");
+	$("#option-container4").animate({marginBottom:"410px"}, "2000");	
+	} else if ($(document).width() <= 1200) {	
+	$("#option-container1, #option-container2").animate({marginBottom:"22px"}, "4000");
+	$("#option-container4").animate({marginBottom:"400px"}, "2000");
+	} else {
 	}
 	});
 	
@@ -205,10 +217,6 @@ $(document).ready(function(){
 	event.preventDefault();
 	alert('ERROR: No options selected. you pick an option by clicking on either HARDWARE, DESIGN, SOFTWARE and/or GAMING.');
 	}
-	});
-	
-	$("#next").click(function() {
-	$
 	});
 	
 });
