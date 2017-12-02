@@ -10,7 +10,7 @@ $(document).ready(function(){
 	
 	if ($(document).width() <= 420) {
 	$("#option-container3, #option-container2, #option-container4").animate({marginBottom:"22px"}, "4000");
-	$("#option-container1").animate({marginBottom:"800px"}, "2000");	
+	$("#option-container1").animate({marginBottom:"820px"}, "2000");	
 	} else if ($(document).width() <= 620) {	
 	$("#option-container3, #option-container2, #option-container4").animate({marginBottom:"22px"}, "4000");
 	$("#option-container1").animate({marginBottom:"520px"}, "2000");
