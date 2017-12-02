@@ -1,5 +1,3 @@
-                                                              <!DOCTYPE html>
-
 <html><head>
 <title>eExpertise | Tailor your lessons</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300|Saira" rel="stylesheet">
@@ -20,280 +18,108 @@
 <meta name="keywords" content="HTML, CSS, JavaScript">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="/favicon/favicon.png" type="image/png" rel="icon"/>
-<link rel="stylesheet" type="text/css" href="p-style2.css">
+<link rel="stylesheet" type="text/css" href="p-style.css">
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="script2-2.js"></script>
-<style>
-body:before {
-  content: url("https://i.pinimg.com/originals/2c/98/f8/2c98f88663844be7340d88f82b083cf4.jpg")
-           url("https://i.pinimg.com/originals/f1/cd/f7/f1cdf7dddfd83441c6e2add40dbd704c.jpg")
-		   url("https://i.pinimg.com/originals/ae/f0/97/aef09796d7e8df4dde8d951e99a7333f.jpg")
-           url("https://i.pinimg.com/originals/34/00/ae/3400aeb3d5ab5067315b6720c40c414c.jpg");
-
-  background-image: url("https://i.pinimg.com/originals/34/00/ae/3400aeb3d5ab5067315b6720c40c414c.jpg");
-  visibility: hidden;
-  position: absolute;
-  left: -999em;
-}
-</style>
+<script type="text/javascript" src="script2.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
 
-<div class="bar">
+<div id="bar">
 <a id="logo" href="index">eExpertise</a>
 </div>
 
 
+<div id="main">
 
-<div id="progress">
-2/2 
+<div id="expl">
+<div id="pre-expl">1/2 questions completed</div>
+<h1>How experienced are you with computers and tech?</h1>
+
+
+<a id="link" href="personalization2"><div id="next">Next question</div></a>
+<div id="next-disc">You need to select one option before continuing</div>
 </div>
 
-<div class="disc header">
-Before you can subscribe we need to personalize your content! You can pick as many subjects as you like.
-</div>
+<div id="container">
 
-
-
-<div class="main">
-
-<div class="question header">
-<h1>
-How experienced are you with computers and tech?
-</h1>
-</div>
-
-<div class="options">
-
-<div class="opt1">
-
-<div class="border1"> <div class="option option1">
-click to pick beginner
-</div> <br><br> <div><div class="cta1">Learn more</div><div class="test1 animation1">
-</div></div></div>
-
-</div>
-
-<div class="opt2">
-
-<div class="border2"> <div class="option option2">
-learning
-</div> <br><br> <div><div class="cta2">Learn more</div><div class="test2 animation2">
-</div></div></div>
-
-</div>
-
-<div class="opt3">
-
-<div class="border3"> 
-
-<div class="option option3">
-familiar
-</div>
-
- <br><br> <div><div class="cta3">Learn more</div><div class="test3 animation3">
-</div></div></div>
-
-</div>
-
-<div class="opt4">
-
-<div class="border4"> <div class="option option4">
-adept
-</div> <br><br><div><div class="cta4">Learn more</div><div class="test4 animation4">
-</div></div></div>
-
-</div>
-
-</div>
-
-<div class="next">
-<a href="thankyou">Next question</a>
-</div>
-
-<div class="info animation1">
-<div class="info-bar">
-</div>
-
-<div class="info-content">
-
-
-<div class="info-pic">
-</div>
-
-
-<div class="info-right1">
-
-<div class="info-header1">
-How will we customize our content to your skill?
-</div>
-
-<div class="info-p2">
-<p>
+<div id="option-container1" class="option-container">
+<div class="header option1"><h2>beginner</h2></div>
+<div class="info-container">
+<div id="info1" class="option-info"><p>
 As a complete beginner, you have no previous knowledge of computer and technology and have little to no understanding of computers in general.
-You may have some knowledge about computers or technology but you don't know how hardware, software, graphic design or gaming works fully yet. This
-option is great to start with as we will go through every detail we can and give sources on places for aquiring knowledge on your own.
+You may have some knowledge about computers or technology but you don't know how hardware, software, graphic design or gaming works fully yet. <span class="highlight">This
+option is great to start with</span> as we will go through every detail we can and give sources on places for aquiring knowledge on your own.
 </p>
 <p>
-As a beginner, you will get more thoroughly explained tips and we will teach you the basics of the subjects you picked before anything else.
+As a beginner, you will get <span class="highlight">thoroughly explained tips</span> and we will teach you the basics of the subjects you picked before anything else.
 </p>
-<div class="alt-option option1">
-click here to pick beginner
+<p id="info-disc1">You have picked Beginner as your experience level</p>
+<p class="mobile-disc1">Tap the option to select it</p>
+</div>
+</div>
 </div>
 
-</div>
-
-</div>
-
-
-
-</div>
-
-</div>
-
-
-
-<div class="info animation2">
-<div class="info-bar">
-</div>
-
-<div class="info-content">
-
-
-<div class="info-pic">
-</div>
-
-
-<div class="info-right2">
-
-<div class="info-header1">
-How will we customize our content to your skill?
-</div>
-
-<div class="info-p2">
-<p>
-by picking this you are still very new to the computer scene but have started learning about the computer niche you are intrested in, you may have
+<div id="option-container2" class="option-container">
+<div class="header option2"><h2>learning</h2></div>
+<div class="info-container">
+<div id="info2" class="option-info"><p>
+by picking this you are still new to the computer scene but have <span class="highlight">started learning about the computer hobby</span> you are intrested in, you may have
  started to research how to build a computer or maybe you have started a project, but you  do not have the experience or knowledge required
  to call yourself an expert.
 </p>
 <p>
-We will tailor our product to you by still keeping the explainations thorough but we will go into more advanced things faster and not explain every
+We will tailor our product to you by still keeping the explainations thorough but we will go into <span class="highlight">more advanced things</span> faster and not explain every
 detail.
 </p>
-<div class="alt-option option2">
-click here to pick learning
+<p id="info-disc2">You have picked Learning as your experience level</p>
+<p class="mobile-disc2">Tap the option to select it</p>
+</div>
+</div>
 </div>
 
-</div>
-
-</div>
-
-
-
-</div>
-
-</div>
-
-
-
-<div class="info animation3">
-<div class="info-bar">
-</div>
-
-<div class="info-content">
-
-
-<div class="info-pic">
-</div>
-
-
-<div class="info-right3">
-
-<div class="info-header1">
-How will we customize our content to your skill?
-</div>
-
-<div class="info-p2">
+<div id="option-container3" class="option-container">
+<div class="header option3"><h2>software</h2></div>
+<div class="info-container">
+<div id="info3" class="option-info"><p>
 <p>
 As a person who is familiar to computers and tech, you already have an amount of involvement in your hobby and you are looking to try more 
 </p>
 <p>
-We will tailor your product by starting with advanced lessons and skip the basics. This means that if you picked hardware, for instance,
+We will tailor your product by starting with advanced lessons and <span class="highlight">skip the basics</span>. This means that if you picked hardware, for instance,
  you will be taught how to build a computer but rather how to overclock or how to do modify to your electronics to the likes of custom water
  cooling.
 </p>
-<div class="alt-option option3">
-click here to pick familiar
+<p id="info-disc3">You have picked familiar as your experience level</p>
+<p class="mobile-disc3">Tap the option to select it</p>
+</div>
+</div>
 </div>
 
-</div>
-
-</div>
-
-
-
-</div>
-
-</div>
-
-
-
-<div class="info animation4">
-<div class="info-bar">
-</div>
-
-<div class="info-content">
-
-
-<div class="info-pic">
-</div>
-
-
-<div class="info-right4">
-
-<div class="info-header1">
-How will we customize our content to your skill?
-</div>
-
-<div class="info-p2">
-<p>
+<div id="option-container4" class="option-container">
+<div class="header option4"><h2>gaming</h2></div>
+<div class="info-container">
+<div id="info4" class="option-info"><p>
 As someone who is adept, you have a large amount of knowledge and you feel comfortable in the knowledge you have and is able to teach 
-others basics of your computer; it is very little you don't already know. 
+others basics of your computer; <span class="highlight">it is very little you don't already know</span>. 
 </p>
 <p>
-We will tailor your content by only sending the most advanced lessons and tips. 
+We will tailor your content by only sending <span class="highlight">the most advanced lessons and tips</span>. 
 </p>
 <p>
 NOTE: we suggest you don't start with this skill group; there is probably much more to your niche that you do not know which would make 
-this skill level confusing, but if you are truly confident in your knowledge, go ahead.
+this skill level confusing, but if you are truly confident in your knowledge, go ahead. 
 </p>
-<div class="alt-option option3">
-click here to pick adept
-</div>
-</div>
-
+<p id="info-disc4">You have picked Adept as your experience level</p>
+<p class="mobile-disc4">Tap the option to select it</p>
+</div></div>
 </div>
 
 </div>
 
 </div>
-
-
-
-</div>
-
-</div>
-
 <footer>
-<div id="cta">Follow us on:</div>
-<ul id="footer">
-<li><a href="#" class="fa fa-facebook"></a></li>
-<li><a href="#" class="fa fa-twitter"></a></li>
-<li><a href="#" class="fa fa-instagram"></a></li>
-</ul>
 </footer>
 </body>
 </html>
