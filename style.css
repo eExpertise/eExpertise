@@ -52,7 +52,6 @@
 	width: 800px;
 	margin: auto;
 	text-transform: uppercase;
-	border: 1px black solid;
     }
     
     #button {
@@ -85,6 +84,7 @@
     }
 	
 	.fb-like {
+	display: inline-block;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -109,6 +109,7 @@
     padding: 0;
     padding-top: 55px;
 	top: 10em;
+	text-align: center;
 	}
 	
 	h1 {
@@ -211,5 +212,28 @@
 	#main {
 	width: 100%;
 	margin: 0;
+	    }
+	}
+	
+	@media (max-width:370px) {
+	#button {
+	width: 99%;
+	    }
+	}
+	
+	@media (max-width:600px) {
+	#pre-list {
+	font-size: 1em;
+	    }
+	#main {
+	font-size: 2em;
+	    }
+		
+	#what {
+	top: 4.5em;
+	    }
+	
+	#button {
+	top: 3em;
 	    }
 	}
