@@ -35,11 +35,6 @@
 	margin-left: 10px;
 	}
 	
-	.menu-opt {
-	margin-left: 10px;
-    text-align: center;
-	}
-	
 	.nav-option {
 	line-height: 70px;
 	font-size: 0.5em;
@@ -102,7 +97,7 @@
 	border: 1px solid white;
 	text-transform: uppercase;
 	font-size: 0.6em;
-    width: 40%;
+    width: 220px;
 	line-height: 1.5em;
 	border: 1px white solid;
 	top: 1em;
@@ -254,27 +249,9 @@
 	#menu {
 		display: inline;
 	    }
-		
-	.header-head {
-	width: 70%;
-	    }
-		
-	.header-opt {
-	width: 90%;
-	top: 2em;
-	    }
     }
-	
-	@media (max-width:1200px) {
-	.header-opt {
-	width: 65%;	
-	    }
-	}
-	
+
 	@media (max-width:700px) {
-	.header-opt {
-	width: 80%;	
-	    }
 		
 	.header-head {
 	top: 2em;
