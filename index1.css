@@ -254,6 +254,7 @@
 	@media (max-width:700px) {
 		
 	.header-head {
+	width: 100%;
 	top: 2em;
 	    }
 		
