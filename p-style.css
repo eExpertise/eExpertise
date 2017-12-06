@@ -24,17 +24,19 @@
 	font-size: 0.5em;
 	color: black;
 	color: rgba(0, 0, 0, 0.9);
+	font-weight: normal;
 	}
 	
 	#expl {
 	position: relative;
 	color: rgb(245, 118, 0);
-	font-size: 2.3em;
+	font-size: 2.5em;
 	font-family: 'saira', arial;
 	width: 90%;
 	margin: auto;
 	text-align: center;
 	top: 10px;
+	font-weight: bold;
 	}
 	
 	.header {
@@ -125,7 +127,7 @@
 	top: 30px;
 	position: relative;
 	margin: auto;
-	font-size: 0.9em;
+	font-size: 0.8em;
     font-family: 'Saira', arial;
 	text-align: center;
 	text-transform: uppercase;
@@ -151,6 +153,7 @@
 	top: 50px;
 	color: black;
 	color: rgba(0, 0, 0, 0.9);
+	font-weight: normal;
 	}
 	
 	a {
