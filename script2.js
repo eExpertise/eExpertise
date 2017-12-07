@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 	$(document).width();
-
+    
 	$(".option1").mouseenter(function() {
 	$(".option2, .option3, .option4").css({"text-decoration":"none"});
 	$(this).css({"text-decoration":"underline"});
