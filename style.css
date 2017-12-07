@@ -31,7 +31,6 @@
     #main {
     text-transform: uppercase;
     margin: auto;
-    width: 800px;
     position: relative;
     font-family: 'Saira', arial;
     font-size: 2.5em;
@@ -84,7 +83,7 @@
     }
 	
 	.fb-like {
-	width: 230px;
+	width: 330px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -97,7 +96,7 @@
 	position: relative;
 	color: rgb(0, 0, 0);
 	color: rgba(0, 0, 0, 0.8);
-	font-family: 'roboto', arial;
+	font-family: 'Open sans', arial;
 	width: 100%;
 	text-align: center;
 	top: 6.5em;

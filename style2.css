@@ -9,20 +9,43 @@
     height: 70px;
     background-color: rgb(81, 154, 226);
     color: rgb(255, 255, 255);
-    font-family: 'saira', cursive;
+    font-family: 'saira', arial;
     font-size: 2.4em;
 	text-align: center;
-	z-index: 2;
 	line-height: 60px;
+	z-index: 9;
     }
+	
+	#slide-bar {
+	position: fixed;
+    width: 0;
+    height: 100%;
+    background-color: rgb(81, 154, 226);
+	z-index: 9;
+	line-height: 70px;
+	font-size: 1.5em;
+	font-family: 'Open sans', arial;
+	text-transform: uppercase;
+	color: white;
+	line-height: 100px;
+	}
+	
+	#closebtn {
+	font-size: 2em;
+	margin-left: 10px;
+	}
 	
 	.nav-option {
 	line-height: 70px;
 	font-size: 0.5em;
-	font-family: 'roboto', arial;
+	font-family: 'Open sans', arial;
 	text-transform: uppercase;
 	margin-right: 35px;
 	margin-left: 35px;
+	}
+	
+	.options {
+	margin-left: 10px;
 	}
 	
 	ul {
@@ -35,46 +58,51 @@
 	display: inline;
 	}
 	
+	.menu-opt {
+    display: block;
+    width: 60px;
+	}
+	
 	.header {
-	position: relative;
-	height: 18.5em;
-	width: 100%;
-	background-image: url("https://i.pinimg.com/originals/75/d1/16/75d1160ce7439cdbb7b06de15df41eb5.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: bottom center;
-	margin: auto;
-	text-align: center;
-	font-family: 'saira', arial;
-	color: white;
-	font-size: 2.5em;
+    position: relative;
+    height: 18.5em;
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/03/a4/85/03a485c070109709a5e1f7fc1ce0368d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    text-align: center;
+    font-family: 'saira', arial;
+    color: white;
+    font-size: 2.5em;
 	}
 	
 	.header-head {
-	position: relative;
-	margin: auto;
+    position: relative;
     width: 90%;
-	height: 10%;
-	top: 6.5em;
-	display: none;
+    height: 10%;
+    top: 6.5em;
+    display: none;
+    margin: auto;
 	}
 	
 	.header-opt {
 	position: relative;
-	margin: auto;
-	text-align: center;
-	font-family: 'Roboto', arial;
-	color: white;
-	height: 1.5em;
-	font-size: 0.6em;
+    text-align: center;
+    font-family: Open sans, arial;
+    color: white;
+    height: 1.5em;
+    font-size: 0.6em;
     width: 90%;
-	line-height: 1.5em;
+    line-height: 1.5em;
+    margin: auto;
 	}
 	
 	.content-header {
 	position: relative;
 	font-family: 'Saira', arial;
-	font-size: 2.5em;
+	font-size: 2.7em;
 	color: rgb(81, 154, 226);
 	text-align: center;
 	text-transform: uppercase;
@@ -86,18 +114,20 @@
 	.container {
 	position: relative;
 	width: 100%;
-	overflow:hidden;
-    height:1%;
 	top: 2em;
-	margin-top: 100px;
+	margin-top: 10%;
+	}
+	
+	#height {
+	margin-top: 5%;
 	}
 	
 	.content-p {
 	position: relative;
-	font-family: 'roboto', arial;
+	font-family: 'Open sans', arial;
 	opacity: 0;
 	color: rgb(0, 0, 0);
-	color: rgba(0, 0, 0, 0.85);
+	color: rgba(0, 0, 0, 0.9);
 	text-align: center;
 	top: 0.5em;
 	width: 70%;
@@ -106,8 +136,8 @@
 	font-size: 1.3em;
 	}
 	
-	.end {
-	height: 400px;
+	.link:hover {
+	text-decoration: underline;	
 	}
 	
 	footer {
@@ -171,15 +201,17 @@
 	text-align: center;
 	}
 
-	#height {
-	height: 400px;
+    #menu2 {
+    display: none;
+    }
+	
+	h1 {
+	display: inline;
+	font-size: inherit;
+	font-weight: inherit;
 	}
 	
-	#link1 {
-    color: rgb(245, 118, 0);
-	}
-	
-	h1, h2 {
+	h2 {
 	display: inline;
 	font-size: inherit;
 	font-weight: inherit;
@@ -193,4 +225,67 @@
     }
 	
 	#logo {
+	}
+
+    #link1 {
+    color: rgb(245, 118, 0);
+    }
+	
+	#menu {
+	display: none;
+	float: left;	
+	margin-left: 10%;
+    cursor: pointer;
+	}
+	
+	.highlight {
+	color: rgb(245, 118, 0);
+	}
+	
+	@media (max-width:600px) {
+    .nav-option {
+    display: none;
+        }
+		
+	#menu {
+	display: inline;
+	    }
+		
+	.content-header {
+	width: 100%;
+	    }
+    }
+
+	@media (max-width:750px) {
+		
+	.header-head {
+	width: 100%;
+	top: 2em;
+	    }
+		
+	.content-p {
+	font-size: 1em;
+	    }
+	}
+	
+	#arrow {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgb(81, 154, 226);
+	font-size: 47px;
+	color: white;
+	text-align: center;
+	margin: auto;
+	z-index: 1;
+	line-height: 57px;
+	top: 540px;
+	right: 0;
+	left: 0;
+	cursor: pointer;
+	}
+	
+	#arrow:hover {
+	background-color: #66a6e5;
 	}

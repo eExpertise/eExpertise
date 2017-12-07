@@ -1,6 +1,7 @@
 
 	body {
     margin:0px;
+	overflow-y: scroll;
     }
 	
     #bar {
@@ -20,16 +21,17 @@
 	}
 	
 	#pre-expl {
-	font-family: 'roboto', arial;
+	font-family: 'Open sans', arial;
 	font-size: 0.5em;
 	color: black;
 	color: rgba(0, 0, 0, 0.9);
+	font-weight: normal;
 	}
 	
 	#expl {
 	position: relative;
 	color: rgb(245, 118, 0);
-	font-size: 2.3em;
+	font-size: 2.5em;
 	font-family: 'saira', arial;
 	width: 90%;
 	margin: auto;
@@ -107,7 +109,7 @@
 	display: none;
 	position: relative;
 	width: 80%;
-	font-family: 'roboto', arial;
+	font-family: 'Open sans', arial;
 	font-size: 1.3em;
 	text-align:  center;
 	color: black;
@@ -125,7 +127,7 @@
 	top: 30px;
 	position: relative;
 	margin: auto;
-	font-size: 0.9em;
+	font-size: 0.8em;
     font-family: 'Saira', arial;
 	text-align: center;
 	text-transform: uppercase;
@@ -143,7 +145,7 @@
 	}
 	
 	#next-disc {
-	font-family: 'roboto', arial;
+	font-family: 'Open sans', arial;
 	font-size: 0.5em;
 	position: relative;
 	width: 90%;
@@ -151,6 +153,7 @@
 	top: 50px;
 	color: black;
 	color: rgba(0, 0, 0, 0.9);
+	font-weight: normal;
 	}
 	
 	a {
