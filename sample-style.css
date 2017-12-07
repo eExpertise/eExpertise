@@ -21,7 +21,7 @@
 	}
 	
 	#pre-expl {
-	font-family: 'roboto', arial;
+	font-family: 'Open sans', arial;
 	font-size: 0.5em;
 	color: black;
 	color: rgba(0, 0, 0, 0.9);
@@ -109,7 +109,7 @@
 	display: none;
 	position: relative;
 	width: 80%;
-	font-family: 'roboto', arial;
+	font-family: 'Open sans', arial;
 	font-size: 1.3em;
 	text-align:  center;
 	color: black;
@@ -145,7 +145,7 @@
 	}
 	
 	#next-disc {
-	font-family: 'roboto', arial;
+	font-family: 'Open sans', arial;
 	font-size: 0.5em;
 	position: relative;
 	width: 90%;

@@ -68,7 +68,7 @@
 	
 	#sub-header {
 	position: relative;
-	font-family: 'roboto', cursive;
+	font-family: 'Open sans', cursive;
 	color: white;
 	width: 80%;
 	margin: auto;
@@ -96,7 +96,7 @@
 	#content {
 	position: relative;
     height: 800px;
-	font-family: 'roboto', arial;
+	font-family: 'Open sans', arial;
 	font-size: 1.3em;
 	text-align: center;
 	top: 100px;
@@ -122,7 +122,7 @@
 	float: right;
 	margin: auto;
 	right: 30px;
-	font-family: 'roboto', arial;
+	font-family: 'Open sans', arial;
 	}
 	
 	.text-container {
@@ -141,7 +141,7 @@
 	float: left;
 	margin: auto;
 	left: 30px;
-	font-family: 'roboto', arial;
+	font-family: 'Open sans', arial;
 	}
 	
 	.content-text-center {

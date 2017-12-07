@@ -24,7 +24,7 @@
 	z-index: 9;
 	line-height: 70px;
 	font-size: 1.5em;
-	font-family: 'roboto', arial;
+	font-family: 'Open sans', arial;
 	text-transform: uppercase;
 	color: white;
 	line-height: 100px;
@@ -38,7 +38,7 @@
 	.nav-option {
 	line-height: 70px;
 	font-size: 0.5em;
-	font-family: 'roboto', arial;
+	font-family: 'Open sans', arial;
 	text-transform: uppercase;
 	margin-right: 35px;
 	margin-left: 35px;
@@ -91,7 +91,7 @@
 	position: relative;
 	margin: auto;
 	text-align: center;
-	font-family: 'Roboto', arial;
+	font-family: 'Open sans', arial;
 	color: white;
 	height: 1.5em;
 	border: 1px solid white;
@@ -124,7 +124,7 @@
 	
 	.content-p {
 	position: relative;
-	font-family: 'roboto', arial;
+	font-family: 'Open sans', arial;
 	opacity: 0;
 	color: rgb(0, 0, 0);
 	color: rgba(0, 0, 0, 0.9);
@@ -219,15 +219,9 @@
     margin: auto;
     padding: 0;
     }
-	
-	#logo {
-	}
 
     #link1 {
-    font-size: 18px;
     color: rgb(245, 118, 0);
-    text-transform: uppercase;
-    font-weight: bold;
     }
 	
 	#menu {
@@ -238,7 +232,7 @@
 	}
 	
 	.highlight {
-	color: rgb(81, 154, 226);
+	color: rgb(245, 118, 0);
 	}
 	
 	@media (max-width:600px) {
