@@ -136,10 +136,6 @@
 	font-size: 1.3em;
 	}
 	
-	.link:hover {
-	text-decoration: underline;	
-	}
-	
 	footer {
 	background-color: rgb(230, 230, 230);
 	height: 130px;
@@ -269,6 +265,10 @@
 	.content-p {
 	font-size: 1em;
 	    }
+	}
+	
+	#height {
+	margin-top: 5%;
 	}
 	
 	#arrow {
