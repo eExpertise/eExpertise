@@ -65,7 +65,7 @@
 	
 	.header {
     position: relative;
-    height: 18.5em;
+    height: 1000px;
     width: 100%;
     background-image: url("https://i.pinimg.com/originals/03/a4/85/03a485c070109709a5e1f7fc1ce0368d.jpg");
     background-repeat: no-repeat;
@@ -75,7 +75,7 @@
     text-align: center;
     font-family: 'saira', arial;
     color: white;
-    font-size: 2.5em;
+    font-size: 3em;
 	}
 	
 	.header-head {
@@ -280,7 +280,7 @@
 	margin: auto;
 	z-index: 1;
 	line-height: 57px;
-	top: 540px;
+	top: 600px;
 	right: 0;
 	left: 0;
 	cursor: pointer;
