@@ -52,4 +52,8 @@ $("#slide-bar").animate({width:"0"});
 $("#menu2").fadeOut(150);
 });
 
+$("#arrow").click(function() {
+$('html, body').animate({scrollTop: '+=700px'}, 800);
+});
+
 });
