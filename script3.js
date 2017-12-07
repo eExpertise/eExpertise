@@ -122,7 +122,7 @@ if (Cookies.get('options'&& 'options2') === '1000', '1000') {
 } else {
 alert('ERROR: not all required options were selected, please go back and finish your personalization.')
 }
-});
+
 
 $(document).ready(function(){
 	$(".next").hover(function() {
