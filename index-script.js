@@ -53,7 +53,9 @@ $("#menu2").fadeOut(150);
 });
 
 $("#arrow").click(function() {
-$('html, body').animate({scrollTop: '+=700px'}, 800);
+    $('html, body').animate({
+        scrollTop: $("#arr-scroll").offset().top
+    }, 1200);
 });
 
 $(".header-opt").hover(function() {

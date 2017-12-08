@@ -64,7 +64,7 @@
 	}
 	
 	.header {
-	height: 1000px;
+	height: 100vh;
     position: relative;
     width: 100%;
     background-image: url("https://i.pinimg.com/originals/75/d1/16/75d1160ce7439cdbb7b06de15df41eb5.jpg");
@@ -96,7 +96,7 @@
 	height: 1.5em;
 	border: 1px solid white;
 	text-transform: uppercase;
-	font-size: 0.6em;
+	font-size: 30px;
     width: 220px;
 	line-height: 1.5em;
 	border: 1px white solid;
@@ -265,8 +265,19 @@
 	    }
 	}
 	
-	#height {
-	margin-top: 5%;
+	@media (max-height:650px) {
+	.header {
+	font-size: 2em;
+	    }	
+	
+	.header-opt {
+	font-size: 30px;
+	    }
+	}
+	
+	#arr-scroll {
+	position: absolute;
+	top: 110vh;
 	}
 	
 	#arrow {
@@ -281,7 +292,7 @@
 	margin: auto;
 	z-index: 1;
 	line-height: 57px;
-	top: 80%;
+	top: 80vh;
 	right: 0;
 	left: 0;
 	cursor: pointer;

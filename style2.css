@@ -42,7 +42,7 @@
 	
 	.header {
     position: relative;
-    height: 1000px;
+    height: 100vh;
     width: 100%;
     background-image: url("https://i.pinimg.com/originals/03/a4/85/03a485c070109709a5e1f7fc1ce0368d.jpg");
     background-repeat: no-repeat;
@@ -258,4 +258,14 @@
 	
 	#arrow:hover {
 	background-color: #66a6e5;
+	}
+	
+	@media (max-height:650px) {
+	.header {
+	font-size: 2em;
+	    }	
+	
+	.header-opt {
+	font-size: 25px;
+	    }
 	}
