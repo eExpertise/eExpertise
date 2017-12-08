@@ -59,8 +59,8 @@ $("#arrow").click(function() {
 });
 
 $(".header-opt").hover(function() {
-$(this).animate({backgroundColor:"white", color:"black"});
+$(this).animate({backgroundColor:"white", color:"black"}, 300);
 }, function() {
-$(this).animate({backgroundColor:"rgba(0, 0, 0, 0)", color:"white"});
+$(this).animate({backgroundColor:"rgba(0, 0, 0, 0)", color:"white"}, 300);
 });
 });
