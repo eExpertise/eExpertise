@@ -23,15 +23,15 @@
     background-color: rgb(81, 154, 226);
 	z-index: 9;
 	line-height: 70px;
-	font-size: 1.5em;
-	font-family: 'Open sans', arial;
+	font-size: 1.7em;
+	font-family: 'open sans', arial;
 	text-transform: uppercase;
 	color: white;
-	line-height: 100px;
+	line-height: 70px;
 	}
 	
 	#closebtn {
-	font-size: 2em;
+	font-size: 1.5em;
 	margin-left: 10px;
 	}
 	
@@ -61,7 +61,9 @@
 	.menu-opt {
     display: block;
     width: 60px;
+	margin-left: 10px;
 	}
+	
 	
 	.header {
 	height: 100vh;
@@ -251,6 +253,10 @@
 	.content-header {
 	width: 100%;
 	    }
+		
+	.content-p {
+	width: 99%;
+	    }
     }
 
 	@media (max-width:750px) {
@@ -284,7 +290,7 @@
 	
 	#arr-scroll {
 	position: absolute;
-	top: 110vh;
+	top: 102vh;
 	}
 	
 	#arrow {
