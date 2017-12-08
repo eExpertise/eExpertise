@@ -7,7 +7,7 @@
     #bar {
     width: auto;
     height: 70px;
-    background-color: rgb(81, 154, 226);
+    background-color: rgb(68, 157, 245);
     color: rgb(255, 255, 255);
     font-family: 'saira', cursive;
     font-size: 2.4em;
@@ -42,7 +42,7 @@
 	.header {
 	display: inline-block;
 	position: relative;
-	background-color: rgb(81, 154, 226);
+	background-color: rgb(68, 157, 245);
 	font-size: 2em;
 	height: 100px;
 	color: white;
@@ -79,22 +79,22 @@
 	
 	#info-disc1 {
 	display: none;
-	color: rgb(81, 154, 226);
+	color: rgb(68, 157, 245);
 	}
 	
 	#info-disc2 {
 	display: none;
-	color: rgb(81, 154, 226);
+	color: rgb(68, 157, 245);
 	}
 	
 	#info-disc3 {
 	display: none;
-	color: rgb(81, 154, 226);
+	color: rgb(68, 157, 245);
 	}
 	
 	#info-disc4 {
 	display: none;
-	color: rgb(81, 154, 226);
+	color: rgb(68, 157, 245);
 	}
 	
 	.info-container {
@@ -120,7 +120,7 @@
 	}
 	
 	.highlight {
-	color: rgb(81, 154, 226);
+	color: rgb(68, 157, 245);
 	}
 	
 	#next {
@@ -172,7 +172,7 @@
 	
 	.mobile {
 	display: none;
-	color: rgb(81, 154, 226);
+	color: rgb(68, 157, 245);
 	}
 	
 	@media (max-width:800px) {
