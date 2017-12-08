@@ -87,7 +87,7 @@
 	display: none;
 	}
 	
-	.header-opt {
+	#header-opt {
 	position: relative;
 	margin: auto;
 	text-align: center;
@@ -270,7 +270,7 @@
 	font-size: 2em;
 	    }	
 	
-	.header-opt {
+	#header-opt {
 	font-size: 30px;
 	    }
 	}
