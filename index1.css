@@ -275,13 +275,20 @@
 	    }
 	}
 	
+	@media (max-width:400px) {
+    .header {
+	font-size: 1.7em;
+	top: 20px;
+	    }
+    }
+	
 	#arr-scroll {
 	position: absolute;
 	top: 110vh;
 	}
 	
 	#arrow {
-	position: absolute;
+	position: relative;
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
@@ -292,10 +299,8 @@
 	margin: auto;
 	z-index: 1;
 	line-height: 57px;
-	top: 80vh;
-	right: 0;
-	left: 0;
 	cursor: pointer;
+	top: 55px;
 	}
 	
 	#arrow:hover {

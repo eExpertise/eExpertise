@@ -239,7 +239,7 @@
 	}
 	
 	#arrow {
-	position: absolute;
+	position: relative;
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
@@ -250,10 +250,8 @@
 	margin: auto;
 	z-index: 1;
 	line-height: 57px;
-	top: 80%;
-	right: 0;
-	left: 0;
 	cursor: pointer;
+	top: 55px;
 	}
 	
 	#arrow:hover {
