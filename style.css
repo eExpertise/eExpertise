@@ -222,16 +222,20 @@
 	@media (max-width:600px) {
 	#pre-list {
 	font-size: 1em;
+	width: 100%;
+	top: 6em;
 	    }
 	#main {
-	font-size: 2em;
+	font-size: 1.5em;
 	    }
 		
 	#what {
-	top: 4.5em;
+	top: 5em;
+	font-size: 1em;
 	    }
 	
 	#button {
 	top: 3em;
+	font-size: 2em;
 	    }
 	}
