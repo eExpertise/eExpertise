@@ -2,7 +2,7 @@
 $(document).ready(function(){
 Cookies.get("options");
 Cookies.get("options2");
-if (Cookies.get('options') == '1000' && Cookies.get('options2') == '1000')) {
+if (Cookies.get('options') == '1000' && Cookies.get('options2') == '1000') {
     alert("1000, 1000");
 } else if (Cookies.get('options') == '1100' && Cookies.get('options2') == '1000') {
     alert("1100, 1000");
