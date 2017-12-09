@@ -98,6 +98,7 @@
 	}
 	
 	.info-container {
+	display: block;
 	position: absolute;
 	width: 100%;
 	right: 0;
@@ -106,7 +107,7 @@
 	}
 	
 	.option-info {
-	display: none;
+	display: block;
 	position: relative;
 	width: 80%;
 	font-family: 'Open sans', arial;
@@ -117,6 +118,7 @@
 	margin: auto;
 	top: 90px;
 	z-index: 1;
+    opacity: 0;
 	}
 	
 	.highlight {

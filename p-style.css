@@ -68,13 +68,13 @@
 	position: relative;
 	text-align: center;
 	width: 100%;
-	top: 20px;
+	top: 22px;
 	}
 	
 	.option-container {
 	display: inline-block;
 	width: 250px;
-	margin: 22px 22px 22px 22px;
+	margin: 22px;
 	}
 	
 	#info-disc1 {
@@ -98,15 +98,17 @@
 	}
 	
 	.info-container {
+	display: block;
 	position: absolute;
 	width: 100%;
 	right: 0;
 	left: 0;
 	height: 20%;
+	
 	}
 	
 	.option-info {
-	display: none;
+	display: block;
 	position: relative;
 	width: 80%;
 	font-family: 'Open sans', arial;
@@ -117,6 +119,7 @@
 	margin: auto;
 	top: 90px;
 	z-index: 1;
+    opacity: 0;
 	}
 	
 	.highlight {
