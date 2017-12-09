@@ -79,22 +79,22 @@
 	
 	#info-disc1 {
 	display: none;
-	color: rgb(68, 157, 245);
+	color: rgb(245, 118, 0);
 	}
 	
 	#info-disc2 {
 	display: none;
-	color: rgb(68, 157, 245);
+	color: rgb(245, 118, 0);
 	}
 	
 	#info-disc3 {
 	display: none;
-	color: rgb(68, 157, 245);
+	color: rgb(245, 118, 0);
 	}
 	
 	#info-disc4 {
 	display: none;
-	color: rgb(68, 157, 245);
+	color: rgb(245, 118, 0);
 	}
 	
 	.info-container {
@@ -123,7 +123,7 @@
 	}
 	
 	.highlight {
-	color: rgb(68, 157, 245);
+	color: rgb(245, 118, 0);
 	}
 	
 	#next {
@@ -176,7 +176,7 @@
 	
 	.mobile {
 	display: none;
-	color: rgb(68, 157, 245);
+	color: rgb(245, 118, 0);
 	}
 	
 	@media (max-width:800px) {
