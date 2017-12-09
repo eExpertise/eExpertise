@@ -338,16 +338,12 @@ $(document).ready(function(){
 	$("#next").click(function() {
 	if ($('.option1').data('clicked') && !($('.option2').data('clicked')) && !($('.option3').data('clicked')) && !($('.option4').data('clicked'))) {
 	Cookies.set('options2', '1000');
-	alert("1000");
 	} else if (!($('.option1').data('clicked')) && $('.option2').data('clicked') && !($('.option3').data('clicked')) && !($('.option4').data('clicked'))) {
 	Cookies.set('options2', '0100');
-	alert("0100");
 	} else if (!($('.option1').data('clicked')) && !($('.option2').data('clicked')) && $('.option3').data('clicked') && !($('.option4').data('clicked'))) {
 	Cookies.set('options2', '0010');
-	alert("0010");
 	} else if (!($('.option1').data('clicked')) && !($('.option2').data('clicked')) && !($('.option3').data('clicked')) && $('.option4').data('clicked')) {
 	Cookies.set('options2', '0001');
-	alert("0001");
 	} else {
 	event.preventDefault();
 	alert('ERROR: No options selected. you pick an option by clicking on either HARDWARE, DESIGN, SOFTWARE and/or GAMING.');

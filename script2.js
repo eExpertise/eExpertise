@@ -220,49 +220,34 @@ $(document).ready(function(){
 	$("#next").click(function() {
 	if ($('.option1').data('clicked') && !($('.option2').data('clicked')) && !($('.option3').data('clicked')) && !($('.option4').data('clicked'))) {
 	Cookies.set('options', '1000');
-	alert("1000");
 	} else if ($('.option1').data('clicked') && $('.option2').data('clicked') && !($('.option3').data('clicked')) && !($('.option4').data('clicked'))) {
 	Cookies.set('options', '1100');
-	alert("1100");
 	} else if ($('.option1').data('clicked') && !($('.option2').data('clicked')) && $('.option3').data('clicked') && !($('.option4').data('clicked'))) {
 	Cookies.set('options', '1010');
-	alert("1010");
 	} else if ($('.option1').data('clicked') && !($('.option2').data('clicked')) && !($('.option3').data('clicked')) && $('.option4').data('clicked')) {
 	Cookies.set('options', '1001');
-	alert("1001");
 	} else if ($('.option1').data('clicked') && $('.option2').data('clicked') && $('.option3').data('clicked') && !($('.option4').data('clicked'))) {
 	Cookies.set('options', '1110');
-	alert("1110");
 	} else if ($('.option1').data('clicked') && $('.option2').data('clicked') && !($('.option3').data('clicked')) && $('.option4').data('clicked')) {
 	Cookies.set('options', '1101');
-	alert("1101");
 	} else if ($('.option1').data('clicked') && !($('.option2').data('clicked')) && $('.option3').data('clicked') && $('.option4').data('clicked')) {
 	Cookies.set('options', '1011');
-	alert("1011");
 	} else if (!($('.option1').data('clicked')) && $('.option2').data('clicked') && !($('.option3').data('clicked')) && !($('.option4').data('clicked'))) {
 	Cookies.set('options', '0100');
-	alert("0100");
 	} else if (!($('.option1').data('clicked')) && $('.option2').data('clicked') && $('.option3').data('clicked') && !($('.option4').data('clicked'))) {
 	Cookies.set('options', '0110');
-	alert("0110");
 	} else if (!($('.option1').data('clicked')) && $('.option2').data('clicked') && !($('.option3').data('clicked')) && $('.option4').data('clicked')) {
 	Cookies.set('options', '0101');
-	alert("0101");
 	} else if (!($('.option1').data('clicked')) && $('.option2').data('clicked') && $('.option3').data('clicked') && $('.option4').data('clicked')) {
 	Cookies.set('options', '0111');
-	alert("0111");
 	} else if (!($('.option1').data('clicked')) && !($('.option2').data('clicked')) && $('.option3').data('clicked') && !($('.option4').data('clicked'))) {
 	Cookies.set('options', '0010');
-	alert("0010");
 	} else if (!($('.option1').data('clicked')) && !($('.option2').data('clicked')) && $('.option3').data('clicked') && $('.option4').data('clicked')) {
 	Cookies.set('options', '0011');
-	alert("0011");
 	} else if (!($('.option1').data('clicked')) && !($('.option2').data('clicked')) && !($('.option3').data('clicked')) && $('.option4').data('clicked')) {
 	Cookies.set('options', '0001');
-	alert("0001");
 	} else if ($('.option1').data('clicked') && $('.option2').data('clicked') && $('.option3').data('clicked') && $('.option4').data('clicked')) {
 	Cookies.set('options', '1111');
-	alert("1111");
 	} else {
 	event.preventDefault();
 	alert('ERROR: No options selected. you pick an option by clicking on either HARDWARE, DESIGN, SOFTWARE and/or GAMING.');
