@@ -1,5 +1,13 @@
 
 $(document).ready(function(){
+	
+	$(document).scroll(function() { 
+   if($(window).scrollTop() === 0) {
+     $("#bar").animate({backgroundColor:"transparent"}, 300);
+   } else {
+   $("#bar").animate({backgroundColor:"rgb(68, 157, 245)"}, 300);
+   }
+});
 Cookies.get("options");
 Cookies.get("options2");
 if (Cookies.get('options') == '1000' && Cookies.get('options2') == '1000') {
