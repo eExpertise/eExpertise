@@ -6,7 +6,7 @@ $(document).ready(function(){
 	if ($(document).width() <= 608) {
 	$("#height1").height();
 	var infoHeight1 = $("#height1").height();
-	$("#option-container2, option-container3, #option-container4").animate({marginBottom:"22px"}, 300);
+	$("#option-container2, #option-container3, #option-container4").animate({marginBottom:"22px"}, 300);
 	$("#option-container1").animate({marginBottom: infoHeight1 + 40}, 300);
 	} else if ($(document).width() <= 906) {
 	$("#height1").height();
@@ -35,7 +35,7 @@ $(document).ready(function(){
 	if ($(document).width() <= 608) {
 	$("#height2").height();
 	var infoHeight2 = $("#height2").height();
-	$("#option-container1, option-container3, #option-container4").animate({marginBottom:"22px"}, 300);
+	$("#option-container1, #option-container3, #option-container4").animate({marginBottom:"22px"}, 300);
 	$("#option-container2").animate({marginBottom: infoHeight2 + 40}, 300);
 	} else if ($(document).width() <= 906) {
 	$("#height2").height();
@@ -64,7 +64,7 @@ $(document).ready(function(){
 	
 	$("#height3").height();
 	var infoHeight3 = $("#height3").height();
-	$("#option-container2, option-container1, #option-container4").animate({marginBottom:"22px"}, 300);
+	$("#option-container2, #option-container1, #option-container4").animate({marginBottom:"22px"}, 300);
 	$("#option-container3").animate({marginBottom: infoHeight3 + 40}, 300);
 	} else if ($(document).width() <= 906) {
 	$("#height3").height();

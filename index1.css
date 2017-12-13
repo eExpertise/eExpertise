@@ -127,7 +127,6 @@
 	.content-p {
 	position: relative;
 	font-family: 'Open sans', arial;
-	opacity: 0;
 	color: rgb(0, 0, 0);
 	color: rgba(0, 0, 0, 0.9);
 	text-align: center;
