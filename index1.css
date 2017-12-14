@@ -83,7 +83,7 @@
 	.header-head {
 	position: relative;
 	margin: auto;
-    width: 95%;
+    width: 700px;
 	height: 10%;
 	top: 6em;
 	display: none;
@@ -316,6 +316,7 @@
 	top: 70%;
 	margin-left: auto; 
     margin-right: auto;  
+	font-family: 'open sans', arial;
 	}
 	
 	#arrow:hover {
