@@ -24,7 +24,7 @@
     position: relative;   
 	margin: auto;
 	width: 90%;
-	bottom: 80px;
+	bottom: 20%;
 	height: 10px;
     }
 
@@ -39,6 +39,7 @@
     color: rgb(245, 118, 0);
 	font-weight: bold;
 	text-align: center;
+	width: 600px;
     }
     
     #pre-list {
@@ -241,5 +242,8 @@
 		
 	#fb-like {
 	top: 100px;
+	    }
+	.super-main-right {
+	bottom:
 	    }
 	}
