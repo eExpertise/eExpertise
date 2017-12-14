@@ -169,11 +169,6 @@ $(document).scroll(function() {
   }
 });
 
-$('#logo').hover(function() {
-$('#logo').css({'text-decoration':'underline'});
-}, function() { $('#logo').css({'text-decoration':'none'});
-});
-
 $("#menu").click(function(){
 $("#slide-bar").animate({width:"100%"});
 $("#menu2").delay(280).fadeIn(150);

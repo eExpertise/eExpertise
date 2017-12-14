@@ -8,7 +8,7 @@
 	.ultra-main {
 	}
 	
-    .bar {
+    #bar {
 	position: relative;
     width: auto;
     height: 80px;
