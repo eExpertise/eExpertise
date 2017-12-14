@@ -56,7 +56,7 @@
     
     #button {
     margin: auto;
-    width: 330px;
+    width: 300px;
     position: relative;
     top: 4em;
     font-size: 2.5em;
@@ -68,6 +68,10 @@
 	border-radius: 5px;
 	box-shadow: 4px 4px #cc6300;
     }
+	
+	#button-link {
+	width: 100%;
+	}
 	
 	#button:hover {
     box-shadow: 3px 3px #cc6300;
