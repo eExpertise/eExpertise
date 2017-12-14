@@ -1,6 +1,6 @@
 	
 	body {
-     margin: 0px 0px 0px 0px;
+		margin: 0px 0px 0px 0px;
     }
 	
 	/* Sorry about the mess... */
@@ -9,245 +9,245 @@
 	}
 	
     #bar {
-	position: relative;
-    width: auto;
-    height: 80px;
-    background-color: rgb(68, 157, 245);
-    color: rgb(255, 255, 255);
-    font-family: 'saira', cursive;
-    font-size: 2.4em;
-	text-align: center;
-	line-height: 70px;
+		position: relative;
+		width: auto;
+		height: 80px;
+		background-color: rgb(68, 157, 245);
+		color: rgb(255, 255, 255);
+		font-family: 'saira', cursive;
+		font-size: 2.4em;
+		text-align: center;
+		line-height: 70px;
     }
     
     .super-main-right {
-    position: relative;   
-	margin: auto;
-	width: 90%;
-	bottom: 20%;
-	height: 10px;
+		position: relative;   
+		margin: auto;
+		width: 90%;
+		bottom: 20%;
+		height: 10px;
     }
 
     #main {
-    text-transform: uppercase;
-    margin: auto;
-    position: relative;
-    font-family: 'Saira', arial;
-    font-size: 2.5em;
-    top: 3.5em;
-    line-height: 1.5em;
-    color: rgb(245, 118, 0);
-	font-weight: bold;
-	text-align: center;
-	width: 600px;
+		text-transform: uppercase;
+		margin: auto;
+		position: relative;
+		font-family: 'Saira', arial;
+		font-size: 2.5em;
+		top: 3.5em;
+		line-height: 1.5em;
+		color: rgb(245, 118, 0);
+		font-weight: bold;
+		text-align: center;
+		width: 600px;
     }
     
     #pre-list {
-    position: relative;
-    font-family: 'Saira', arial;
-    font-size: 1.2em;
-    color: rgb(68, 157, 245);
-    top: 7em;
-	text-align: center;
-	width: 800px;
-	margin: auto;
-	text-transform: uppercase;
+		position: relative;
+		font-family: 'Saira', arial;
+		font-size: 1.2em;
+		color: rgb(68, 157, 245);
+		top: 7em;
+		text-align: center;
+		width: 800px;
+		margin: auto;
+		text-transform: uppercase;
     }
     
     #button {
-    margin: auto;
-    width: 300px;
-    position: relative;
-    top: 4em;
-    font-size: 2.5em;
-    font-family: 'Saira', arial;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: bold;
-	background-color: rgb(245, 118, 0); 
-	border-radius: 5px;
-	box-shadow: 4px 4px #cc6300;
+		margin: auto;
+		width: 300px;
+		position: relative;
+		top: 4em;
+		font-size: 2.5em;
+		font-family: 'Saira', arial;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+		background-color: rgb(245, 118, 0); 
+		border-radius: 5px;
+		box-shadow: 4px 4px #cc6300;
     }
 	
 	#button-link {
-	width: 100%;
+		width: 100%;
 	}
 	
 	#button:hover {
-    box-shadow: 3px 3px #cc6300;
-	text-decoration: underline;
+		box-shadow: 3px 3px #cc6300;
+		text-decoration: underline;
 	}
 	
 	#button:active {
-	box-shadow: 1px 1px #cc6300;
+		box-shadow: 1px 1px #cc6300;
 	}
     
     a {
-    color: white;   
-	text-decoration: none;
+		color: white;   
+		text-decoration: none;
     }
 	
 	.fb-like {
-	width: 330px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+		width: 330px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
 	}
 	
 	#what {
-	margin: auto;
-	position: relative;
-	color: rgb(0, 0, 0);
-	color: rgba(0, 0, 0, 0.8);
-	font-family: 'Open sans', arial;
-	width: 100%;
-	text-align: center;
-	top: 6.5em;
-	font-size: 1.3em;
+		margin: auto;
+		position: relative;
+		color: rgb(0, 0, 0);
+		color: rgba(0, 0, 0, 0.8);
+		font-family: 'Open sans', arial;
+		width: 100%;
+		text-align: center;
+		top: 6.5em;
+		font-size: 1.3em;
 	}
 	
 	#fb-margin {
-    position: relative;
-    padding: 0;
-    padding-top: 55px;
-    top: 150px;
+		position: relative;
+		padding: 0;
+		padding-top: 55px;
+		top: 150px;
 	}
 	
 	h1 {
-	display: inline;
-	font-size: inherit;
-	font-weight: inherit;
+		display: inline;
+		font-size: inherit;
+		font-weight: inherit;
 	}
 	
 	h2 {
-	display: inline;
-	font-size: inherit;
-	font-weight: inherit;
+		display: inline;
+		font-size: inherit;
+		font-weight: inherit;
 	}
 	
 	.fa {
-	position: relative;
-	top: 10px;
-    padding: 20px;
-    font-size: 40px;
-    width: 20px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+		position: relative;
+		top: 10px;
+		padding: 20px;
+		font-size: 40px;
+		width: 20px;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 50%;
     }
 	
     .fa:hover {
-    opacity: 0.7;
+		opacity: 0.7;
     }
 
     .fa-facebook {
-	display: block;
-    background: #999999;
-    color: white;
-	height: 15px;
-	width: 15px;
+		display: block;
+		background: #999999;
+		color: white;
+		height: 15px;
+		width: 15px;
     }
     .fa-twitter {
-	display: block;
-    background: #999999;
-    color: white;
-	height: 15px;
-	width: 15px;
-	margin-right: 25px;
-	margin-left: 25px;
+		display: block;
+		background: #999999;
+		color: white;
+		height: 15px;
+		width: 15px;
+		margin-right: 25px;
+		margin-left: 25px;
     }
 	.fa-instagram {
-	display: block;
-    background: #999999;
-    color: white;
-	height: 15px;
-	width: 15px;
+		display: block;
+		background: #999999;
+		color: white;
+		height: 15px;
+		width: 15px;
     }
 	
 	#cta {
-    position: relative;
-	font-size: 1.5em;
-	font-family: 'saira', arial;
-	color: rgb(68, 157, 245);
-	top: 5px;
-	width: 50%;
-	margin: auto;
-	text-align: center;
+		position: relative;
+		font-size: 1.5em;
+		font-family: 'saira', arial;
+		color: rgb(68, 157, 245);
+		top: 5px;
+		width: 50%;
+		margin: auto;
+		text-align: center;
 	}
 	
 	footer {
-	position: absolute;
-	background-color: rgb(230, 230, 230);
-	height: 130px;
-	width: 100%;
-	bottom: 0;
+		position: absolute;
+		background-color: rgb(230, 230, 230);
+		height: 130px;
+		width: 100%;
+		bottom: 0;
 	}
 	
 	ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
 	}
 	
 	li {
-	display: inline;
+		display: inline;
 	}
 	
     #footer {
-    width: 225px;
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
+		width: 225px;
+		list-style-type: none;
+		margin: auto;
+		padding: 0;
     }
 	
 	#logo:hover {
-	text-decoration: underline;
+		text-decoration: underline;
 	}
 	
 	@media (max-width:900px) {
 	#pre-list {
-	width: 100%;
-	margin: 0;
+		width: 100%;
+		margin: 0;
 	    }
 		
 	#main {
-	width: 100%;
-	margin: 0;
+		width: 100%;
+		margin: 0;
 	    }
 	}
 	
 	@media (max-width:370px) {
 	#button {
-	width: 99%;
+		width: 99%;
 	    }
 	}
 	
 	@media (max-width:600px) {
 	#pre-list {
-	font-size: 1em;
-	width: 100%;
-	top: 6em;
+		font-size: 1em;
+		width: 100%;
+		top: 6em;
 	    }
 	#main {
-	font-size: 1.5em;
+		font-size: 1.5em;
 	    }
 		
 	#what {
-	top: 5em;
-	font-size: 1em;
+		top: 5em;
+		font-size: 1em;
 	    }
 	
 	#button {
-	top: 3em;
-	font-size: 2em;
+		top: 3em;
+		font-size: 2em;
 	    }
 		
 	#fb-margin {
-	top: 90px;
+		top: 90px;
 	    }
 	.super-main-right {
-	bottom: 70px;
+		bottom: 70px;
 	    }
 	}
