@@ -39,7 +39,7 @@
 		width: 60px;
 	}
 	
-	.header {
+	#header {
 		position: relative;
 		height: 100vh;
 		width: 100%;
@@ -55,7 +55,7 @@
 		background-attachment: fixed;
 	}
 	
-	.header-head {
+	#header-head {
 		position: relative;
 		width: 90%;
 		height: 10%;
@@ -64,7 +64,7 @@
 		margin: auto;
 	}
 	
-	.header-opt {
+	#header-opt {
 		position: relative;
 		text-align: center;
 		font-family: Open sans, arial;
@@ -228,13 +228,23 @@
 
 	@media (max-width:750px) {
 		
-	.header-head {
+	#header-head {
 		width: 100%;
 		top: 2em;
 	    }
 		
 	.content-p {
 		font-size: 1em;
+	    }
+	}
+	
+	@media (max-width:400px) {
+    #header {
+		font-size: 1.7em;
+	    }
+	
+	#header-head {
+		top: 80px;
 	    }
 	}
 	
@@ -259,11 +269,11 @@
 	}
 	
 	@media (max-height:650px) {
-	.header {
+	#header {
 		font-size: 2em;
 	    }	
 	
-	.header-opt {
+	#header-opt {
 		font-size: 25px;
 	    }
 	}

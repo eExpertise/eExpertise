@@ -80,7 +80,7 @@
 		background-attachment: fixed;
 	}
 	
-	.header-head {
+	#header-head {
 		position: relative;
 		margin: auto;
 		width: 700px;
@@ -264,7 +264,7 @@
 
 	@media (max-width:750px) {
 		
-	.header-head {
+	#header-head {
 		width: 95%;
 		top: 2em;
 	    }
@@ -294,7 +294,7 @@
 		font-size: 1.7em;
 	    }
 	
-	.header-head {
+	#header-head {
 		top: 80px;
 	    }
 	}
@@ -349,5 +349,5 @@
 	}
 	
 	.opt2:hover {
-		text-decoration: underline;
+		background-color: #6eb3f7;
 	}
