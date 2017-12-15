@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 $("#header-opt").width();
-$('.header-head').delay(400).fadeIn(500);
+$('#header-head').delay(400).fadeIn(500);
 
 $(document).scroll(function() { 
    if($(window).scrollTop() === 0) {
