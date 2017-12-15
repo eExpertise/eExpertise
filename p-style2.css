@@ -183,3 +183,13 @@
 		display: inline-block;	
 	    }
 	}
+	
+	@media (max-width:600px) {
+	#expl {
+		font-size: 2em;
+		}
+		
+	#next {
+		font-size: 1em;
+		}
+	}
