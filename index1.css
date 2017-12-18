@@ -274,14 +274,7 @@
 	    }
 	}
 	
-	@media (max-height:650px) {
-	#header {
-		font-size: 2em;
-	    }	
-	
-	#header-opt {
-		font-size: 30px;
-	    }
+	@media (max-height:680px) {
 	
 	#arrow {
 		top: 80%;

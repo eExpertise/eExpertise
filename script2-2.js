@@ -28,7 +28,6 @@ $(document).ready(function(){
 	$(this).css({"text-decoration":"underline"});
 	$("#info2, #info3, #info4").animate({opacity:"0"}, 200);
 	$("#info1").delay(150).animate({opacity:"1"}, 200);
-	
 	});
 	
 	$(".option2").mouseenter(function() {
@@ -346,7 +345,7 @@ $(document).ready(function(){
 	Cookies.set('options2', '0001');
 	} else {
 	event.preventDefault();
-	alert('ERROR: No options selected. you pick an option by clicking on either HARDWARE, DESIGN, SOFTWARE and/or GAMING.');
+	alert('ERROR: No options selected. you pick an option by clicking on either BEGINNER, LEARNING, FAMILIAR and/or ADEPT.');
 	}
 	});
 	
