@@ -133,41 +133,7 @@ if (Cookies.get('options') == '1000' && Cookies.get('options2') == '1000') {
 } else {
 alert('ERROR: not all required options were selected, please go back and finish your personalization.')
 }
-$('.header-head').delay(400).fadeIn(500);
-
-
-$(document).scroll(function() {
-  var y = $(this).scrollTop();
-  if (y > 450) {
-    $("#p1").animate({
-    opacity: "1"
-    });
-  } else {
-    
-  }
-});
-
-$(document).scroll(function() {
-  var y = $(this).scrollTop();
-  if (y > 780) {
-    $("#p2").animate({
-    opacity: "1"
-    });
-  } else {
-    
-  }
-});
-
-$(document).scroll(function() {
-  var y = $(this).scrollTop();
-  if (y > 1370) {
-    $("#p3").animate({
-    opacity: "1"
-    });
-  } else {
-    
-  }
-});
+$('#header-head').delay(400).fadeIn(500);
 
 $("#menu").click(function(){
 $("#slide-bar").animate({width:"100%"});
