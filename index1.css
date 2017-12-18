@@ -281,6 +281,12 @@
 	    }
 	}
 	
+	@media (max-height:520px) {
+	#header-head {
+		top: 100px;
+		}
+	}
+	
 	
 	@media (max-width:400px) {
     #header {
