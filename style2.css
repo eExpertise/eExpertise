@@ -79,13 +79,13 @@
 	.content-header {
 		position: relative;
 		font-family: 'Saira', arial;
-		font-size: 2.7em;
+		font-size: 35px;
 		color: rgb(68, 157, 245);
 		text-align: center;
 		text-transform: uppercase;
 		top: 10px;
 		margin: auto;
-		width: 60%;
+		width: 80%;
 	}
 	
 	.container {
