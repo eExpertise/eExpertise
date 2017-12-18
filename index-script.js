@@ -6,8 +6,6 @@ $('#header-head').delay(400).fadeIn(500);
 $(document).scroll(function() { 
    if($(window).scrollTop() === 0) {
      $("#bar").animate({backgroundColor:"transparent"}, 300);
-   } else {
-   $("#bar").animate({backgroundColor:"rgb(68, 157, 245)"}, 300);
    }
 });
 
