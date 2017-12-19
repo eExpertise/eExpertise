@@ -24,10 +24,18 @@
 	}
 	
 	#header {
-		width: 300px;
+		width: 500px;
 		margin: auto;
 		position: relative;
 		text-align: center;
+		font-family: 'saira', arial;
+		font-size: 40px;
+		color: rgb(68, 157, 245);
+		line-height: 100px;
+	}
+	
+	#header-cont {
+	height: 200px;
 	}
 	
 	a {
@@ -65,7 +73,6 @@
 	#sample1 {
 		z-index: 4;
 		background-image: url("https://images.unsplash.com/photo-1484662020986-75935d2ebc66?auto=format&fit=crop&w=1350&q=80");
-		background-repeat: no-repeat;
 		background-position: left center;
 		background-size: cover;
 		width: 23%;
@@ -74,7 +81,6 @@
 	#sample2 {
 		z-index: 3;
 		background-image: url("https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAttAAAAJDZlMWFkMDg0LTQ4MTMtNDExMC04YmNiLTdlNzc1ZjkzYWJmMg.jpg");
-		background-repeat: no-repeat;
 		background-position: left center;
 		background-size: cover;
 		width: 48%;
@@ -82,8 +88,7 @@
 	
 	#sample3 {
 		z-index: 2;
-		background-image: url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1350&q=80");
-		background-repeat: no-repeat;
+		background-image: url("https://images.unsplash.com/photo-1508921234172-b68ed335b3e6?auto=format&fit=crop&w=1350&q=80");
 		background-position: left top;
 		background-size: cover;
 		width: 74%;
@@ -92,9 +97,8 @@
 	
 	#sample4 {
 		z-index: 1;
-		background-image: url("https://images.unsplash.com/photo-1495627009230-9e30e647c7cc?auto=format&fit=crop&w=666&q=80");
-		background-repeat: no-repeat;
-		background-position: left center;
+		background-image: url("pictures/gaming.jpg");
+		background-position: center top;
 		background-size: cover;
 		width: 100%;
 		bottom: 1%;
@@ -109,7 +113,7 @@
 		color: white;
 		top: 50%;
 		font-family: 'roboto slab', helvetica;
-		font-size: 20px;
+		font-size: 38px;
 	}
 	
 	p {
