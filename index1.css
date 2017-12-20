@@ -260,6 +260,10 @@
 	#header {
 		background-position: 70% 50%;
         }
+		
+	#arrow {
+		bottom: 20%;
+		}
 	}
 
 	@media (max-width:750px) {
