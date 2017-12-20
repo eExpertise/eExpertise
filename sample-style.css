@@ -121,3 +121,7 @@
 		z-index: 10;
 		color: white;
 	}
+	
+	#sample-header4 {
+		float: left;
+	}
