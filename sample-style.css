@@ -24,13 +24,13 @@
 	}
 	
 	#header {
-		width: 600px;
+		width: 500px;
 		margin: auto;
 		position: relative;
 		text-align: center;
 		font-family: 'saira', arial;
 		font-size: 40px;
-		color: rgb(245, 118, 0);
+		color: rgb(68, 157, 245);
 		line-height: 100px;
 	}
 	
