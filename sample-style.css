@@ -75,7 +75,7 @@
 		background-image: url("https://images.unsplash.com/photo-1484662020986-75935d2ebc66?auto=format&fit=crop&w=1350&q=80");
 		background-position: left center;
 		background-size: cover;
-		width: 24%;
+		width: 23%;
 	}
 	
 	#sample2 {
@@ -124,16 +124,4 @@
 	
 	#sample-header4 {
 		float: left;
-	}
-	
-	.sample-text {
-		position: relative;
-		float: right;
-		transform: rotate(-7deg);
-		margin-right: 5px;
-		color: white;
-		top: 60%;
-		font-family: 'open sans', arial;
-		font-size: 1em;
-		display: none;
 	}
