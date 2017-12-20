@@ -15,6 +15,10 @@
 		z-index: 9;
     }
 	
+	#logo:hover {
+		text-decoration: underline;
+	}
+	
 	#closebtn {
 		font-size: 2em;
 		margin-left: 10px;

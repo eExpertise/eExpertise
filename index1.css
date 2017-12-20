@@ -29,6 +29,10 @@
 		line-height: 70px;
 	}
 	
+	#logo:hover {
+		text-decoration: underline;
+	}
+	
 	#closebtn {
 		font-size: 1.5em;
 		margin-left: 10px;

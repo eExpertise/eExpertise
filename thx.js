@@ -136,13 +136,13 @@
 	$('#header-head').delay(400).fadeIn(500);
 
 	$("#menu").click(function(){
-	$("#slide-bar").animate({width:"100%"});
-	$("#menu2").delay(280).fadeIn(150);
+		$("#slide-bar").animate({width:"100%"});
+		$("#menu2").delay(280).fadeIn(150);
 	});
 
 	$("#closebtn").click(function() {
-	$("#slide-bar").animate({width:"0"});
-	$("#menu2").fadeOut(150);
+		$("#slide-bar").animate({width:"0"});
+		$("#menu2").fadeOut(150);
 	});
 
 	$("#arrow").click(function() {
