@@ -35,12 +35,30 @@
 		$("#header-opt").hover(function() {
 		if ($(document).width() <= 600) {
 		} else {
-			$(this).animate({backgroundColor:"white", color:"black"}, 200);
+			$(this).stop().animate({backgroundColor:"white", color:"black"}, 200);
 		}
 		}, function() {
 		if ($(document).width() <= 600) {
 		} else {
-			$(this).animate({backgroundColor:"rgba(0, 0, 0, 0)", color:"white"}, 200);
+			$(this).stop().animate({backgroundColor:"rgba(0, 0, 0, 0)", color:"white"}, 200);
 		}
+		});
+		
+		$("#arrow, .opt2").hover(function() {
+			$(this).stop().animate({backgroundColor:"#6eb3f7"}, 100);
+		}, function() {
+			$(this).stop().animate({backgroundColor:"rgb(68, 157, 245)"}, 100);
+		});
+		
+		$(".link").hover(function() {
+			$(this).addClass('hover');
+		}, function() {
+			$(this).removeClass('hover');
+		});
+		
+		$("#logo-container").hover(function() {
+			$(this).addClass('hover');
+		}, function() {
+			$(this).removeClass('hover');
 		});
 	});
