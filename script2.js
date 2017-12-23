@@ -26,8 +26,8 @@ $(document).ready(function(){
 		}
 			$(".option2, .option3, .option4").css({"text-decoration":"none"});
 			$(this).css({"text-decoration":"underline"});
-			$("#info2, #info3, #info4").animate({opacity:"0"}, 200);
-			$("#info1").delay(150).animate({opacity:"1"}, 200);
+			$("#info2, #info3, #info4").stop().animate({opacity:"0"}, 150);
+			$("#info1").stop().animate({opacity:"1"}, 250);
 	});
 	
 	$(".option2").mouseenter(function() {
@@ -54,8 +54,8 @@ $(document).ready(function(){
 		}
 		$(".option1, .option3, .option4").css({"text-decoration":"none"});
 		$(this).css({"text-decoration":"underline"});
-		$("#info1, #info3, #info4").animate({opacity:"0"}, 200);
-		$("#info2").delay(150).animate({opacity:"1"}, 200);
+		$("#info1, #info3, #info4").stop().animate({opacity:"0"}, 150);
+		$("#info2").stop().animate({opacity:"1"}, 250);
 	});
 	
 	$(".option3").mouseenter(function() {
@@ -82,8 +82,8 @@ $(document).ready(function(){
 		}
 		$(".option1, .option2, .option4").css({"text-decoration":"none"});
 		$(this).css({"text-decoration":"underline"});
-		$("#info1, #info2, #info4").animate({opacity:"0"}, 200);
-		$("#info3").delay(150).animate({opacity:"1"}, 200);
+		$("#info1, #info2, #info4").stop().animate({opacity:"0"}, 150);
+		$("#info3").stop().animate({opacity:"1"}, 250);
 	});
 	
 	$(".option4").mouseenter(function() {
@@ -109,8 +109,8 @@ $(document).ready(function(){
 		}
 		$(".option1, .option2, .option3").css({"text-decoration":"none"});
 		$(this).css({"text-decoration":"underline"});
-		$("#info1, #info2, #info3").animate({opacity:"0"}, 200);
-		$("#info4").delay(150).animate({opacity:"1"}, 200);
+		$("#info1, #info2, #info3").stop().animate({opacity:"0"}, 150);
+		$("#info4").stop().animate({opacity:"1"}, 250);
 	});
 	
 	
