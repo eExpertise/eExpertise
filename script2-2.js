@@ -147,10 +147,10 @@ $(document).ready(function(){
 		}
 		if ($('.option1').data('clicked') || $('.option2').data('clicked') || $('.option3').data('clicked') || $('.option4').data('clicked')) {
 			$("#next-disc").animate({opacity:"0"});
-			$('#next').css({"color":"white","box-shadow":"4px 4px #cc6300","cursor":"pointer"});
+			$('#next').css({"color":"white","box-shadow":"4px 4px #e66f00","cursor":"pointer"});
 		} else {
 			$("#next-disc").animate({opacity:"1"});
-			$('#next').css({"color":"#ffa34d","box-shadow":"1px 1px #cc6300"});
+			$('#next').css({"color":"#ffa34d","box-shadow":"1px 1px #e66f00"});
 		}
 		if ($(".option1").data('clicked')) {
 			$("#info-disc1").fadeIn(200);
@@ -192,10 +192,10 @@ $(document).ready(function(){
 		}
 		if ($('.option1').data('clicked') || $('.option2').data('clicked') || $('.option3').data('clicked') || $('.option4').data('clicked')) {
 			$("#next-disc").animate({opacity:"0"});
-			$('#next').css({"color":"white","box-shadow":"4px 4px #cc6300","cursor":"pointer"});
+			$('#next').css({"color":"white","box-shadow":"4px 4px #e66f00","cursor":"pointer"});
 		} else {
 			$("#next-disc").animate({opacity:"1"});
-			$('#next').css({"color":"#ffa34d","box-shadow":"1px 1px #cc6300"});
+			$('#next').css({"color":"#ffa34d","box-shadow":"1px 1px #e66f00"});
 		}
 		if ($(".option2").data('clicked')) {
 			$("#info-disc2").fadeIn(200);
@@ -237,10 +237,10 @@ $(document).ready(function(){
 		}
 		if ($('.option1').data('clicked') || $('.option2').data('clicked') || $('.option3').data('clicked') || $('.option4').data('clicked')) {
 			$("#next-disc").animate({opacity:"0"});
-			$('#next').css({"color":"white","box-shadow":"4px 4px #cc6300","cursor":"pointer"});
+			$('#next').css({"color":"white","box-shadow":"4px 4px #e66f00","cursor":"pointer"});
 		} else {
 			$("#next-disc").animate({opacity:"1"});
-			$('#next').css({"color":"#ffa34d","box-shadow":"1px 1px #cc6300"});
+			$('#next').css({"color":"#ffa34d","box-shadow":"1px 1px #e66f00"});
 		}
 		if ($(".option3").data('clicked')) {
 			$("#info-disc3").fadeIn(200);
@@ -282,10 +282,10 @@ $(document).ready(function(){
 		}
 		if ($('.option1').data('clicked') || $('.option2').data('clicked') || $('.option3').data('clicked') || $('.option4').data('clicked')) {
 			$("#next-disc").animate({opacity:"0"});
-			$('#next').css({"color":"white","box-shadow":"4px 4px #cc6300","cursor":"pointer"});
+			$('#next').css({"color":"white","box-shadow":"4px 4px #e66f00","cursor":"pointer"});
 		} else {
 			$("#next-disc").animate({opacity:"1"});
-			$('#next').css({"color":"#ffa34d","box-shadow":"1px 1px #cc6300"});
+			$('#next').css({"color":"#ffa34d","box-shadow":"1px 1px #e66f00"});
 		}
 		if ($(".option4").data('clicked')) {
 			$("#info-disc4").fadeIn(200);

@@ -17,6 +17,18 @@
 		text-align: center;
 		line-height: 70px;
     }
+	
+	#logo-pic {
+		position: relative;
+		background-image: url("pictures/logo.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		image-rendering: -webkit-optimize-contrast;
+		width: 75px;
+		height: 75px;
+		top: 2px;
+		margin: auto;
+	}
     
     .super-main-right {
 		position: relative;   
@@ -34,7 +46,7 @@
 		font-size: 2.5em;
 		top: 3.5em;
 		line-height: 1.5em;
-		color: rgb(245, 118, 0);
+		color: #f58544;
 		font-weight: bold;
 		text-align: center;
 		width: 600px;
@@ -62,9 +74,9 @@
 		text-align: center;
 		text-transform: uppercase;
 		font-weight: bold;
-		background-color: rgb(245, 118, 0); 
+		background-color: #f58544; 
 		border-radius: 5px;
-		box-shadow: 4px 4px #cc6300;
+		box-shadow: 4px 4px #e66f00;
     }
 	
 	#button-link {
@@ -72,12 +84,12 @@
 	}
 	
 	#button:hover {
-		box-shadow: 3px 3px #cc6300;
+		box-shadow: 3px 3px #e66f00;
 		text-decoration: underline;
 	}
 	
 	#button:active {
-		box-shadow: 1px 1px #cc6300;
+		box-shadow: 1px 1px #e66f00;
 	}
     
     a {

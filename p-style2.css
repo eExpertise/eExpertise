@@ -20,6 +20,18 @@
 		text-decoration: underline;
 	}
 	
+	#logo-pic {
+		position: relative;
+		background-image: url("pictures/logo.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		image-rendering: -webkit-optimize-contrast;
+		width: 75px;
+		height: 75px;
+		top: 2px;
+		margin: auto;
+	}
+	
 	#pre-expl {
 		font-family: 'Open sans', arial;
 		font-size: 0.5em;
@@ -30,7 +42,7 @@
 	
 	#expl {
 		position: relative;
-		color: rgb(245, 118, 0);
+		color: #f58544;
 		font-size: 2.5em;
 		font-family: 'saira', arial;
 		width: 90%;
@@ -79,22 +91,22 @@
 	
 	#info-disc1 {
 		display: none;
-		color: rgb(245, 118, 0);
+		color: #f58544;
 	}
 	
 	#info-disc2 {
 		display: none;
-		color: rgb(245, 118, 0);
+		color: #f58544;
 	}
 	
 	#info-disc3 {
 		display: none;
-		color: rgb(245, 118, 0);
+		color: #f58544;
 	}
 	
 	#info-disc4 {
 		display: none;
-		color: rgb(245, 118, 0);
+		color: #f58544;
 	}
 	
 	.info-container {
@@ -122,7 +134,7 @@
 	}
 	
 	.highlight {
-		color: rgb(245, 118, 0);
+		color: #f58544;
 	}
 	
 	#next {
@@ -134,9 +146,9 @@
 		text-align: center;
 		text-transform: uppercase;
 		font-weight: bold;
-		background-color: rgb(245, 118, 0); 
+		background-color: #f58544; 
 		border-radius: 5px;
-		box-shadow: 1px 1px #cc6300;
+		box-shadow: 1px 1px #e66f00;
 		width: 290px;
 		color: #ffa34d;
 		cursor: default;
@@ -175,7 +187,7 @@
 	
 	.mobile {
 		display: none;
-		color: rgb(245, 118, 0);
+		color: #f58544;
 	}
 	
 	@media (max-width:800px) {

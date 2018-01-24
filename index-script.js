@@ -1,14 +1,20 @@
 
 	$(document).ready(function(){
 		$("#header-opt").width();
-		$('#header-head').delay(400).fadeIn(500);
+		
+		var typed = new Typed('.super-header', {
+			strings: ["First sentence.", "Second sentence."],
+			typeSpeed: 50,
+			loop: true
+		});
 
-		$(document).scroll(function() { 
-		   if($(window).scrollTop() === 0) {
-			    $("#bar").animate({backgroundColor:"transparent"}, 300);
-		   } else {
-				$("#bar").animate({backgroundColor:"rgb(68, 157, 245)"}, 300);
-		   }
+		var distance = $('#scroll-point').offset().top,
+		$window = $(window);
+
+		$window.scroll(function() {
+			if ( $window.scrollTop() >= distance ) {
+				$("#bar").animate({backgroundColor:"rgb(68, 157, 245)"}, 200);
+			}
 		});
 
 		$("#menu").click(function(){
@@ -42,12 +48,6 @@
 		} else {
 			$(this).stop().animate({backgroundColor:"rgba(0, 0, 0, 0)", color:"white"}, 200);
 		}
-		});
-		
-		$("#arrow, .opt2").hover(function() {
-			$(this).stop().animate({backgroundColor:"#6eb3f7"}, 100);
-		}, function() {
-			$(this).stop().animate({backgroundColor:"rgb(68, 157, 245)"}, 100);
 		});
 		
 		$(".link").hover(function() {

@@ -15,8 +15,25 @@
 		z-index: 9;
     }
 	
+	#logo-pic {
+		position: relative;
+		background-image: url("pictures/logo.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		image-rendering: -webkit-optimize-contrast;
+		width: 75px;
+		height: 75px;
+		top: 2px;
+		margin: auto;
+	}
+	
 	#logo:hover {
 		text-decoration: underline;
+	}
+	
+	img {
+		position: relative;
+		top: 5px;
 	}
 	
 	#closebtn {
@@ -208,11 +225,11 @@
 	}
 
     #link1 {
-		color: rgb(245, 118, 0);
+		color: #f58544;
     }
 	
 	.highlight {
-		color: rgb(245, 118, 0);
+		color: #f58544;
 	}
 	
 		

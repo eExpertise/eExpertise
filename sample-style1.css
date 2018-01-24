@@ -19,6 +19,11 @@
 		text-decoration: underline;
 	}
 	
+	img {
+		position: relative;
+		top: 5px;
+	}
+	
 	h1, h2, h3, h4, h5, h6 {
 		display: inline;
 		font-size: inherit;
@@ -152,7 +157,7 @@
 	}
 	
 	#opt-in {
-		color: rgb(245, 118, 0);
+		color: #f58544;
 	}
 	
 	.content-img-r {
