@@ -101,7 +101,7 @@
 		height: 100vh;
 		position: relative;
 		width: 100%;
-		background-image: url("pictures/background.jpg");
+		background-image: url("pictures/background1.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: right top;
@@ -117,9 +117,8 @@
 		position: relative;
 		margin: auto;
 		width: 700px;
-		height: 10%;
-		top: 5em;
-		left: 21%;
+		top: 6em;
+		left: 17%;
 	}
 	
 	#header-opt {
@@ -402,4 +401,26 @@
 		width: 10px;
 		margin: auto;
 		top: -350px;
+	}
+	
+	.typed-cursor {
+		opacity: 1;
+		-webkit-animation: blink 0.7s infinite;
+		-moz-animation: blink 0.7s infinite;
+		animation: blink 0.7s infinite;
+	}
+	@keyframes blink {
+		0% { opacity: 1; }
+		50% { opacity: 0; }
+		100% { opacity: 1; }
+	}
+	@-webkit-keyframes blink {
+		0% { opacity: 1; }
+		50% { opacity: 0; }
+		100% { opacity: 1; }
+	}
+	@-moz-keyframes blink {
+		0% { opacity: 1; }
+		50% { opacity: 0; }
+		100% { opacity: 1; }
 	}
