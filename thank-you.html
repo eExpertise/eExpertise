@@ -23,12 +23,14 @@
 		<meta name="keywords" content="HTML, CSS, JavaScript">
 		<link href="pictures/favicon.png" type="image/png" rel="icon"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel='stylesheet' type='text/css' href='style2.css'>
+		<link rel='stylesheet' type='text/css' href='css/style2.css'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
 		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<script type="text/javascript" src="thx.js"></script>
+		<script type="text/javascript" src="js/jQuery/thx.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-cookies.js"></script>
 	</head>
 	<body>
 		<div id="bar">
@@ -41,14 +43,13 @@
 		<div id="header">
 			<div id="header-head">
 				<h1>
-					Thank you for subscribing to our course!
+					<div data-ng-app="thxApp" data-ng-controller="thxCtrl">
+						<div>You've Picked: {{ niche + "As your interest And " + experience + "As Your Experience level" }}</div>
+					</div>
 				</h1>
 				<div id="header-opt">
 					Check your email inbox for your first tailored lesson
 				</div>
-			</div>
-			<div id="arrow">
-				&darr;
 			</div>
 		</div>
 		<div id="arr-scroll"></div>
@@ -106,7 +107,7 @@
 		<div class="container">
 			<div class="content-header">
 				<h2>
-					more of us
+					never miss a lesson
 				</h2>
 			</div>
 			<div id="p3" class="content-p">
@@ -132,5 +133,7 @@
 				<li><a title="our instagram page" href="https://www.instagram.com/eexpertise/" class="fa fa-instagram" target="_blank"></a></li>
 			</ul>
 		</footer>
+		<!-- End of view -->
+		<script src="js/controllers/thxCtrl.js"></script>
 	</body>
 </html>
