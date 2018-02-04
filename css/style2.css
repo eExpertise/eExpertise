@@ -52,7 +52,6 @@
 	}
 	
 	li {
-		display: inline;
 	}
 	
 	.menu-opt {
@@ -311,31 +310,11 @@
 	    }
 	}
 	
-	#arrow {
-		position: absolute;
-		width: 70px;
-		height: 70px;
-		border-radius: 50%;
-		background-color: rgb(68, 157, 245);
-		font-size: 47px;
-		color: white;
-		text-align: center;
-		right: 0;
-		left: 0;
-		z-index: 1;
-		line-height: 57px;
-		cursor: pointer;
-		bottom: 15%;
-		margin-left: auto; 
-		margin-right: auto;  
-		font-family: 'open sans', arial;
-	}
-	
-	#arrow:hover {
-		background-color: #6eb3f7;
-	}
-	
 	#header-opt {
 		font-size: 25px;
 	    }
+	}
+	
+	#interest {
+		display: none;
 	}
