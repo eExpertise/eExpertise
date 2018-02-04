@@ -5,8 +5,8 @@ app.controller("thxCtrl", function($scope) {
 	Cookies.get("options2");
 	
 	if (Cookies.get('options') == '1000' && Cookies.get('options2') == '1000') {
-		$scope.niche = "Hardware";
-		$scope.experience = "Beginner";
+		$scope.test = "<p>hardware</p>";
+		$scope.test2 = "<p>beginner</p>";
 	} else if (Cookies.get('options') == '1100' && Cookies.get('options2') == '1000') {
 		$scope.niche = "Hardware And Design";
 		$scope.experience = "Beginner";

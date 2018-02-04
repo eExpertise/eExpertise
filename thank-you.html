@@ -43,9 +43,7 @@
 		<div id="header">
 			<div id="header-head">
 				<h1>
-					<div data-ng-app="thxApp" data-ng-controller="thxCtrl">
-						<div>You've Picked: {{ niche + "As your interest And " + experience + "As Your Experience level" }}</div>
-					</div>
+					Thank you for signing up
 				</h1>
 				<div id="header-opt">
 					Check your email inbox for your first tailored lesson
@@ -56,22 +54,13 @@
 		<div  id="height" class="container">
 			<div class="content-header">
 				<h2>
-					How will we tailor your niches to our lessons?
+					How will we tailor our lessons to your interest?
 				</h2>
 			</div>
-			<div id="p1" class="content-p">
-				<p>
-					We are e-Expertise, our mission is to provide you who wish to learn more about computers with helpful and interactive lessons and tutorials,
-				</p>
-				<p>
-					Through endless hours of research and personal experience we have come to the conclusion that <span class="highlight">the biggest problem for</span>
-					people looking to get into computers and technology is the large amount of required knowledge beforehand and
-					the fact that many do not know where to find the information they are looking for; <span class="highlight">a google search won't always help</span>
-					as it can be misleading and may not be the answer you are looking for.
-				</p>
-				<p>
-					Therefore we have created this dynamic and interactive course, tailor-made to your needs.
-				</p>
+			<div data-ng-app="thxApp" data-ng-controller="thxCtrl" id="p1" class="content-p">
+				{{ test }}
+				<br>
+				{{ test2 }}
 			</div>
 		</div>
 
