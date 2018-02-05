@@ -10,7 +10,7 @@
 		});
 		
 		if (Cookies.get('options') == '1000' && Cookies.get('options2') == '1000') {
-			$("#hardware, #beginner").removeClass(".not-interest");
+			$("#hardware").removeClass(".not-interest");
 		} else if (Cookies.get('options') == '1100' && Cookies.get('options2') == '1000') {
 			$("#hardware, #beginner").removeClass(".not-interest");
 		} else if (Cookies.get('options') == '1010' && Cookies.get('options2') == '1000') {
@@ -128,10 +128,10 @@
 		} else if (Cookies.get('options') == '1111' && Cookies.get('options2') == '0001') {
 			$("#hardware, #beginner").removeClass(".not-interest");
 		} else if (Cookies.get('options') == '1000' && Cookies.get('options2') == '0001') {
-			$("#hardware, #beginner").removeClass(".not-interest");
+			$("#hardware").removeClass(".not-interest");
 		} else {
-			alert('ERROR: not all required options were selected, please go back and finish your personalization.');
-			$("#hardware, #beginner").removeClass(".not-interest");
+			// alert('ERROR: not all required options were selected, please go back and finish your personalization.');
+			$("#hardware").removeClass(".not-interest");
 		}
 		
 		$('#header-head').delay(400).fadeIn(500);

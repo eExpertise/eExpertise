@@ -51,9 +51,6 @@
 		padding: 0;
 	}
 	
-	li {
-	}
-	
 	.menu-opt {
 		display: block;
 		width: 60px;
@@ -227,8 +224,8 @@
 		color: #f58544;
     }
 	
-	.highlight {
-		color: #f58544;
+	.not-interest {
+		display: none;
 	}
 	
 		
@@ -315,6 +312,7 @@
 	    }
 	}
 	
-	#interest {
-		display: none;
+	.higlight {
+		color: #f58544;
+		font-family: 'saira', 'Open sans', arial;
 	}
