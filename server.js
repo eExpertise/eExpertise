@@ -6,10 +6,10 @@ const PORT = process.env.PORT || 8080;
 app.use(express.static('public'));
 
 // Open a call to `app.get()` below:
-app.get('/index-script', (req, res, next) => {
-  
+app.get('/', function(req,res) {
+  res.sendFile("index.html", {"root": __dirname});
 });
 
 app.listen(PORT, () => {
-  console.log(`Listening on port ${PORT}`);
+  console.log(`The server is listening on port ${PORT}`);
 });
