@@ -2,7 +2,7 @@
 	$(document).ready(function(){
 		$("#header-opt").width();
 		var typed = new Typed("#header-typed", {
-			strings: ["Learn how to build a PC", "Learn how to design a website", "Learn how to optimize gaming performance", "Computer tips and lectures within your preferred expertise"],
+			strings: ["Learn How To Build A PC", "Learn How To Design A Website", "Learn How To Optimize Gaming performance", "Computer Tips And Lectures Within Your Preferred Expertise"],
 			typeSpeed: 50,
 			backSpeed: 30
 		});

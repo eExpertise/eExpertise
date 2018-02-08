@@ -235,10 +235,9 @@
 	}
 	
 	@media (max-width:600px) {
-	#pre-list {
+	.pre-list {
 		font-size: 1em;
-		width: 100%;
-		top: 6em;
+		top: 5em;
 	    }
 	#main {
 		font-size: 1.5em;
@@ -260,4 +259,10 @@
 	.super-main-right {
 		bottom: 70px;
 	    }
+	}
+	
+	@media (max-width:880px) {
+		.pre-list {
+			width: 90%;
+		}
 	}

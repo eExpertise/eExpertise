@@ -380,6 +380,14 @@
 		margin-bottom: 50px; 
 	}
 	
+	.opt2:hover {
+		background-color: #f7a06e;
+	}
+	
+	#opt2-course {
+		top: 30px;
+	}
+	
 	span.underline {
 		border-bottom: 1px solid rgba(255, 255, 255, 0);
 		-webkit-transition: border 500ms ease;
