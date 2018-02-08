@@ -1,7 +1,7 @@
 {
   "name": "TrueAmbition001.github.io",
   "version": "1.0.0",
-  "description": "Please don't steal/copy my website, I worked really hard on it.",
+  "description": "The official website of eExpertise.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/TrueAmbition001/TrueAmbition001.github.io/issues"
   },
-  "homepage": "https://github.com/TrueAmbition001/TrueAmbition001.github.io#readme"
+  "homepage": "https://github.com/TrueAmbition001/TrueAmbition001.github.io#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
