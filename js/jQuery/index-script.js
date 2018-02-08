@@ -1,16 +1,10 @@
 
 	$(document).ready(function(){
 		$("#header-opt").width();
-		var typed = new Typed("#header-top", {
-			strings: ["Looking To Build A Gaming PC?", "Want To Create A Web App?", "Are You Struggling With Designing A Website?", "Learn The Basics Or Build On Your Knowledge With eExpertise."],
+		var typed = new Typed("#header-typed", {
+			strings: ["Learn how to build a PC", "Learn how to design a website", "Learn how to optimize gaming performance", "Computer tips and lectures within your preferred expertise"],
 			typeSpeed: 50,
 			backSpeed: 30
-		});
-		
-		var typed = new Typed("#header-bottom", {
-			strings: ["Tailored To Your interests."],
-			typeSpeed: 50,
-			startDelay: 17500
 		});
 
 		var distance = $('#scroll-point').offset().top,
