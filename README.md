@@ -1,3 +1,5 @@
 # TrueAmbition001.github.io
 
-Please don't steal/copy my website, I worked really hard on it.
+TrueAmbition001.github.io is the official Github repositry of eExpertise, computer tips and lectures, tailored to you.
+
+send all questions and such to kaiishiu.2003@gmail.com
