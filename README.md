@@ -1,5 +1,5 @@
-# TrueAmbition001.github.io
+# eExpertise
 
-TrueAmbition001.github.io is the official Github repository of eExpertise, computer tips and lectures, tailored to you.
+eExpertise is the official Github repository of well, eExpertise, providing you with computer tips and lectures, tailored to your preferences 
 
 send all questions and such to kaiishiu.2003@gmail.com
