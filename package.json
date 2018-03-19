@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/TrueAmbition001/TrueAmbition001.github.io#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "sqlite3": "^3.1.13"
   }
 }

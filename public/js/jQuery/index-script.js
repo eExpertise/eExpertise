@@ -11,9 +11,19 @@
 		$window = $(window);
 
 		$window.scroll(function() {
-			if ( $window.scrollTop() >= distance ) {
-				$("#bar").animate({backgroundColor:"rgb(68, 157, 245)"}, 200);
+			if ($window.scrollTop() >= distance) {
+				$("#bar").animate({backgroundColor:"white", color:"rgb(68, 157, 245)"}, 200);
 			}
+		});
+		
+		$("span.underline").hover(function() {
+			if ($window.scrollTop() >= distance) {
+				$
+			} else {
+				$
+			}
+		}, function() {
+			
 		});
 
 		$("#menu").click(function(){
