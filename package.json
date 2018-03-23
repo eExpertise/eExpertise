@@ -1,5 +1,5 @@
 {
-  "name": "TrueAmbition001.github.io",
+  "name": "eExpertise",
   "version": "1.0.0",
   "description": "The official website of eExpertise.",
   "main": "server.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TrueAmbition001/TrueAmbition001.github.io.git"
+    "url": "git+https://github.com/eExpertise/eExpertise.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Filip Agnebo Gudmunds",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TrueAmbition001/TrueAmbition001.github.io/issues"
+    "url": "https://github.com/eExpertise/eExpertise/issues"
   },
-  "homepage": "https://github.com/TrueAmbition001/TrueAmbition001.github.io#readme",
+  "homepage": "https://github.com/eExpertise/eExpertise#readme",
   "dependencies": {
     "express": "^4.16.2",
     "morgan": "^1.9.0"
