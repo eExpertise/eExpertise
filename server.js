@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 const morgan = require('morgan');
 const path = require('path');
-const profileRouter = require("/public/js/routers/profile.js");
-const mainRouter = require("/public/js/routers/main.js");
+const profileRouter = require("./profile.js");
+const mainRouter = require("./main.js");
 
 app.use(express.static('public'));
 app.use('/profile', profileRouter);
