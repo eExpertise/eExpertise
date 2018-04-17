@@ -1,31 +1,42 @@
-<!DOCTYPE html>
+<!-- views/signup.ejs -->
+<!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>This ain't  yo profile but you can go there from here!</title>
-    </head>
-    <body>
-        <h1>welcome to ya profile signup-er!</h1>
+<head>
+    <title>Node Authentication</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+    <style>
+        body        { padding-top:80px; }
+    </style>
+</head>
+<body>
+<div class="container">
 
-        <form action="/auth/signup/" method="post">
-            <label for="username"><strong>ya username</strong></label>
-            <input type="text" placeholder="enter that username" name="username">
+<div class="col-sm-6 col-sm-offset-3">
 
-            <label for="email"><strong>dat email</strong></label>
-            <input type="text" placeholder="you enter an email" name="username">
+    <h1><span class="fa fa-sign-in"></span> Signup</h1>
 
-            <label for="password"><strong>supah secret password too!</strong></label>
-            <input type="password" placeholder="enter password" name="password">
+    <!-- LOGIN FORM -->
+    <form action="/signup" method="post">
+        <div class="form-group">
+            <label>Email</label>
+            <input type="text" class="form-control" name="email">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" name="password">
+        </div>
 
-            <label for="password-repeat"><strong>repeat dat supah secret password!</strong></label>
-            <input type="password" placeholder="enter password again" name="password-repeat">
-            <input type="submit">
-        </form>
+        <button type="submit" class="btn btn-warning btn-lg">Signup</button>
+    </form>
 
-        <p>If ya got a social media, just go ahead and pick a method of logging in and noone will get hurt. aight?</p>
-        <a href="/auth/google">Click me and sign up with ya boy Google+</a>
-        <br>
-        <a href="/auth/facebook">Click me and sign up with good ol' Facebook</a>
-    </body>
+    <hr>
+
+    <p>Already have an account? <a href="/login.html">Login</a></p>
+    <p>Or go <a href="/">home</a>.</p>
+
+</div>
+
+</div>
+</body>
 </html>
