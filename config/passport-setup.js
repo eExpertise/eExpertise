@@ -42,7 +42,7 @@ passport.use(new GoogleStrategy({
                     console.log('created new user: ', newUser);
                     done(null, newUser);
                 }).catch(() => {
-                    console.log('promise rejected i guess');
+                    console.log('promise rejected');
                 });
             }
         });
