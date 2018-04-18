@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+/* const mongoose = require('mongoose');
 const bcrypt = require('bcrypt-nodejs');
 const Schema = mongoose.Schema;
 
@@ -21,7 +21,7 @@ const userSchema = mongoose.Schema({
         username     : String
     },
     google           : {
-        id           : String,
+        googleId     : String,
         email        : String,
         username     : String,
         thumbnail    : String
@@ -38,6 +38,19 @@ userSchema.methods.validPassword = function(password){
 };
 
 // wrap the schema in a nice model
+const User = mongoose.model('user', userSchema);
+
+module.exports = User; */
+
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
+const userSchema = new Schema({
+    username: String,
+    googleId: String,
+    thumbnail: String
+});
+
 const User = mongoose.model('user', userSchema);
 
 module.exports = User;
