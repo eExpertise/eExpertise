@@ -15,7 +15,7 @@ module.exports = {
     twitterAuth : {
         clientKey       : 'your-consumer-key-here', // App ID
         clientSecret    : 'your-client-secret-here', // App Secret
-        callbackURL       : 'http://localhost:8080/auth/twitter/callback' // App callback
+        callbackURL     : 'http://localhost:8080/auth/twitter/callback' // App callback
     },
     mongodb: {
         dbURI  : 'mongodb://filiboii:test@ds155218.mlab.com:55218/eexpertise-test'
