@@ -13,7 +13,7 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 
 //setting up middleware + initializing passport
-app.use(express.static('public'));
+app.use(express.static('views'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(morgan('dev'));
@@ -49,5 +49,5 @@ app.listen(PORT, () => {
 });
 
 function newFunction() {
-	return '/public/index.html';
+	return '/views/index.html';
 }
