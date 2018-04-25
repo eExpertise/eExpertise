@@ -8,7 +8,7 @@ const userSchema = mongoose.Schema({
     local            : {
         username     : String,
         email        : String,
-        password     : String,
+        password     : String
     },
     facebook         : {
         id           : String,
@@ -31,7 +31,7 @@ const userSchema = mongoose.Schema({
 
 //encrypt password for extra protection
 userSchema.methods.generateHash = function(password){
-    return bcrypt.hashSync(password, bcrypt.genSaltSync(8),null);
+    return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
 };
 userSchema.methods.validPassword = function(password){
     return bcrypt.compareSync(password, this.password);
