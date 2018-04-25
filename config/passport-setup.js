@@ -64,11 +64,14 @@ passport.use(
                 done(null, currentUser);
             } else {
                 // if not, create user in our db
-                new User({
-                    googleId: profile.id,
-                    username: profile.displayName,
-                    thumbnail: profile._json.image.url
-                }).save().then((newUser) => {
+                var newUser = new User();
+
+                newUser.google.id  = profile.id;
+                newUser.google.username  = profile.displayName;
+                newUser.google.email     = profile.emails[0].value; 
+                newUser.google.thumbnail = profile._json.image.url;
+
+                newUser.save().then((newUser) => {
                     console.log('created new user: ', newUser);
                     done(null, newUser);
                 });

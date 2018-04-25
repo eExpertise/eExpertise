@@ -60,10 +60,10 @@
             </ul>
         </nav>
         <header>
-            <h1>Welcome to your profile</h1>
+            <h1>Welcome to your profile, <%= user.displayName %></h1>
         </header>
         <main>
-            
+            <img src="<%= user.thumbnail %>" />
             <p>This is your profile thumbnail</p>
         </main>
     </body>

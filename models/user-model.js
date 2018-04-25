@@ -1,6 +1,6 @@
-/* const mongoose = require('mongoose');
-const bcrypt = require('bcrypt-nodejs');
+const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
+const bcrypt = require('bcrypt-nodejs');
 
 // create the db schema for the user
 const userSchema = mongoose.Schema({
@@ -21,7 +21,7 @@ const userSchema = mongoose.Schema({
         username     : String
     },
     google           : {
-        googleId     : String,
+        id           : String,
         email        : String,
         username     : String,
         thumbnail    : String
@@ -31,25 +31,11 @@ const userSchema = mongoose.Schema({
 
 //encrypt password for extra protection
 userSchema.methods.generateHash = function(password){
-    return bcrypt.hashSync(password,bcrypt.genSaltSync(8),null);
+    return bcrypt.hashSync(password, bcrypt.genSaltSync(8),null);
 };
 userSchema.methods.validPassword = function(password){
     return bcrypt.compareSync(password, this.password);
 };
-
-// wrap the schema in a nice model
-const User = mongoose.model('user', userSchema);
-
-module.exports = User; */
-
-const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
-
-const userSchema = new Schema({
-    username: String,
-    googleId: String,
-    thumbnail: String
-});
 
 const User = mongoose.model('user', userSchema);
 
