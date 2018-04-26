@@ -65,7 +65,7 @@ passport.use(
             } else {
                 // if not, create user in our db
                 var newUser = new User();
-
+                // create new user with these prerequisites
                 newUser.google.id  = profile.id;
                 newUser.google.username  = profile.displayName;
                 newUser.google.email     = profile.emails[0].value; 
