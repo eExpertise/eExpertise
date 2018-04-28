@@ -19,41 +19,38 @@ passport.use(
         // options for google strategy
         clientID      : keys.google.clientID,
         clientSecret  : keys.google.clientSecret,
-        callbackURL   : callbackURL
+        callbackURL   : '/auth/google/callback'
     }, (accessToken, refreshToken, profile, done) => {
-        // asynchronous 
-        process.nextTick(() => {
-            // check if user already exists in our own db
+           // check if user already exists in our own db
             User.findOne({ 'google.id': profile.id}).then((currentUser) => {
-                if(currentUser){
-                    // already have this user
-                    console.log('user is: ', currentUser);
-                    done(null, currentUser);
-                } else {
-                    // if not, create user in our db
-                    var newUser = new User();
-                    // create new user with these prerequisites
-                    newUser.google.id         = profile.id;
-                    newUser.google.username   = profile.displayName;
-                    newUser.google.email      = profile.emails[0].value; 
-                    newUser.google.thumbnail  = profile._json.image.url;
-
-                    newUser.save().then((newUser) => {
-                        console.log('created new user: ', newUser);
-                        done(null, newUser);
-                    });
-                }
-            });
+               if(currentUser) {
+                  // already have this user
+                  console.log('user is: ', currentUser);
+                  done(null, currentUser);
+              } else {
+                 // if not, create user in our db
+                var newUser = new User();
+                // create new user with these prerequisites
+                newUser.google.id         = profile.id;
+                newUser.google.username   = profile.displayName;
+                newUser.google.email      = profile.emails[0].value; 
+                newUser.google.thumbnail  = profile._json.image.url;
+                newUser.save().then((newUser) => {
+                     console.log('created new user: ', newUser);
+                     done(null, newUser);
+                });
+            }
         });
     })
 );
 
-passport.use(new FacebookStrategy({
+passport.use(
+    new FacebookStrategy({
 
     // pull in our app id and secret from our auth.js file
     clientID      : keys.facebook.clientID,
     clientSecret  : keys.facebook.clientSecret,
-    callbackURL   : keys.facebook.callbackURL
+    callbackURL   : '/auth/google/callback'
 
 },
 
@@ -82,6 +79,7 @@ passport.use(new FacebookStrategy({
                 newUser.facebook.token = token; // we will save the token that facebook provides to the user                    
                 newUser.facebook.name  = profile.name.givenName + ' ' + profile.name.familyName; // look at the passport user profile to see how names are returned
                 newUser.facebook.email = profile.emails[0].value; // facebook can return multiple emails so we'll take the first
+                newUser.google.thumbnail  = profile._json.image.url; // 
 
                 // save our user to the database
                 newUser.save((err) => {
@@ -89,6 +87,7 @@ passport.use(new FacebookStrategy({
                         throw err;
 
                     // if successful, return the new user
+                    console.log('created new user: ', newUser);
                     return done(null, newUser);
                 });
             }
