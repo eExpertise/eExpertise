@@ -50,7 +50,7 @@ passport.use(
     // pull in our app id and secret from our auth.js file
     clientID      : keys.facebook.clientID,
     clientSecret  : keys.facebook.clientSecret,
-    callbackURL   : '/auth/facebook/callback'
+    callbackURL   : keys.facebook.callbackURL
 },
 
 // facebook will send back the token and profile
@@ -90,8 +90,6 @@ passport.use(
                     return done(null, newUser);
                 });
             }
-
         });
     });
-
 }));
