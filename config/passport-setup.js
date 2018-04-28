@@ -19,7 +19,7 @@ passport.use(
         // options for google strategy
         clientID      : keys.google.clientID,
         clientSecret  : keys.google.clientSecret,
-        callbackURL   : keys.google.callbackURL
+        callbackURL   : '/auth/google/callback'
     }, (accessToken, refreshToken, profile, done) => {
            // check if user already exists in our own db
             User.findOne({ 'google.id': profile.id}).then((currentUser) => {
@@ -50,7 +50,7 @@ passport.use(
     // pull in our app id and secret from our auth.js file
     clientID      : keys.facebook.clientID,
     clientSecret  : keys.facebook.clientSecret,
-    callbackURL   : keys.facebook.callbackURL
+    callbackURL   : '/auth/facebook/callback'
 },
 
 // facebook will send back the token and profile
@@ -78,7 +78,7 @@ passport.use(
                 newUser.facebook.token      = token; // we will save the token that facebook provides to the user                    
                 newUser.facebook.name       = profile.name.givenName + ' ' + profile.name.familyName; // look at the passport user profile to see how names are returned
                 newUser.facebook.email      = profile.emails[0].value; // facebook can return multiple emails so we'll take the first
-                newUser.facebook.thumbnail  = profile._json.image.url; // 
+                newUser.facebook.thumbnail  = profile._json.image.url; // return
 
                 // save our user to the database
                 newUser.save((err) => {
