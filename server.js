@@ -1,19 +1,19 @@
-const express = require('express');
-const app = express();
-var flash = require('connect-flash');
-const cookieSession = require('cookie-session');
-const passport = require('passport');
-const authRoutes = require('./routes/auth-routes');
-const profileRoutes = require('./routes/profile-routes');
-const passportSetup = require('./config/passport-setup');
-const mongoose = require('mongoose');
-const keys = require('./config/keys');
-const bcrypt = require('bcrypt-nodejs');
-const bodyParser = require('body-parser');
-const morgan = require('morgan');
+const express        = require('express');
+const app            = express();
+var flash            = require('connect-flash');
+const cookieSession  = require('cookie-session');
+const passport       = require('passport');
+const authRoutes     = require('./routes/auth-routes');
+const profileRoutes  = require('./routes/profile-routes');
+const passportSetup  = require('./config/passport-setup');
+const mongoose       = require('mongoose');
+const keys           = require('./config/keys');
+const bcrypt         = require('bcrypt-nodejs');
+const bodyParser     = require('body-parser');
+const morgan         = require('morgan');
 
 //setting up middleware + initializing passport
-app.use(express.static('views'));
+app.use(express.static('public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(morgan('dev'));

@@ -73,12 +73,12 @@ passport.use(
                 return done(null, user); // user found, return that user
             } else {
                 // if there is no user found with that facebook id, create them
-                var newUser            = new User();
+                var newUser = new User();
                 // set all of the facebook information in our user model
-                newUser.facebook.id    = profile.id; // set the users facebook id                   
-                newUser.facebook.token = token; // we will save the token that facebook provides to the user                    
-                newUser.facebook.name  = profile.name.givenName + ' ' + profile.name.familyName; // look at the passport user profile to see how names are returned
-                newUser.facebook.email = profile.emails[0].value; // facebook can return multiple emails so we'll take the first
+                newUser.facebook.id       = profile.id; // set the users facebook id                   
+                newUser.facebook.token    = token; // we will save the token that facebook provides to the user                    
+                newUser.facebook.name     = profile.name.givenName + ' ' + profile.name.familyName; // look at the passport user profile to see how names are returned
+                newUser.facebook.email    = profile.emails[0].value; // facebook can return multiple emails so we'll take the first
                 newUser.google.thumbnail  = profile._json.image.url; // 
 
                 // save our user to the database
