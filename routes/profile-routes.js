@@ -1,4 +1,4 @@
-const router = require('express').Router();
+const profileRouter = require('express').Router();
 
 const authCheck = (req, res, next) => {
     if(!req.user){
@@ -8,7 +8,7 @@ const authCheck = (req, res, next) => {
     }
 };
 
-router.get('/', authCheck, (req, res) => {
+profileRouter.get('/', authCheck, (req, res) => {
     res.render('profile.ejs', { user: req.user });
 });
 
