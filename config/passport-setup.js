@@ -35,7 +35,7 @@ passport.use(
                 newUser.google.username   = profile.displayName;
                 newUser.google.email      = profile.emails[0].value; 
                 newUser.google.thumbnail  = profile._json.image.url;
-                newUser.save().then((newUser) => {
+                return newUser.save().then((newUser) => {
                      console.log('created new user: ', newUser);
                      done(null, newUser);
                 });
@@ -81,7 +81,7 @@ passport.use(
                 newUser.facebook.thumbnail  = profile._json.image.url; // return
 
                 // save our user to the database
-                newUser.save((err) => {
+                return newUser.save((err) => {
                     if (err)
                         throw err;
 

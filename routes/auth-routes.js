@@ -34,4 +34,4 @@ authRouter.get('/facebook/callback', passport.authenticate('facebook', {
       failureRedirect : '/'
   }));
 
-module.exports = router;
+module.exports = authRouter;

@@ -12,4 +12,4 @@ profileRouter.get('/', authCheck, (req, res) => {
     res.render('profile.ejs', { user: req.user });
 });
 
-module.exports = router;
+module.exports = profileRouter;
