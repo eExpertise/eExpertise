@@ -1,23 +1,22 @@
 const express        = require('express');
-const app            = express();
 const flash          = require('connect-flash');
 const cookieSession  = require('cookie-session');
 const passport       = require('passport');
 const authRoutes     = require('./routes/auth-routes');
 const profileRoutes  = require('./routes/profile-routes');
 const passportSetup  = require('./config/passport-setup');
-const mongoose       = require('mongoose');
+const mongoose       = require('mongoose').set('debug', true);
 const keys           = require('./config/keys');
-const bcrypt         = require('bcrypt-nodejs');
 const bodyParser     = require('body-parser');
 const morgan         = require('morgan');
 const graphqlHTTP    = require('express-graphql');
-const schema         = require('./models/schema');
+const schema         = require('./schema/schema');
+const app            = express();
 
 //setting up middleware + initializing passport
 app.use(express.static('public'));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended:true}));
+app.use(bodyParser.urlencoded({extended: true}));
 app.use(morgan('dev'));
 app.use(passport.initialize());
 app.use(passport.session());
